@@ -1,0 +1,208 @@
+{
+  "project": {
+    "name": "sherlock-qwen25-sft-hw2",
+    "assignment": "Advanced LLM HW2 Part 2 - Sherlock SFT",
+    "seed": 3407,
+    "notes": "Cluster-ready SFT project built on the HW1 Sherlock continued-pretraining adapter."
+  },
+  "paths": {
+    "starter_messages": "sft_train_messages.jsonl",
+    "raw_books_dir": "/Users/gyklty/Desktop/Semester B/Advanced LLM/HW1-second_try/Data/drive-download-20260512T211012Z-3-001",
+    "hw1_best_adapter": "/Users/gyklty/Desktop/Semester B/Advanced LLM/HW1-second_try/submission_report/final res/dropout0_r16_lr1e4_attn_mlp/final_adapter",
+    "output_root": "runs",
+    "part1_merged_model_dir": "runs/part1_merged_model",
+    "generated_candidates": "data/generated/ollama_candidates.jsonl",
+    "processed_dir": "data/processed",
+    "report_assets_dir": "report_assets"
+  },
+  "cluster_paths": {
+    "raw_books_dir": "/home/guykalat/HW1-second_try/Data/drive-download-20260512T211012Z-3-001",
+    "hw1_best_adapter": "/home/guykalat/HW1-second_try/submission_report/final res/dropout0_r16_lr1e4_attn_mlp/final_adapter",
+    "slurm_hint": "sjupyter --time 0-8:00:00 --qos course --part rtx3090 --gpu rtx_3090:1 --account cours_ibm26"
+  },
+  "model": {
+    "base_model_id": "Qwen/Qwen2.5-3B-Instruct",
+    "trust_remote_code": false,
+    "torch_dtype": "float16",
+    "attn_implementation": "sdpa",
+    "device_map": "auto"
+  },
+  "quantization": {
+    "load_in_4bit": true,
+    "bnb_4bit_quant_type": "nf4",
+    "bnb_4bit_use_double_quant": true,
+    "bnb_4bit_compute_dtype": "float16"
+  },
+  "books": [
+    {"id": "244", "title": "A Study in Scarlet", "file": "pg244.txt"},
+    {"id": "2097", "title": "The Sign of the Four", "file": "pg2097.txt"},
+    {"id": "2852", "title": "The Hound of the Baskervilles", "file": "pg2852.txt"},
+    {"id": "3289", "title": "The Valley of Fear", "file": "pg3289.txt"},
+    {"id": "1661", "title": "The Adventures of Sherlock Holmes", "file": "pg1661.txt"},
+    {"id": "834", "title": "The Memoirs of Sherlock Holmes", "file": "pg834.txt"},
+    {"id": "108", "title": "The Return of Sherlock Holmes", "file": "pg108.txt"},
+    {"id": "2350", "title": "His Last Bow", "file": "pg2350.txt"},
+    {"id": "69700", "title": "The Case-Book of Sherlock Holmes", "file": "pg69700.txt"}
+  ],
+  "ollama_generation": {
+    "model": "gemma4:e4b",
+    "host": "http://127.0.0.1:11434",
+    "chunk_words": 1050,
+    "chunk_overlap_words": 120,
+    "max_chunks": 60,
+    "examples_per_chunk": 3,
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "num_ctx": 8192,
+    "num_predict": 1200,
+    "target_candidates": 120,
+    "categories": [
+      "specific_detail",
+      "summarization",
+      "character_theme",
+      "style_imitation",
+      "multi_hop",
+      "unanswerable"
+    ]
+  },
+  "dataset": {
+    "test_fraction": 0.18,
+    "validation_fraction": 0.10,
+    "min_generated_to_keep": 75,
+    "not_enough_information_answer": "Not enough information",
+    "train_messages": "data/processed/train_messages.jsonl",
+    "validation_messages": "data/processed/validation_messages.jsonl",
+    "test_messages": "data/processed/test_messages.jsonl",
+    "test_answers": "data/processed/test_answers.jsonl",
+    "dataset_card": "data/processed/dataset_card.md"
+  },
+  "sft_defaults": {
+    "max_seq_length": 512,
+    "learning_rate": 0.00005,
+    "num_train_epochs": 2,
+    "per_device_train_batch_size": 1,
+    "per_device_eval_batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "lr_scheduler_type": "cosine",
+    "warmup_ratio": 0.05,
+    "optim": "paged_adamw_8bit",
+    "weight_decay": 0.0,
+    "max_grad_norm": 0.3,
+    "logging_steps": 10,
+    "eval_steps": 50,
+    "save_steps": 50,
+    "save_total_limit": 2,
+    "packing": false,
+    "assistant_only_loss": false,
+    "gradient_checkpointing": true,
+    "report_to": ["tensorboard"]
+  },
+  "lora_defaults": {
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "bias": "none",
+    "task_type": "CAUSAL_LM",
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "experiments": {
+    "main": {
+      "display_name": "Part1 -> SFT rank 16, assistant-only loss, full augmented dataset",
+      "base_stage": "part1_merged",
+      "dataset_variant": "full",
+      "lora": {},
+      "training": {},
+      "hypothesis": "The Sherlock-adapted Part 1 model plus assistant-only SFT should be the best proposed system."
+    },
+    "full_sequence_loss": {
+      "display_name": "Full-sequence loss ablation",
+      "base_stage": "part1_merged",
+      "dataset_variant": "full",
+      "lora": {},
+      "training": {"assistant_only_loss": false},
+      "hypothesis": "Full-sequence loss should underperform because it spends loss on system/user prompt tokens instead of answer behavior."
+    },
+    "rank8_sft": {
+      "display_name": "LoRA rank 8 SFT ablation",
+      "base_stage": "part1_merged",
+      "dataset_variant": "full",
+      "lora": {"r": 8, "lora_alpha": 16},
+      "training": {},
+      "hypothesis": "Rank 8 may be close to rank 16 because instruction-answer behavior is compact."
+    },
+    "skip_stage_base_sft": {
+      "display_name": "Skip Part 1 continued-pretraining",
+      "base_stage": "base_model",
+      "dataset_variant": "full",
+      "lora": {},
+      "training": {},
+      "hypothesis": "Skipping Part 1 should reduce Sherlock-specific performance if continued pre-training helped domain familiarity."
+    },
+    "data25": {
+      "display_name": "Data scale: 25 pairs",
+      "base_stage": "part1_merged",
+      "dataset_variant": "sample25",
+      "lora": {},
+      "training": {},
+      "hypothesis": "Very small SFT data should improve format but miss many facts and categories."
+    },
+    "data50": {
+      "display_name": "Data scale: 50 pairs",
+      "base_stage": "part1_merged",
+      "dataset_variant": "sample50",
+      "lora": {},
+      "training": {},
+      "hypothesis": "Performance should improve over 25 pairs, but remain below the full dataset."
+    },
+    "data100": {
+      "display_name": "Data scale: 100 pairs",
+      "base_stage": "part1_merged",
+      "dataset_variant": "sample100",
+      "lora": {},
+      "training": {},
+      "hypothesis": "The curve should start bending near 100 pairs if examples are diverse and grounded."
+    },
+    "starter_only": {
+      "display_name": "Starter-only dataset",
+      "base_stage": "part1_merged",
+      "dataset_variant": "starter_only",
+      "lora": {},
+      "training": {},
+      "hypothesis": "Starter-only should be weaker than full augmentation if Ollama data improves coverage."
+    },
+    "no_unanswerable": {
+      "display_name": "Remove unanswerable examples",
+      "base_stage": "part1_merged",
+      "dataset_variant": "no_unanswerable",
+      "lora": {},
+      "training": {},
+      "hypothesis": "Removing unanswerable examples should hurt abstention behavior."
+    }
+  },
+  "evaluation": {
+    "max_new_tokens": 64,
+    "temperature": 0.0,
+    "do_sample": false,
+    "three_shot_examples": 3,
+    "prompt_instruction": "Answer with one short answer phrase. If the answer is not in the Sherlock Holmes canon or not supported by the question, answer exactly: Not enough information.",
+    "required_configs": {
+      "part1_zero_shot": {"base_stage": "part1_merged", "adapter_experiment": null, "shots": 0},
+      "part1_three_shot": {"base_stage": "part1_merged", "adapter_experiment": null, "shots": 3},
+      "part2_zero_shot": {"base_stage": "part1_merged", "adapter_experiment": "main", "shots": 0},
+      "part2_three_shot": {"base_stage": "part1_merged", "adapter_experiment": "main", "shots": 3}
+    }
+  },
+  "perplexity": {
+    "ood_text_path": "data/processed/ood_eval_modern_wikipedia.txt",
+    "max_eval_tokens": 12000,
+    "stride": 512
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "project": {
+    "name": "sherlock-qwen25-qlora-cpt",
+    "assignment": "Advanced LLM HW1 Part 1 - continued pre-training with LoRA",
+    "seed": 3407,
+    "notes": "Submission config for Sherlock Holmes continued pre-training with QLoRA. The notebook can either train one active experiment or replay saved results for submission figures."
+  },
+  "environment": {
+    "install_dependencies": false,
+    "prefer_uv": false,
+    "packages": [
+      "torch==2.5.1",
+      "transformers==4.56.2",
+      "datasets>=3.0.0",
+      "accelerate>=1.0.0",
+      "peft>=0.14.0",
+      "trl==0.22.2",
+      "bitsandbytes==0.46.1",
+      "tensorboard",
+      "trackio",
+      "huggingface_hub",
+      "matplotlib",
+      "pandas",
+      "tqdm",
+      "scipy"
+    ],
+    "colab": {
+      "mount_drive": true,
+      "drive_mount_point": "/content/drive",
+      "config_path": "/content/drive/MyDrive/LLM Course/HW1/HW1/hw1_config.json",
+      "data_dir": "/content/drive/MyDrive/LLM Course/HW1/HW1/data/raw",
+      "output_root": "/content/drive/MyDrive/LLM Course/HW1/HW1/runs"
+    },
+    "cluster": {
+      "config_path": "hw1_config.json",
+      "data_dir": "/home/guykalat/HW1-second_try/Data/drive-download-20260512T211012Z-3-001",
+      "output_root": "runs",
+      "slurm_hint": "sjupyter --time 0-5:00:00 --qos course --part rtx3090 --gpu rtx_3090:1 --account cours_ibm26"
+    }
+  },
+  "model": {
+    "model_id": "Qwen/Qwen2.5-3B-Instruct",
+    "continued_pretraining_alternative": "Qwen/Qwen2.5-3B",
+    "trust_remote_code": false,
+    "attn_implementation": "sdpa",
+    "torch_dtype": "float16",
+    "device_map": "auto"
+  },
+  "data": {
+    "books": [
+      {
+        "id": "244",
+        "title": "A Study in Scarlet",
+        "file": "pg244.txt"
+      },
+      {
+        "id": "2097",
+        "title": "The Sign of the Four",
+        "file": "pg2097.txt"
+      },
+      {
+        "id": "2852",
+        "title": "The Hound of the Baskervilles",
+        "file": "pg2852.txt"
+      },
+      {
+        "id": "3289",
+        "title": "The Valley of Fear",
+        "file": "pg3289.txt"
+      },
+      {
+        "id": "1661",
+        "title": "The Adventures of Sherlock Holmes",
+        "file": "pg1661.txt"
+      },
+      {
+        "id": "834",
+        "title": "The Memoirs of Sherlock Holmes",
+        "file": "pg834.txt"
+      },
+      {
+        "id": "108",
+        "title": "The Return of Sherlock Holmes",
+        "file": "pg108.txt"
+      },
+      {
+        "id": "2350",
+        "title": "His Last Bow",
+        "file": "pg2350.txt"
+      },
+      {
+        "id": "69700",
+        "title": "The Case-Book of Sherlock Holmes",
+        "file": "pg69700.txt"
+      }
+    ],
+    "validation_fraction": 0.05,
+    "max_seq_length": 1024,
+    "chunk_stride": 1024,
+    "append_eos_between_sections": true,
+    "min_section_chars": 800,
+    "cleaning": {
+      "strip_gutenberg_header_footer": true,
+      "normalize_unicode": "NFKC",
+      "normalize_newlines": true,
+      "collapse_many_blank_lines": true,
+      "keep_dialogue_punctuation": true
+    }
+  },
+  "quantization": {
+    "load_in_4bit": true,
+    "bnb_4bit_quant_type": "nf4",
+    "bnb_4bit_use_double_quant": true,
+    "bnb_4bit_compute_dtype": "float16"
+  },
+  "unsloth": {
+    "enabled": false,
+    "strict": false,
+    "dtype": "auto",
+    "use_gradient_checkpointing": "unsloth"
+  },
+  "lora": {
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "bias": "none",
+    "task_type": "CAUSAL_LM",
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "training": {
+    "run_name": "lr_1e4_r16_attn_mlp",
+    "num_train_epochs": 1,
+    "max_steps": 200,
+    "per_device_train_batch_size": 1,
+    "per_device_eval_batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "learning_rate": 0.0001,
+    "lr_scheduler_type": "cosine",
+    "warmup_ratio": 0.03,
+    "optim": "paged_adamw_8bit",
+    "weight_decay": 0.0,
+    "max_grad_norm": 0.3,
+    "logging_steps": 10,
+    "eval_steps": 50,
+    "save_steps": 50,
+    "save_total_limit": 2,
+    "packing": true,
+    "gradient_checkpointing": true,
+    "loss_type": "nll",
+    "report_to": [
+      "tensorboard"
+    ],
+    "resume_from_checkpoint": null,
+    "save_merged_model": false
+  },
+  "evaluation": {
+    "sliding_window_perplexity": true,
+    "sliding_stride": 512,
+    "max_eval_tokens": 12000,
+    "generation_prompts": [
+      "Mr. Sherlock Holmes leaned back in his chair and said",
+      "The fog over Baker Street was unusually thick that morning"
+    ]
+  },
+  "memory_estimates": {
+    "model_sizes_b": [
+      1,
+      3,
+      8,
+      13
+    ],
+    "sequence_lengths": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "micro_batch_size": 1,
+    "assumed_training_bytes_per_param_full": 16,
+    "assumed_training_bytes_per_param_qlora": 0.65,
+    "activation_multiplier_without_checkpointing": 8.0,
+    "activation_multiplier_with_checkpointing": 2.0
+  },
+  "experiments": {
+    "active": "lr_1e4_r16_attn_mlp",
+    "run_grid": true,
+    "grid_mode": "run_all_ablation_experiments",
+    "name_guide": {
+      "lr": "learning rate",
+      "r": "LoRA rank",
+      "attn": "attention projection LoRA targets",
+      "mlp": "MLP/feed-forward LoRA targets",
+      "len": "maximum sequence length used for chunking/training"
+    },
+    "experiments": [
+      {
+        "name": "lr_1e4_r16_attn_mlp",
+        "display_name": "LR 1e-4, rank 16, attention+MLP",
+        "short_name": "LR 1e-4",
+        "category": "learning_rate",
+        "hypothesis": "A smaller learning rate should adapt more gently and may reduce overfitting while still improving Sherlock-style perplexity.",
+        "overrides": {
+          "training": {
+            "run_name": "lr_1e4_r16_attn_mlp",
+            "learning_rate": 0.0001
+          },
+          "lora": {
+            "r": 16,
+            "lora_alpha": 32
+          },
+          "data": {
+            "max_seq_length": 1024,
+            "chunk_stride": 1024
+          }
+        }
+      },
+      {
+        "name": "rank_r8_lr2e4_attn_mlp",
+        "display_name": "Rank 8, LR 2e-4, attention+MLP",
+        "short_name": "Rank 8",
+        "category": "lora_rank",
+        "hypothesis": "A smaller LoRA rank is cheaper and tests whether low-capacity adapters are sufficient for this corpus.",
+        "overrides": {
+          "training": {
+            "run_name": "rank_r8_lr2e4_attn_mlp",
+            "learning_rate": 0.0002
+          },
+          "lora": {
+            "r": 8,
+            "lora_alpha": 16
+          },
+          "data": {
+            "max_seq_length": 1024,
+            "chunk_stride": 1024
+          }
+        }
+      },
+      {
+        "name": "rank_r16_lr2e4_attn_mlp",
+        "display_name": "Rank 16, LR 2e-4, attention+MLP",
+        "short_name": "Rank 16",
+        "category": "lora_rank",
+        "hypothesis": "Rank 16 is the main capacity baseline: more expressive than rank 8 while still small enough for QLoRA on RTX 3090.",
+        "overrides": {
+          "training": {
+            "run_name": "rank_r16_lr2e4_attn_mlp",
+            "learning_rate": 0.0002
+          },
+          "lora": {
+            "r": 16,
+            "lora_alpha": 32
+          },
+          "data": {
+            "max_seq_length": 1024,
+            "chunk_stride": 1024
+          }
+        }
+      },
+      {
+        "name": "attn_only_r16_lr2e4",
+        "display_name": "Attention-only, rank 16, LR 2e-4",
+        "short_name": "Attention only",
+        "category": "target_modules",
+        "hypothesis": "Attention-only LoRA updates fewer modules; it should be cheaper but may miss style information stored in MLP layers.",
+        "overrides": {
+          "training": {
+            "run_name": "attn_only_r16_lr2e4",
+            "learning_rate": 0.0002
+          },
+          "lora": {
+            "r": 16,
+            "lora_alpha": 32,
+            "target_modules": [
+              "q_proj",
+              "k_proj",
+              "v_proj",
+              "o_proj"
+            ]
+          },
+          "data": {
+            "max_seq_length": 1024,
+            "chunk_stride": 1024
+          }
+        }
+      },
+      {
+        "name": "len512_r16_lr2e4_attn_mlp",
+        "display_name": "Length 512, rank 16, LR 2e-4, attention+MLP",
+        "short_name": "Length 512",
+        "category": "context_length",
+        "hypothesis": "Shorter 512-token chunks reduce memory and increase the number of chunks, but may lose longer literary context.",
+        "overrides": {
+          "training": {
+            "run_name": "len512_r16_lr2e4_attn_mlp",
+            "learning_rate": 0.0002
+          },
+          "lora": {
+            "r": 16,
+            "lora_alpha": 32
+          },
+          "data": {
+            "max_seq_length": 512,
+            "chunk_stride": 512
+          }
+        }
+      },
+      {
+        "name": "mlp_only_r16_lr2e4",
+        "display_name": "MLP-only, rank 16, LR 2e-4",
+        "short_name": "MLP only",
+        "category": "target_modules",
+        "hypothesis": "MLP-only LoRA tests whether feed-forward layers carry enough style/domain adaptation signal without updating the attention projection layers.",
+        "overrides": {
+          "training": {
+            "run_name": "mlp_only_r16_lr2e4",
+            "learning_rate": 0.0002
+          },
+          "lora": {
+            "r": 16,
+            "lora_alpha": 32,
+            "target_modules": [
+              "gate_proj",
+              "up_proj",
+              "down_proj"
+            ]
+          },
+          "data": {
+            "max_seq_length": 1024,
+            "chunk_stride": 1024
+          }
+        }
+      },
+      {
+        "name": "dropout0_r16_lr1e4_attn_mlp",
+        "display_name": "Dropout 0, rank 16, LR 1e-4, attention+MLP",
+        "short_name": "Dropout 0",
+        "category": "regularization",
+        "hypothesis": "Removing LoRA dropout tests whether regularization is helping or hurting on the small Sherlock corpus.",
+        "overrides": {
+          "training": {
+            "run_name": "dropout0_r16_lr1e4_attn_mlp",
+            "learning_rate": 0.0001
+          },
+          "lora": {
+            "r": 16,
+            "lora_alpha": 32,
+            "lora_dropout": 0.0,
+            "target_modules": [
+              "q_proj",
+              "k_proj",
+              "v_proj",
+              "o_proj",
+              "gate_proj",
+              "up_proj",
+              "down_proj"
+            ]
+          },
+          "data": {
+            "max_seq_length": 1024,
+            "chunk_stride": 1024
+          }
+        }
+      }
+    ]
+  },
+  "submission": {
+    "run_training": true,
+    "require_existing_results_for_submission_replay": true,
+    "notes": "True means Run All executes the full ablation grid, saves each run, and then regenerates tables and figures."
+  }
+}
