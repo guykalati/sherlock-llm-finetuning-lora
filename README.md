@@ -4,7 +4,6 @@
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg)
 ![PEFT](https://img.shields.io/badge/PEFT-LoRA-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
-![Status](https://img.shields.io/badge/Status-Production%20Ready-green.svg)
 
 An end-to-end framework for Supervised Fine-Tuning (SFT) and Parameter-Efficient Fine-Tuning (LoRA) of open-source Large Language Models (Qwen, Llama). Includes automated hyperparameter ablation grid execution across GPU clusters to systematically analyze rank selection ($r$), scaling ($\alpha$), learning rate schedules, and target modules.
 
