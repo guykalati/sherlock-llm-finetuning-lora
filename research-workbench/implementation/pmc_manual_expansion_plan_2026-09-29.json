@@ -1,0 +1,28 @@
+{
+  "seed": 20260929,
+  "source": "60 previously unlabeled articles in frozen random 80 XML sample",
+  "selected_pmcids": [
+    "PMC10004242",
+    "PMC10502425",
+    "PMC11556378",
+    "PMC12136753",
+    "PMC12381506",
+    "PMC12466114",
+    "PMC13089009",
+    "PMC13117346",
+    "PMC5726851",
+    "PMC6305448",
+    "PMC6357504",
+    "PMC7155762",
+    "PMC7199995",
+    "PMC7708215",
+    "PMC7711323",
+    "PMC8488087",
+    "PMC8878095",
+    "PMC9064966",
+    "PMC9662158",
+    "PMC9877307"
+  ],
+  "review_fields": "title, abstract, XML type, body section titles; blind to structural_queue",
+  "reviewer": "agent qualitative screen; not expert adjudication"
+}

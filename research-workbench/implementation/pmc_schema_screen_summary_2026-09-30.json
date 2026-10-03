@@ -1,0 +1,14 @@
+{
+  "recorded": 29,
+  "fresh_20_agreement": {
+    "tp": 6,
+    "fp": 0,
+    "tn": 13,
+    "fn": 0,
+    "unresolved": 1
+  },
+  "fresh_disagreements": [
+    "PMC8774900"
+  ],
+  "limits": "Development regression, prompt informed by observed errors. Same single-agent labels; not independent validation or training admission."
+}

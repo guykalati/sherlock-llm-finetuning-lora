@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "documents": 64,
+  "valid_source_quotes": 63,
+  "unresolved": 1,
+  "no_training_admission": true,
+  "limits": "Exact source quotes verify text provenance, not correctness of classifications."
+}

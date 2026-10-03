@@ -1,0 +1,13 @@
+{
+  "data/pmc_xml_expansion_20260929/contract.json": "8912e8a6bf392b91698553ad0a5be1c27c39b4338f2bd09cd3da0f6dc5701b0e",
+  "data/pmc_xml_expansion_20260929/checks.jsonl": "b6d14a06c6cfba81a85fd81345994bbc2cb9189cd3e189d0578f690639732330",
+  "data/pmc_xml_expansion_20260929/documents.jsonl": "77e94853fb936da3b378880532c56a32f9bcd6a7629d9e260cacd4f090928964",
+  "data/pmc_xml_expansion_20260929/screens.jsonl": "2d5f7101d9eb0af7f85f16a58ccf9a155631e2c6b27e530e5b56eb6a3f3724e7",
+  "data/pmc_xml_expansion_20260929/summary.json": "05708e1ac5e7f01c3a90fdab0affb4c5b9bf17600f86e91d088a8a83dbac103d",
+  "data/pmc_xml_expansion_20260929/failures.jsonl": "69092506153a42faa0c153767284f47a193b6f0323222dbc3ef4ff3def2abe27",
+  "pmc_xml_expansion.py": "47a1bfda8077d66e87b3710a97fe42d2b2c1468c8b40918747a9bb5e6d97d2d2",
+  "pmc_xml_pilot.py": "e73ee77033e8a41743f9fe141ab6f5a3df77947b5761b526333eea4827b77031",
+  "pmc_expansion_qa.py": "15c957222f84f47ca0a8fa7020aaf58cf0f00dec33db45d9cbdb7c7618c23ad0",
+  "pmc_expansion_review_plan_2026-09-30.json": "283a7fa6d8ce96cc9c106e1e403cc1968f96e1de9accf5bd91768bd6b5b524e7",
+  "pmc_expansion_review_labels_2026-09-30.jsonl": "6e31586c2bbae77d0db1761da212ee8170d0abe8fcb4808e4dc06b206cd6c562"
+}

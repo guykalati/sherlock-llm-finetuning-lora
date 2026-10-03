@@ -1,0 +1,43 @@
+{
+  "sample_articles": 1000,
+  "version_status": {
+    "version_candidate": 996,
+    "exclude_retracted": 4
+  },
+  "chosen_license": {
+    "CC BY": 996
+  },
+  "missing_doi_chosen_version": 5,
+  "duplicate_doi_article_rows": 0,
+  "xml_checked": 96,
+  "structural_queue_in_random_xml": 47,
+  "manual_reviewed": 40,
+  "manual_structural_confusion": {
+    "queue_and_eligible": 14,
+    "queue_but_ineligible": 9,
+    "not_queued_but_eligible": 2,
+    "not_queued_and_ineligible": 15
+  },
+  "benchmark_overlap": {
+    "no_exact_pmid_match": 981,
+    "pmid_missing": 15,
+    "not_version_candidate": 4
+  },
+  "original_candidate_study_tiers": {
+    "preclinical": 6,
+    "human_clinical_empirical": 6,
+    "expert_consensus": 1,
+    "human_health_services": 2,
+    "veterinary": 1
+  },
+  "primary_fulltext_review_queue": 6,
+  "note": "Queues are triage, not training eligibility. Exact PMID screening does not check DOI or text near-duplicates.",
+  "benchmark_source": {
+    "source_repo": "https://github.com/pubmedqa/pubmedqa",
+    "commit": "1cbae8e92f72f20c8d3747cbb3bf5bc53554d997",
+    "source_url": "https://raw.githubusercontent.com/pubmedqa/pubmedqa/1cbae8e92f72f20c8d3747cbb3bf5bc53554d997/data/ori_pqal.json",
+    "source_sha256": "8b3276be8942ebbd77f3ddcda12c1749bf0e490045a736fd8438ee40cf37a41d",
+    "policy": "exclude all 1000 expert-labeled article PMIDs from continued-pretraining corpus; metadata IDs only, no QA targets used",
+    "count": 1000
+  }
+}

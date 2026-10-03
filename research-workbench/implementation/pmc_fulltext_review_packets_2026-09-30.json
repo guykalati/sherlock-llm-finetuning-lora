@@ -1,0 +1,174 @@
+{
+  "status": "exported",
+  "documents": 11,
+  "documents_sha256": "77e94853fb936da3b378880532c56a32f9bcd6a7629d9e260cacd4f090928964",
+  "review_queue_sha256": "e20466f834a4ed4cb06ebe8fcb3a8d4e9c3de19955e7da1c3bdcb223ba980e38",
+  "packets": [
+    {
+      "pmcid": "PMC10464339",
+      "version": "PMC10464339.1",
+      "xml_sha256": "a2cefff3f22310f111bcce40ef7e8477710401c6d2ba5979d123f74d8cdc7bee",
+      "packet_sha256": "9c570209cea3e735eb8b679d8a56ffce7d5c1b7af5e57aaa8ab3f9f3617df60f",
+      "paragraph_group_counts": {
+        "methods": 12,
+        "results": 5,
+        "conclusions": 1,
+        "other": 13
+      },
+      "methods_present": true,
+      "results_present": true,
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC12167797",
+      "version": "PMC12167797.1",
+      "xml_sha256": "405d65f573bf396198ee6a3931c01fa7e861e25370b9d7de9e4ea424985b5690",
+      "packet_sha256": "4f38fc0c40069b904f2a276e180ea8b098fa911625b0004cc7b264c03f94be33",
+      "paragraph_group_counts": {
+        "methods": 8,
+        "results": 12,
+        "conclusions": 0,
+        "other": 12
+      },
+      "methods_present": true,
+      "results_present": true,
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC13117346",
+      "version": "PMC13117346.1",
+      "xml_sha256": "0ea92e966a444f1eecad0210893579d6fcace73213f1bf34cb4af3eb9bfae2e8",
+      "packet_sha256": "642ebd72600ec80af5a5bd1cedd3b7f1d45a5d2473cc4c3e72cefe6152aa5117",
+      "paragraph_group_counts": {
+        "methods": 19,
+        "results": 2,
+        "conclusions": 1,
+        "other": 16
+      },
+      "methods_present": true,
+      "results_present": true,
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC6388105",
+      "version": "PMC6388105.1",
+      "xml_sha256": "c940f5d9fe4ecd00620660acfdd2066208af08c18725c6909ba280580b3e4afc",
+      "packet_sha256": "cda5a2f1a7927acaa15ba2e4ac826f441ad740fb71efebcd8c43cf97c8983b68",
+      "paragraph_group_counts": {
+        "methods": 9,
+        "results": 7,
+        "conclusions": 1,
+        "other": 13
+      },
+      "methods_present": true,
+      "results_present": true,
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC7199995",
+      "version": "PMC7199995.1",
+      "xml_sha256": "6f1fed9a58afab35f10227d4d382bae269bd56bf36a9bca87016830abf50ed76",
+      "packet_sha256": "e7c8f7208263655db0bfc4cb959fac87f218cbc382b81c08223854aa5c65af9a",
+      "paragraph_group_counts": {
+        "methods": 8,
+        "results": 13,
+        "conclusions": 2,
+        "other": 7
+      },
+      "methods_present": true,
+      "results_present": true,
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC7512253",
+      "version": "PMC7512253.1",
+      "xml_sha256": "3b105203c69658e32e46c87402f9a090c5d6a42d51b216dcba144d05b068c924",
+      "packet_sha256": "f50cd3c82cab64d18966890072ad38c00ca4b936009ea506678e0d14d0a3f10d",
+      "paragraph_group_counts": {
+        "methods": 21,
+        "results": 11,
+        "conclusions": 1,
+        "other": 17
+      },
+      "methods_present": true,
+      "results_present": true,
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC7710029",
+      "version": "PMC7710029.1",
+      "xml_sha256": "9797a1a6b609aaa43fd6e43c64907c9e60fa02f32393d48462e4b5f15a96a356",
+      "packet_sha256": "7846093f5fa73cbf0789dd8a6bae0e28c5cb7b8eafdccdba1ea11a43dae2dac3",
+      "paragraph_group_counts": {
+        "methods": 13,
+        "results": 11,
+        "conclusions": 1,
+        "other": 19
+      },
+      "methods_present": true,
+      "results_present": true,
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC7711323",
+      "version": "PMC7711323.1",
+      "xml_sha256": "a2f623e46cf7a8d0ef1e38d0d6aca7b98d1575683caecad0b909c78257d7e569",
+      "packet_sha256": "76210dc389e1004e4fbb84bdedce132e6109223590cc87eadd42bba52cfab6b1",
+      "paragraph_group_counts": {
+        "methods": 8,
+        "results": 12,
+        "conclusions": 1,
+        "other": 10
+      },
+      "methods_present": true,
+      "results_present": true,
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC7993599",
+      "version": "PMC7993599.1",
+      "xml_sha256": "7f708f5f9c0a49e2f770c07452aff9b072018c3ad4c954721d4575b12df227da",
+      "packet_sha256": "d7f4815a5ede0821285313624fe22aa15033df70158ecd98b93f2127e4aa7a92",
+      "paragraph_group_counts": {
+        "methods": 12,
+        "results": 10,
+        "conclusions": 1,
+        "other": 15
+      },
+      "methods_present": true,
+      "results_present": true,
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC8304882",
+      "version": "PMC8304882.1",
+      "xml_sha256": "cb77ebf604d896c979334e7889ec7483cdb185627904af22f2c27273889d95ed",
+      "packet_sha256": "ed04a7c3e16ce88603072ffa36cc7757c608bce0d9dec2ab5c021ec082eba586",
+      "paragraph_group_counts": {
+        "methods": 19,
+        "results": 10,
+        "conclusions": 0,
+        "other": 10
+      },
+      "methods_present": true,
+      "results_present": true,
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC8774900",
+      "version": "PMC8774900.1",
+      "xml_sha256": "8c35f71b06ea1b681aad0fd131dc88ed97bdc58343882346635ded115f1d438a",
+      "packet_sha256": "6c3c312d84cc57db1c60e1a3b13d61c3d285e1774fde968417770b3a089397c5",
+      "paragraph_group_counts": {
+        "methods": 10,
+        "results": 35,
+        "conclusions": 0,
+        "other": 14
+      },
+      "methods_present": true,
+      "results_present": true,
+      "training_eligibility": "unreviewed"
+    }
+  ],
+  "limits": "Heading grouping is a navigation aid; paragraphs retain index and original section path. No clinical validity, eligibility or model-quality claim."
+}

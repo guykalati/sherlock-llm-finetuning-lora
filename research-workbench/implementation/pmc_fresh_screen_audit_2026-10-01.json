@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "records": 20,
+  "frozen_source_only_labels_verified": true,
+  "all_cases_agreement": {
+    "fp": 3,
+    "tn": 10,
+    "unresolved": 2,
+    "tp": 5
+  },
+  "excluding_four_ambiguous_scope_cases": {
+    "tn": 8,
+    "unresolved": 2,
+    "tp": 5,
+    "fp": 1
+  },
+  "unresolved_quote_diagnostics": {
+    "PMC11335015": [
+      {
+        "topic_quote": true,
+        "design_quote": false
+      },
+      {
+        "topic_quote": true,
+        "design_quote": false
+      }
+    ],
+    "PMC13080820": [
+      {
+        "topic_quote": false,
+        "design_quote": true
+      },
+      {
+        "topic_quote": false,
+        "design_quote": true
+      }
+    ]
+  },
+  "training_admission": false,
+  "limits": "Fresh cases for unchanged prompt; single-agent labels, small set, two scope-dependent positive disagreements. Never infer independent expert accuracy."
+}

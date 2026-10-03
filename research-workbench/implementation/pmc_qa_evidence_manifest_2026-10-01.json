@@ -1,0 +1,13 @@
+{
+  "purpose": "Repeated six development cases; structured quote-format repair, no training or generalization score",
+  "model_snapshot": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "cases": 6,
+  "max_generated_tokens_per_case": 256,
+  "max_gpu_minutes": 8,
+  "max_concurrent_gpus": 1,
+  "files_sha256": {
+    "cases.jsonl": "d323d28626a2db23c6a31b46a0e9af381753b10252e096daaad78a6b17b4e1a9",
+    "run_pmc_qa_baseline_smoke.sbatch": "eb6dbc0ba6f2c8081a11cdee8b85cc2e2d065e69b1a791fc17992e0f39ea5721",
+    "pmc_qa_baseline_smoke.py": "a08676c52e249bf0a1a00f20af06a4285a6f477975b3ebd2deb1f122411da78c"
+  }
+}

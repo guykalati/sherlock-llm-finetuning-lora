@@ -1,0 +1,37 @@
+{
+  "plan": {
+    "pmcid": "PMC10464339",
+    "model_digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+    "calls": 2,
+    "retries": 0,
+    "arms": [
+      "explicit_schema_with_format",
+      "explicit_schema_without_format"
+    ],
+    "source_sha256": "a49996210bb483daea1b4a3dee821cabe582da2c391993d74105f5a3a5e5f2d0",
+    "prompt_sha256": "a482a8cf4274ea2b0ff7f5dbc919ae5bfc8b62dc12ce8b6d7c3ab4cb33984795",
+    "purpose": "One-case implementation diagnosis, informed by observed failure; not classifier validation"
+  },
+  "results": [
+    {
+      "arm": "explicit_schema_with_format",
+      "label": {
+        "topic": "central",
+        "study_tier": "human_clinical_empirical",
+        "data_origin": "human_participants",
+        "study_design": "completed_multi_person_study",
+        "topic_quote": "we aimed to find important factors that predict cardiovascular (CV) risk using a machine learning (ML) approach.",
+        "design_quote": "We performed a single center, observational study in a cohort of 238 DM patients",
+        "reason": "The study focuses on cardiovascular risk prediction in patients with diabetes, making it central. It is a completed observational study using original data from a cohort of 238 human participants."
+      },
+      "valid": true
+    },
+    {
+      "arm": "explicit_schema_without_format",
+      "valid": false,
+      "error": "JSONDecodeError",
+      "detail": "Expecting value: line 1 column 1 (char 0)"
+    }
+  ],
+  "limits": "Single error-informed development case. Both prompts add explicit enums/design definitions; formatter effect comparison shares that prompt. No generalization estimate."
+}

@@ -1,0 +1,36 @@
+{
+  "planned_documents": 981,
+  "documents": 977,
+  "failed_documents": 4,
+  "xml_bytes": 121150288,
+  "contract_sha256": "8912e8a6bf392b91698553ad0a5be1c27c39b4338f2bd09cd3da0f6dc5701b0e",
+  "body_words": 4709894,
+  "article_types": {
+    "research-article": 680,
+    "review-article": 176,
+    "letter": 8,
+    "case-report": 77,
+    "editorial": 7,
+    "systematic-review": 4,
+    "retraction": 1,
+    "methods-article": 1,
+    "data-paper": 1,
+    "other": 1,
+    "correction": 3,
+    "case-study": 5,
+    "brief-report": 11,
+    "article-commentary": 1,
+    "discussion": 1
+  },
+  "languages": {
+    "en": 966,
+    "ru": 1,
+    "de": 3,
+    "fr": 2,
+    "pt": 5
+  },
+  "benchmark_context_flagged": 0,
+  "duplicate_doi": 0,
+  "duplicate_body": 0,
+  "note": "Quality corpus only; topical centrality and empirical human study scope still require review."
+}

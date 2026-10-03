@@ -1,0 +1,25 @@
+{
+  "reviewed": 20,
+  "central_cardiovascular": 11,
+  "primary_human_empirical_candidates": 7,
+  "study_tiers": {
+    "single_case_report": 3,
+    "human_clinical_empirical": 7,
+    "preclinical": 3,
+    "human_health_services": 1,
+    "mechanistic_hypothesis": 1,
+    "human_clinical_empirical_broad_comorbidity": 1,
+    "review_protocol": 1,
+    "review": 2,
+    "human_exercise_physiology": 1
+  },
+  "independent_expert_adjudication": false,
+  "scope_borderlines": [
+    "PMC5688621",
+    "PMC9598265"
+  ],
+  "source_quality_review": [
+    "PMC8682108",
+    "PMC8959037"
+  ]
+}

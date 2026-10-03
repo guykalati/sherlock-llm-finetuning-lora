@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "new_documents": 976,
+  "new_tokens": 8450243,
+  "combined_unique_documents": 1953,
+  "combined_tokens": 16807844,
+  "combined_english_tokens": 16672527,
+  "input_ids_hashes_arithmetic_and_tokenizer_files_verified": true,
+  "training_admission": false,
+  "limits": "Tokenizer counts produced by pinned compute job; local audit verifies manifest/IDs/hash chain and arithmetic, not independent full retokenization."
+}

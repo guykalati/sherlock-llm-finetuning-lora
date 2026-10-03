@@ -1,0 +1,12 @@
+{
+  "purpose": "Tokenizer volume only, not training",
+  "model_snapshot": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "max_cpu_minutes": 8,
+  "gpu_minutes": 0,
+  "files_sha256": {
+    "pmc_token_inventory.py": "bd9ba21d7d6623cf3a81c4a331491b496f38566369ea4895c414e8369ffbd3e2",
+    "run_pmc_token_inventory.sbatch": "8e0e33a391271d354a5c61596a4f9eeda6fc35a87a0ab43de698a2b22fe6eda2",
+    "review_queue.jsonl": "e20466f834a4ed4cb06ebe8fcb3a8d4e9c3de19955e7da1c3bdcb223ba980e38",
+    "documents.jsonl": "77e94853fb936da3b378880532c56a32f9bcd6a7629d9e260cacd4f090928964"
+  }
+}

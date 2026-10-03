@@ -1,0 +1,18 @@
+{
+  "PMC12167797": {"study_tier": "human_clinical_empirical", "study_design": "prospective observational cancer/thrombosis cohort"},
+  "PMC7512253": {"study_tier": "human_clinical_empirical", "study_design": "patient electrogram and ablation signal analysis"},
+  "PMC7710029": {"study_tier": "human_clinical_empirical", "study_design": "cardiac biomarker long-term mortality cohort"},
+  "PMC7199995": {"study_tier": "human_clinical_empirical", "study_design": "retrospective TAVR prognostic cohort"},
+  "PMC7711323": {"study_tier": "human_clinical_empirical", "study_design": "newborn congenital-heart-disease diagnostic study"},
+  "PMC13117346": {"study_tier": "human_clinical_empirical", "study_design": "retrospective heart-failure treatment/outcomes cohort"},
+  "PMC8857892": {"study_tier": "human_health_services", "study_design": "European cardiac-arrest responder-system survey"},
+  "PMC13089009": {"study_tier": "human_health_services", "study_design": "Medicare cardiac-imaging utilization analysis"},
+  "PMC7671430": {"study_tier": "preclinical", "study_design": "rat myocardial ischemia-reperfusion experiment"},
+  "PMC8558381": {"study_tier": "preclinical", "study_design": "mouse heart-rate/autonomic experiment"},
+  "PMC11556378": {"study_tier": "preclinical", "study_design": "endothelial-cell and mouse vascular experiments"},
+  "PMC12136753": {"study_tier": "preclinical", "study_design": "Drosophila cardiac-function experiment; selected XML lacks body"},
+  "PMC5726851": {"study_tier": "preclinical", "study_design": "cardiomyocyte and mouse heart-development experiments"},
+  "PMC6305448": {"study_tier": "preclinical", "study_design": "vascular smooth-muscle mechanistic experiments"},
+  "PMC7708215": {"study_tier": "veterinary", "study_design": "dog heart-failure platelet-proteome comparison"},
+  "PMC12466114": {"study_tier": "expert_consensus", "study_design": "two-round clinician Delphi consensus on cardiovascular polypill use"}
+}

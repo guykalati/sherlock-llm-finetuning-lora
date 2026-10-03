@@ -1,0 +1,20 @@
+{
+  "pmcids": [
+    "PMC10464339",
+    "PMC7512253",
+    "PMC8774900"
+  ],
+  "pmids": [
+    33265143,
+    35052435,
+    37620935
+  ],
+  "dois": [
+    "10.1186/s12933-023-01938-w",
+    "10.3390/e20010057",
+    "10.3390/genes13010095"
+  ],
+  "case_file_sha256": "d323d28626a2db23c6a31b46a0e9af381753b10252e096daaad78a6b17b4e1a9",
+  "purpose": "Prevent constructed development prompts from becoming training/independent test material",
+  "limits": "Six deliberately constructed cases, two unsupported questions; no model has been scored and no benchmark/generalization claim is supported."
+}

@@ -1,0 +1,7 @@
+{
+  "queried_at_utc": "2026-09-28T08:19:01.432232+00:00",
+  "query": "(\"cc0 license\"[filter] OR \"cc by license\"[filter]) AND (cardiovascular[tiab] OR cardiac[tiab] OR electrocardiogram[tiab] OR arrhythmia[tiab]) AND 2015/01/01:2026/12/31[pubdate] NOT \"pmc embargo\"[filter]",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=%28%22cc0+license%22%5Bfilter%5D+OR+%22cc+by+license%22%5Bfilter%5D%29+AND+%28cardiovascular%5Btiab%5D+OR+cardiac%5Btiab%5D+OR+electrocardiogram%5Btiab%5D+OR+arrhythmia%5Btiab%5D%29+AND+2015%2F01%2F01%3A2026%2F12%2F31%5Bpubdate%5D+NOT+%22pmc+embargo%22%5Bfilter%5D&retmax=0&retmode=json",
+  "candidate_count": 201531,
+  "note": "Search count only. Eligibility requires per-article version/license and quality checks."
+}

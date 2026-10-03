@@ -1,0 +1,68 @@
+{
+  "status": "checked",
+  "cases": 6,
+  "counts": {
+    "quote_validated": 4,
+    "rejected": 1,
+    "abstained": 1
+  },
+  "rows": [
+    {
+      "case_id": "pmc_dev_01",
+      "gate": {
+        "status": "quote_validated",
+        "answer": "238",
+        "evidence": "We performed a single center, observational study in a cohort of 238 DM patients",
+        "limits": "Exact source span only; answer entailment and requested endpoint are not verified."
+      }
+    },
+    {
+      "case_id": "pmc_dev_02",
+      "gate": {
+        "status": "rejected",
+        "answer": "Not reported in the supplied passage.",
+        "evidence": "",
+        "reason": "invalid_json"
+      }
+    },
+    {
+      "case_id": "pmc_dev_03",
+      "gate": {
+        "status": "quote_validated",
+        "answer": "Ten",
+        "evidence": "Ten patients with AF were submitted to a catheter ablation procedure and intracardiac recordings were obtained immediately before and during the intervention.",
+        "limits": "Exact source span only; answer entailment and requested endpoint are not verified."
+      }
+    },
+    {
+      "case_id": "pmc_dev_04",
+      "gate": {
+        "status": "quote_validated",
+        "answer": "1 kHz",
+        "evidence": "Twelve bipolar intracardiac electrograms were digitally recorded at 1 kHz sampling rate",
+        "limits": "Exact source span only; answer entailment and requested endpoint are not verified."
+      }
+    },
+    {
+      "case_id": "pmc_dev_05",
+      "gate": {
+        "status": "abstained",
+        "answer": "Not reported in the supplied passage.",
+        "evidence": "",
+        "normalized": true
+      }
+    },
+    {
+      "case_id": "pmc_dev_06",
+      "gate": {
+        "status": "quote_validated",
+        "answer": "4 controls and 3 patients",
+        "evidence": "Total sample number for all single-cell experiments was 4 controls and 3 patients with MFS.",
+        "limits": "Exact source span only; answer entailment and requested endpoint are not verified."
+      }
+    }
+  ],
+  "source_sha256": "ac925caba83aa99f720d362dbeaa069568b1da2abd98d77bd5e08dc9fb170fd8",
+  "raw_result_sha256": "23ce1a12a18469850b1beee0a4d0a638a66d4f9b7289514932386f8a8de7248c",
+  "limits": "Replay of six old constructed development outputs, no model call or new held-out measurement. Gate checks schema/span only; raw generation failures remain in original audit."
+}

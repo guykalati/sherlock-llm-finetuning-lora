@@ -1,0 +1,58 @@
+{
+  "chunks": [
+    {
+      "chunk": 0,
+      "planned": 970,
+      "excluded": 30,
+      "exclusion_reasons": {
+        "missing_identity": 25,
+        "retracted_or_unknown_version_flag": 5
+      },
+      "plan_sha256": "12dbfbf424a7cf59404537dc9a95a2a51429ac75fac7eb6e18aa71e54b707847"
+    },
+    {
+      "chunk": 1,
+      "planned": 967,
+      "excluded": 33,
+      "exclusion_reasons": {
+        "missing_identity": 30,
+        "retracted_or_unknown_version_flag": 3
+      },
+      "plan_sha256": "00a674f610ddb4db5a50c18afaaf2758f8fc1a26e5b3fadbd4297f2009b8edbd"
+    },
+    {
+      "chunk": 2,
+      "planned": 969,
+      "excluded": 31,
+      "exclusion_reasons": {
+        "missing_identity": 25,
+        "retracted_or_unknown_version_flag": 5,
+        "no_versions": 1
+      },
+      "plan_sha256": "7dca2a01d92b98393b6b80ed70627967f8994a52b6863d98ce3733e5640a92fc"
+    },
+    {
+      "chunk": 3,
+      "planned": 964,
+      "excluded": 36,
+      "exclusion_reasons": {
+        "retracted_or_unknown_version_flag": 4,
+        "missing_identity": 32
+      },
+      "plan_sha256": "a4fd00b1757729ff0c0672184c83f3bc8e23c6f82618c8cf03743c69825c0d51"
+    }
+  ],
+  "max_concurrent_jobs": 2,
+  "gpu_seconds": 0,
+  "max_cpu_allocation_minutes": 240,
+  "aggregate_storage_byte_cap": 8000000000,
+  "source_sha256": {
+    "pmc_xml_pilot.py": "e73ee77033e8a41743f9fe141ab6f5a3df77947b5761b526333eea4827b77031",
+    "pmc_xml_expansion.py": "47a1bfda8077d66e87b3710a97fe42d2b2c1468c8b40918747a9bb5e6d97d2d2",
+    "audit_pmc_xml_batch.py": "9156ec1e9e40c1a069f7e7b0ffd2b28b913fdcfd8bcd2110c1ba3a5fe3d9a6b8",
+    "pmc_metadata_pilot.py": "437df314108f7e4730b80e6cb7dac0e4db9cb35b2f2f6e12f443880866d3e12e",
+    "pmc_inventory.py": "681cb2576dc16c31dfdba6db3a7ae4855fe4aa145fc7a3b5d9dd49e3d414259f",
+    "run_audit.sbatch": "b422d80ae34077c9bd3874bea7404c1aedbf91c88e132a65c35c1536c7983c45"
+  },
+  "correction": "Added transitive pmc_inventory import; queued job21944634 cancelled before execution. CPU/time caps unchanged."
+}

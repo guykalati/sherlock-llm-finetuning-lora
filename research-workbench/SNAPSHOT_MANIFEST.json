@@ -1,0 +1,1137 @@
+{
+  "snapshot": "2026-10-03",
+  "project": "llm",
+  "files": [
+    {
+      "source_relative_path": "PMC_SCOPE_AND_BENCHMARK_RESULT_2026-09-29.md",
+      "sha256": "8312ab5adb1ac76050c7b5988e01e296f595c49bc70c7e35821c477c9ef42e25",
+      "bytes": 4154
+    },
+    {
+      "source_relative_path": "PMC_REMAINING_ACQUISITION_RESULT_2026-10-01.md",
+      "sha256": "00419b3ba7691e41f65fb9a891ae881cc04e595b67806e2a2d43b138213c4dca",
+      "bytes": 1736
+    },
+    {
+      "source_relative_path": "README_ECG_corrected.md",
+      "sha256": "93fcdc9b4577f7f53396231143a5cd216c2f75fbe982910b99ada4c5056f3004",
+      "bytes": 2383
+    },
+    {
+      "source_relative_path": "QWEN_QLORA_COMPATIBILITY_RESULT_2026-10-01.md",
+      "sha256": "b1b9648fba11ec750d937ec40488e6d03ab892aa8baec3455ce571b34d565030",
+      "bytes": 1602
+    },
+    {
+      "source_relative_path": "CORPUS_METADATA_PILOT_2026-09-28.md",
+      "sha256": "0df0deb4e0fe43e331282b51fbe6390ec79b8a4d8c907d8c0e29326cbf6ddc1c",
+      "bytes": 4682
+    },
+    {
+      "source_relative_path": "FIRST_SCAN_2026-09-27.md",
+      "sha256": "e37c2262f1d96dc21e26c3027a43be58d469932a2786761e9c8abde4cbb7d4ef",
+      "bytes": 15225
+    },
+    {
+      "source_relative_path": "AUTORESEARCH_PAIRED_GPU_RESULT_2026-10-01.md",
+      "sha256": "3cbd7bb4cdfc96e41e49d571436ece3e76212c17f6670c4ebda8842b07e37203",
+      "bytes": 2183
+    },
+    {
+      "source_relative_path": "CLUSTER_RESUME_HANDOFF_2026-09-30.md",
+      "sha256": "2d5ba69f03a8545d2b9dafcc2b26b4be08b3835927aaaad36bd9827277ac3f65",
+      "bytes": 3667
+    },
+    {
+      "source_relative_path": "PMC_FRESH_SCREEN_RESULT_2026-10-01.md",
+      "sha256": "71fd94d0566dd5ae36c0cc15e2681d5806ad52b26e75fe9ffe428ac41b5fb372",
+      "bytes": 2868
+    },
+    {
+      "source_relative_path": "ECG_NOVELTY_ABSTENTION_PROTOCOL_2026-09-29.md",
+      "sha256": "5d1bdeb74b66501859da754a92e62dfd1d387be64b15af0d801c28edb8bf7343",
+      "bytes": 4393
+    },
+    {
+      "source_relative_path": "INCART_METADATA_MAPPING_RESULT_2026-09-29.md",
+      "sha256": "5df297c54690abd661e8822a3c49d5a374d889775a6c1df4bf63777770196181",
+      "bytes": 4006
+    },
+    {
+      "source_relative_path": "AUTORESEARCH_FIRST_RUN_PROTOCOL_2026-09-29.md",
+      "sha256": "69ebca42f8afc71e95e712f35d2abbc22aabf2504c0a96995cb02530350a3440",
+      "bytes": 3193
+    },
+    {
+      "source_relative_path": "ECG_LONGER_RESULT_2026-09-30.md",
+      "sha256": "2336eaa843b20dd953ea6c31de3ed6c400dc15ebe43be784f61963c0ba79ca46",
+      "bytes": 2974
+    },
+    {
+      "source_relative_path": "EDB_RESAMPLE_RESULT_2026-10-01.md",
+      "sha256": "f1ece55ca0c525b6b76b22c051b117588fe7cc180b7f65aedd55a02859c11fda",
+      "bytes": 1138
+    },
+    {
+      "source_relative_path": "PMC_QA_BASELINE_SMOKE_PROTOCOL_2026-09-30.md",
+      "sha256": "1c6c6c8f1ddac9e72019071dae0afaa51577f162f07669d9e3ab9a16e355c70d",
+      "bytes": 1539
+    },
+    {
+      "source_relative_path": "QWEN_SCOPE_CHECK_PROTOCOL_2026-10-02.md",
+      "sha256": "23b437a5331a1da583c612a3ea7af0b1a12e488293653a7649a7ce84541a22d6",
+      "bytes": 1690
+    },
+    {
+      "source_relative_path": "README_AGENT_corrected.md",
+      "sha256": "c69fe8b184b4626ef2d152e38017debd012b9ca9f2a1c38cc86838b8d6d3e78f",
+      "bytes": 2187
+    },
+    {
+      "source_relative_path": "REPAIR_HARNESS_SCREEN_RESULT_2026-09-28.md",
+      "sha256": "8099bb8911fa0cfbd7b12b94bd48d71108e5dd89f9b3205f4d6f630da4de0f6b",
+      "bytes": 6444
+    },
+    {
+      "source_relative_path": "AUTORESEARCH_RUNTIME_FEEDBACK_PREPARATION_2026-10-02.md",
+      "sha256": "a885ea5e6861ae9cde17b94571e7485cd0a44824baa9958deed3f6f3fc34a6a3",
+      "bytes": 1784
+    },
+    {
+      "source_relative_path": "PROGRESS_2026-10-01.md",
+      "sha256": "42edabb9194b1949d139093a9ac4ecae74b9ca074145105ada743deccd415878",
+      "bytes": 6693
+    },
+    {
+      "source_relative_path": "ECG_BASELINE_RESULT_2026-09-28.md",
+      "sha256": "c62eb94c87b3dba2d2fc67e1c64cf70e72beb26eb3c80dc1ab96bc392a6f6095",
+      "bytes": 3838
+    },
+    {
+      "source_relative_path": "ECG_DATA_BUILD_2026-09-28.md",
+      "sha256": "15443417c790e0d6314056a6d65c6a9a68a106774b4f3343be68eaef96e86e04",
+      "bytes": 5416
+    },
+    {
+      "source_relative_path": "LARGER_BATCH_PROTOCOL_2026-09-29.md",
+      "sha256": "d82b37a78ff656b10673df8f5830dac215ef51d168a61019455dc7377b2cdfa2",
+      "bytes": 6281
+    },
+    {
+      "source_relative_path": "PROJECT_DIRECTION_2026-09-27.md",
+      "sha256": "a46cb8f122b604ad75ff21b046938749784e641810a1c0fabf5c35a436f35cda",
+      "bytes": 18321
+    },
+    {
+      "source_relative_path": "EDB_V5_ACQUISITION_PROTOCOL_2026-10-01.md",
+      "sha256": "0bd1c15531d8b188b0105880b2b415472d7e1cba0ce033408d9f97fe19425ab5",
+      "bytes": 2010
+    },
+    {
+      "source_relative_path": "CORPUS_ACQUISITION_DECISION_2026-09-27.md",
+      "sha256": "97e3cec056bbbd1a76e9c8ed2d59404fbf1b4db961a77d0edbdfc87e65d3520e",
+      "bytes": 4743
+    },
+    {
+      "source_relative_path": "PMC_QA_EVIDENCE_RESULT_2026-10-01.md",
+      "sha256": "74063621d8e9c879999bcb370ec74f48759e1c9369a4e65f8025b73c6fb9f72b",
+      "bytes": 2284
+    },
+    {
+      "source_relative_path": "AUTORESEARCH_LONGER_RESULT_2026-09-30.md",
+      "sha256": "132fae7d89ce404abb1208c70cfb952bc0b1f5bf7ca41820a30aff6686104974",
+      "bytes": 2379
+    },
+    {
+      "source_relative_path": "PMC_ELIGIBILITY_AUDIT_RESULT_2026-09-29.md",
+      "sha256": "fc8be5f164a727778abdda63db0449ff1722800fcba5f02f456433ca72b09828",
+      "bytes": 2721
+    },
+    {
+      "source_relative_path": "CORPUS_MANIFEST_RESULT_2026-09-28.md",
+      "sha256": "a6140cbb1060acc28fe2fc8208dce170dfd5d16758f5b4a74f0a1830fed793e3",
+      "bytes": 5703
+    },
+    {
+      "source_relative_path": "PMC_SCOPE_REVIEW_2026-10-02.md",
+      "sha256": "d06051c9204d78f1d0af5cf5219b6b2e8c4b9c7cbb04a72228f413450caffb5d",
+      "bytes": 10094
+    },
+    {
+      "source_relative_path": "REPAIR_AGENT_LOCAL_SMOKE_2026-09-29.md",
+      "sha256": "82956ec653b97c36eb36646fac407c0a422dae7260a234e895c29db4b81c6c7e",
+      "bytes": 4319
+    },
+    {
+      "source_relative_path": "ECG_EDB_IDENTITY_PROTOCOL_RESEARCH_2026-10-01.md",
+      "sha256": "e047f8c126ac12811370f140bd752a5c6cd4bf3145bb994c48d70f2052875fe0",
+      "bytes": 4246
+    },
+    {
+      "source_relative_path": "ECG_NEXT_COMPARISON_PROPOSAL_2026-09-28.md",
+      "sha256": "ba833066772cf27ed52988cf708ae50e6b1fb8c826e846cbf085bebcbd60aca2",
+      "bytes": 4437
+    },
+    {
+      "source_relative_path": "PMC_NOTICE_INVENTORY_PROTOCOL_2026-10-01.md",
+      "sha256": "fcd5e7a2f21ec6b0889b748b38c4a5bc708495ec286c671b0912f829561e9c94",
+      "bytes": 1035
+    },
+    {
+      "source_relative_path": "PROGRESS_2026-09-30.md",
+      "sha256": "38ef8016b854db7626b2a135e6dc3af08617b16c86d5679541dd2a09be123a39",
+      "bytes": 3181
+    },
+    {
+      "source_relative_path": "ECG_ROBUSTNESS_RESULT_2026-09-29.md",
+      "sha256": "96364667818af0e9b80d909f909b17b7faff5cf8b4dc0db208efda6eb2d4d5d5",
+      "bytes": 3930
+    },
+    {
+      "source_relative_path": "ECG_NOVELTY_ABSTENTION_RESULT_2026-09-29.md",
+      "sha256": "b83d4cb45a47753f820e006112db971faf136b668c4c0d9ced7e08a4032acdc2",
+      "bytes": 4251
+    },
+    {
+      "source_relative_path": "ECG_INCART_EXTERNAL_RESULT_2026-09-29.md",
+      "sha256": "d132d4421abdece0653e44d6743a594a834994d1dea03d3d1a60fa57f8ac8dea",
+      "bytes": 5107
+    },
+    {
+      "source_relative_path": "EDB_WINDOW_INVENTORY_RESULT_2026-10-01.md",
+      "sha256": "9fb68f5acb03b8d754ebd3e32b042916878208789ad2e87faf32dfe5c44cd30c",
+      "bytes": 1821
+    },
+    {
+      "source_relative_path": "EDB_METADATA_RESULT_2026-09-30.md",
+      "sha256": "485ed856f01ea5de2aa2134e9e54e373a6268a539d0939885ec90692f9b9aa37",
+      "bytes": 3768
+    },
+    {
+      "source_relative_path": "NEXT_EXECUTION_BRIEF_2026-09-30.md",
+      "sha256": "bb9787adc55ded9957850afee9906e1f0c4dea67ea7ca2e9db40c49cbadf7eed",
+      "bytes": 8224
+    },
+    {
+      "source_relative_path": "ECG_MULTISCALE_COMPARISON_PROTOCOL_2026-09-29.md",
+      "sha256": "4dfa9fb2ae514ebae8697c5fea763c4e6f872332836c81ac03c09079db5b3f8f",
+      "bytes": 3906
+    },
+    {
+      "source_relative_path": "AUTORESEARCH_RETRIEVAL_COMPARISON_PROTOCOL_2026-10-01.md",
+      "sha256": "0c378b55d5e3a73b3a445b5cd6eacb079c741c0026a66190783065250ac9b243",
+      "bytes": 4008
+    },
+    {
+      "source_relative_path": "ECG_CONTEXT_COMPARISON_RESULT_2026-09-28.md",
+      "sha256": "411fb71911584610d93a48f7f774520afc936404df726a2b52ea5c6db9966716",
+      "bytes": 5352
+    },
+    {
+      "source_relative_path": "ECG_BASELINE_RUN_PROPOSAL_2026-09-28.md",
+      "sha256": "c4d358cf6245cdddf944247843536f342aa2ff7fe307de8e02e9ccb9f8001f9e",
+      "bytes": 3808
+    },
+    {
+      "source_relative_path": "AUTORESEARCH_FIRST_RUN_RESULT_2026-09-29.md",
+      "sha256": "b9daacc5ae86237369cee4bb0416748fdc8123ff5414f35b677178396ec7862f",
+      "bytes": 4661
+    },
+    {
+      "source_relative_path": "AGENT_BENCHMARK_DECISION_2026-09-27.md",
+      "sha256": "7b54a329168f534276c8bf7255553de5048626f79072ae662c12dc8ad99490b2",
+      "bytes": 5566
+    },
+    {
+      "source_relative_path": "ECG_FRESH_CONFIRMATION_SOURCE_2026-09-29.md",
+      "sha256": "20729679a71587fe497c55c9669f456a9e34d45b1962b049e55110d2145a9a95",
+      "bytes": 5545
+    },
+    {
+      "source_relative_path": "REPAIR_AGENT_COMPARISON_CONTRACT_2026-09-28.md",
+      "sha256": "6197ce2dea12816891cc1e43ce1c1f8efce213fdbb2dacf606c3e2fb4cd1bc3c",
+      "bytes": 8670
+    },
+    {
+      "source_relative_path": "PMC_REMAINING_SCREEN_PROTOCOL_2026-10-01.md",
+      "sha256": "3c6770df1317c1a7b5facd4eb47b8c03fd50a69be5fc50323439a336d7005307",
+      "bytes": 2181
+    },
+    {
+      "source_relative_path": "QA_OUTPUT_GATE_RESULT_2026-10-02.md",
+      "sha256": "d7ec85c0d4dfc7017bda07e0314b13af634020fe916199c2f9183aaa9d027490",
+      "bytes": 1084
+    },
+    {
+      "source_relative_path": "PMC_QA_BASELINE_SMOKE_RESULT_2026-09-30.md",
+      "sha256": "6cd480ff99a2435ad2e4a9760ef9740603a770fdf5f787a278939bcc49188283",
+      "bytes": 2256
+    },
+    {
+      "source_relative_path": "EDB_DECODE_RESULT_2026-10-01.md",
+      "sha256": "449480927bb5dcc97714fdf575d84269ada9e2754c56d7c3e97a51ced84556a8",
+      "bytes": 1219
+    },
+    {
+      "source_relative_path": "INCART_EXTERNAL_PROTOCOL_2026-09-29.md",
+      "sha256": "42e725c7a6d772cbcb031d71d40883bdcd715a78839b725a2c2b73698aef0bbb",
+      "bytes": 3383
+    },
+    {
+      "source_relative_path": "NEXT_BOUNDED_BATCH_PROTOCOL_2026-09-30.md",
+      "sha256": "642399c1f902dca06c06688ce1a8c068a1c334d9b41587e0a774b59c6e5a85bd",
+      "bytes": 3628
+    },
+    {
+      "source_relative_path": "ECG_MULTISCALE_PREP_STATUS_2026-09-29.md",
+      "sha256": "31524a9af5cfe9e48b0e1cd28b4c81ef7bf97d0d44aaecca5022e4dacdf0c675",
+      "bytes": 2062
+    },
+    {
+      "source_relative_path": "REPAIR_AGENT_FIRST_SUCCESS_2026-09-29.md",
+      "sha256": "ecd26d964401d04da0b6860608acdc4a07e2f19b9417cf90fdadffd2398b9e85",
+      "bytes": 2512
+    },
+    {
+      "source_relative_path": "ECG_MULTISCALE_RESULT_2026-09-29.md",
+      "sha256": "095f781ff90014fa10a4998a7fda24461f2b2c8476c502a24139ca19a4865af1",
+      "bytes": 4946
+    },
+    {
+      "source_relative_path": "PROGRESS_2026-10-02.md",
+      "sha256": "01240bb0fae7f46358ed111358b97042e40667cd773b789cc33ba1663da0adbc",
+      "bytes": 2309
+    },
+    {
+      "source_relative_path": "ECG_DATA_EXPANSION_RESEARCH_2026-09-30.md",
+      "sha256": "413d8a748798bb272be2cdc48527c2d4f2a003fcd3cdcfd24ee75a6da47b5890",
+      "bytes": 8164
+    },
+    {
+      "source_relative_path": "AUTORESEARCH_PAIRED_PROPOSALS_RESULT_2026-10-01.md",
+      "sha256": "6dd10c13bd1071b5ecdc50833144dd1eda242f599404247d646ce75050cb0daa",
+      "bytes": 1963
+    },
+    {
+      "source_relative_path": "PMC_NOTICE_LINKS_RESULT_2026-10-02.md",
+      "sha256": "96ef2e813c8a25f240d62bea0f00dbc22c6c13d2cb082c2c90a83e3fe7767f84",
+      "bytes": 1893
+    },
+    {
+      "source_relative_path": "PMC_EXPANSION_STATUS_2026-10-01.md",
+      "sha256": "98847132e33db869bd1d1836d76dec4b1769f99e43ee4749058d7d79c76de162",
+      "bytes": 4611
+    },
+    {
+      "source_relative_path": "PMC_MANUAL_EXPANSION_RESULT_2026-09-29.md",
+      "sha256": "a17d7de40c55f2c560d8a0a6855e62f9b15f664e45b39a8ce7e50a7838d7b1dd",
+      "bytes": 2982
+    },
+    {
+      "source_relative_path": "EDB_METADATA_PROTOCOL_2026-09-30.md",
+      "sha256": "0d921f7e71fe1abbdfb36ed380c4d9bb99f500f7c941f60c73a4652b8cf1536d",
+      "bytes": 1502
+    },
+    {
+      "source_relative_path": "OFFLINE_PROGRESS_2026-09-30.md",
+      "sha256": "b9c8c05e7b233a0dae772d3e536093679239abb808e6e5787b40ec76bc838084",
+      "bytes": 7133
+    },
+    {
+      "source_relative_path": "EDB_V5_ACQUISITION_RESULT_2026-10-01.md",
+      "sha256": "5d769d21b971cd69a1ff6fb9e4f97617273362997703640277fc54962e063da2",
+      "bytes": 1766
+    },
+    {
+      "source_relative_path": "CORPUS_XML_PILOT_RESULT_2026-09-28.md",
+      "sha256": "1582c9a1fba7ffe51d4bd26e37e9317162482eb236568d96d60e3424ef2cc011",
+      "bytes": 3600
+    },
+    {
+      "source_relative_path": "CORPUS_SCREEN_REPAIR_PROTOCOL_2026-09-30.md",
+      "sha256": "b298095ee0289c33c80158098122d89cd063b1ae0bae616f2e87acad0ca982ce",
+      "bytes": 2668
+    },
+    {
+      "source_relative_path": "README_LLM_corrected.md",
+      "sha256": "5b090a2f94b8b016a2f7e989da40ea7fac83fb7569fcd316529a946f6505e410",
+      "bytes": 2954
+    },
+    {
+      "source_relative_path": "ECG_ROBUSTNESS_COMPARISON_PROTOCOL_2026-09-29.md",
+      "sha256": "cd78542b96dd99fd4aac7409f29eb1abf594b0551a6a7069045f2f6793c605f5",
+      "bytes": 4064
+    },
+    {
+      "source_relative_path": "ECG_PROTOCOL_DECISION_2026-09-27.md",
+      "sha256": "4f459fd4f60b6c14fb8767266b76574c7d0434aafa31947a46f51290e9434cf2",
+      "bytes": 6052
+    },
+    {
+      "source_relative_path": "REPAIR_AGENT_MATCHED_RESULT_2026-09-29.md",
+      "sha256": "702f73033a1981d3e3ade28b5d22a94d5aefceb29ecaccd2c47d96433d149088",
+      "bytes": 3336
+    },
+    {
+      "source_relative_path": "ECG_NEXT_STAGE_DECISION_2026-09-29.md",
+      "sha256": "f9b33504af29fdb8aab1aa30a97269a8487a441fef7477a741d90391a9199ae8",
+      "bytes": 6372
+    },
+    {
+      "source_relative_path": "PMC_REMAINING_ACQUISITION_PROTOCOL_2026-10-01.md",
+      "sha256": "88a81da29dd9c9e47dc8cd98103097cdef917b678bcc1828e548e2045bcda4f4",
+      "bytes": 2101
+    },
+    {
+      "source_relative_path": "REPAIR_AGENT_MATCHED_COMPARISON_PROTOCOL_2026-09-29.md",
+      "sha256": "47cba43438614c8fbb83fc04744e3e849d3b1cff5d6812b4ec5aadcad6a53e88",
+      "bytes": 1882
+    },
+    {
+      "source_relative_path": "EDB_RESAMPLE_PROTOCOL_2026-10-01.md",
+      "sha256": "1343d2516977e3d3d3d770a444364634795ba58d21abb0ea845c7e1181e96011",
+      "bytes": 1163
+    },
+    {
+      "source_relative_path": "EDB_ARRAY_QUALITY_RESULT_2026-10-02.md",
+      "sha256": "fcfe87f31c01b3073ef2641f7c7ec780cfdb31e7f3f227e67f93f26524da447d",
+      "bytes": 1035
+    },
+    {
+      "source_relative_path": "ECG_SELECTION_RESULT_2026-09-30.md",
+      "sha256": "5e230efdf5ddc8ac1a38450fad51087c456dfc3cfa1057bc3fb41cc5fad15cd3",
+      "bytes": 2548
+    },
+    {
+      "source_relative_path": "CLUSTER_ACCESS_2026-09-28.md",
+      "sha256": "f8719e5d861f590c27ba5d8512f5e005039e706e316a980ef3c8f7428dd19b52",
+      "bytes": 6556
+    },
+    {
+      "source_relative_path": "EDB_ARRAY_QUALITY_PROTOCOL_2026-10-02.md",
+      "sha256": "741746f521a7d25f8723277f91abfa1808959f9510141b64cf4cf39d00218736",
+      "bytes": 754
+    },
+    {
+      "source_relative_path": "ECG_PAPER_RESEARCH_2026-09-27.md",
+      "sha256": "98e73e699b99064f4c4f73ef8012f4964cd7e5caf182943619f19e238082b6dc",
+      "bytes": 8576
+    },
+    {
+      "source_relative_path": "CLUSTER_STORAGE_AND_EXPANSION_2026-10-01.md",
+      "sha256": "7c749c135c9dc327138c9b478ec132ba733ceb091e32d39f4445c18f134742be",
+      "bytes": 3056
+    },
+    {
+      "source_relative_path": "AUTORESEARCH_AGENT_PILOT_RESULT_2026-09-30.md",
+      "sha256": "1a5eaec92e57ff0cf91fc72b00e4df480e654fb758f873029f1c12895af8cd4e",
+      "bytes": 2466
+    },
+    {
+      "source_relative_path": "CORPUS_SCREEN_REPAIR_RESULT_2026-09-30.md",
+      "sha256": "0a0059682527cf3f074a2f185baadc5c51fff01c4e2997d6e3ea6cfac17747c1",
+      "bytes": 2203
+    },
+    {
+      "source_relative_path": "implementation/pmc_large_xml_plan_2026-10-01.json",
+      "sha256": "f0d05e2d57ce19497a69e01509ada8bfd0134814fa778b57410a5b3b412abbc7",
+      "bytes": 303108
+    },
+    {
+      "source_relative_path": "implementation/pmc_qa_baseline_retrieval_hashes_2026-09-30.json",
+      "sha256": "5ccda673d4a5e4aeef8d4a4c4aabcac09f029c6851341ddc1b7dba16be1ccf26",
+      "bytes": 556
+    },
+    {
+      "source_relative_path": "implementation/pmc_metadata_pilot_2026-09-28.jsonl",
+      "sha256": "718d5668328537472aa9f2a515121522f4d42b840eb9dea9eaddfd8a828838cc",
+      "bytes": 176338
+    },
+    {
+      "source_relative_path": "implementation/pmc_token_inventory.py",
+      "sha256": "bd9ba21d7d6623cf3a81c4a331491b496f38566369ea4895c414e8369ffbd3e2",
+      "bytes": 3144
+    },
+    {
+      "source_relative_path": "implementation/pmc_fresh_xml_audit_2026-10-01.json",
+      "sha256": "76f7b771e60074ae34edc55a0f495f0d4b59dfdb33a0ac65a20a62dd4af123df",
+      "bytes": 2637
+    },
+    {
+      "source_relative_path": "implementation/pmc_fresh_screen.py",
+      "sha256": "6e69438bba84c66f72b7137f28482697797770af891461932ee3130b2a64a1d8",
+      "bytes": 9288
+    },
+    {
+      "source_relative_path": "implementation/pmc_xml_checks_2026-09-28.jsonl",
+      "sha256": "762247cb244f806dcaec29c5e60116dbc1db79df8601b5b693af7d5b39003b4c",
+      "bytes": 60276
+    },
+    {
+      "source_relative_path": "implementation/run_pmc_token_inventory.sbatch",
+      "sha256": "8e0e33a391271d354a5c61596a4f9eeda6fc35a87a0ab43de698a2b22fe6eda2",
+      "bytes": 937
+    },
+    {
+      "source_relative_path": "implementation/pmc_schema_screen_audit_2026-09-30.json",
+      "sha256": "f78a9b413842f7bfa792364b830279a5d2a24ffc55013c92ff315ad5a50a789e",
+      "bytes": 379
+    },
+    {
+      "source_relative_path": "implementation/pmc_fresh_screen_labels_2026-10-01.jsonl",
+      "sha256": "b2d0716e511dcc13df72f186888a3d5483342caf1daa8f12546fa3ee0a336a31",
+      "bytes": 11524
+    },
+    {
+      "source_relative_path": "implementation/mitdb_beat_manifest.py",
+      "sha256": "a5cb38968b210b5985288cdfe52f6497a97d6d3d10c5873b85b29212c6869510",
+      "bytes": 4208
+    },
+    {
+      "source_relative_path": "implementation/incart_metadata_inventory.py",
+      "sha256": "93ae413b766ff28f1073e277c7931812e8d83a10d3584a7e7784455f2eab53fa",
+      "bytes": 5794
+    },
+    {
+      "source_relative_path": "implementation/run_pmc_large_xml.sbatch",
+      "sha256": "4646d09cd0d29b8b8fc55a3f084681de7104c8715b4f9737c45ff22c7ac307fd",
+      "bytes": 302
+    },
+    {
+      "source_relative_path": "implementation/experiment_memory.py",
+      "sha256": "6264d5fe4ce6844e17d07a456595439f76c29ea0b04c0ba1e9f72cc668196e87",
+      "bytes": 2896
+    },
+    {
+      "source_relative_path": "implementation/pmc_review_packet.py",
+      "sha256": "6882b2dbd7d1cdb0ecdfae8cf36627e3da5a1791d8d3b05602da365eccdc2ecb",
+      "bytes": 3493
+    },
+    {
+      "source_relative_path": "implementation/pmc_manual_expansion_summary_2026-09-29.json",
+      "sha256": "391815d9667470d9747ce487fd1f7eda93f2e4f2cedd4d6bbc4dc9281618d7fd",
+      "bytes": 604
+    },
+    {
+      "source_relative_path": "implementation/pmc_notice_inventory_manifest_2026-10-01.json",
+      "sha256": "63d829669fb10e01b1e6f6c411335897aa4b4f5691777bd076782cea06318dec",
+      "bytes": 1304
+    },
+    {
+      "source_relative_path": "implementation/audit_pmc_fresh_screen.py",
+      "sha256": "f84fad529388b317ca4505f18fe128b54bc0cad6ddeed10b92fce27c7ef71fc6",
+      "bytes": 3154
+    },
+    {
+      "source_relative_path": "implementation/longrun_local_inventory_2026-09-30.json",
+      "sha256": "22a6c8cf0bc5949d2d542a0ae1944cb01a44c8803d7274c2feec4fcb86de005b",
+      "bytes": 321
+    },
+    {
+      "source_relative_path": "implementation/pmc_metadata_pilot_summary_2026-09-28.json",
+      "sha256": "ade6988e0fb6df1f600b1b4b530e7919ab3089152563a2f9a3c3c5c3acb85dbc",
+      "bytes": 850
+    },
+    {
+      "source_relative_path": "implementation/pmc_expansion_review_labels_2026-09-30.jsonl",
+      "sha256": "6e31586c2bbae77d0db1761da212ee8170d0abe8fcb4808e4dc06b206cd6c562",
+      "bytes": 10172
+    },
+    {
+      "source_relative_path": "implementation/pmc_metadata_1000_2026-09-28.jsonl",
+      "sha256": "941980f2cba58a106745e168364cba91465ff75c95408a10d39d03ae6fefb6a1",
+      "bytes": 1415492
+    },
+    {
+      "source_relative_path": "implementation/pmc_eligibility_audit_2026-09-29.jsonl",
+      "sha256": "bbb3a081f39a724edabc84bd1d77ddc7b30a9301bd999c777cfc9a4453c7483b",
+      "bytes": 493809
+    },
+    {
+      "source_relative_path": "implementation/ecg_split_guard.py",
+      "sha256": "efbd44abc3eb58b3d8bd0779ff3fecbc89ce11df2a166879fc979345b8425e82",
+      "bytes": 2815
+    },
+    {
+      "source_relative_path": "implementation/pmc_study_tiers_2026-09-29.json",
+      "sha256": "c7a1bcdf8ea217ba24aec29494a63a9b254afd1edbeef1e3c4a65a5cbd577e51",
+      "bytes": 1960
+    },
+    {
+      "source_relative_path": "implementation/pmc_expansion_qa.py",
+      "sha256": "15c957222f84f47ca0a8fa7020aaf58cf0f00dec33db45d9cbdb7c7618c23ad0",
+      "bytes": 4774
+    },
+    {
+      "source_relative_path": "implementation/pmc_notice_inventory_audit_2026-10-02.json",
+      "sha256": "522d3bccd6526e479a15884c40e4a0f59e1613eacdfb676eca4defd82562aeb9",
+      "bytes": 540
+    },
+    {
+      "source_relative_path": "implementation/pmc_primary_review_queue_audit_2026-10-02.json",
+      "sha256": "5c664dee6e8ae6a09bb6f5501ffa372bcba04efcc05673bf8138696dbc869d65",
+      "bytes": 438
+    },
+    {
+      "source_relative_path": "implementation/pmc_expansion_review_summary_2026-09-30.json",
+      "sha256": "fa19cd22ff48f73a809765b5cba07770ede10a6f14245810a944a22c2205bf69",
+      "bytes": 580
+    },
+    {
+      "source_relative_path": "implementation/pmc_model_screen_summary_2026-09-30.json",
+      "sha256": "ed6244b6b54b1a3ca44fd7fccbf277d13302f324a6dbbdd6988931db8c3421e1",
+      "bytes": 1100
+    },
+    {
+      "source_relative_path": "implementation/pmc_evidence_screen.py",
+      "sha256": "d4a0277595a80de05790b5d0a3f74e98a7168115d86dec6b510a31742835b230",
+      "bytes": 8867
+    },
+    {
+      "source_relative_path": "implementation/bounded_batch_accounting_2026-09-30.json",
+      "sha256": "02618022ed3d8201c274432f8186192de6b1740eecde2b6608735c800ed25539",
+      "bytes": 787
+    },
+    {
+      "source_relative_path": "implementation/pmc_fresh_screen_label_freeze_2026-10-01.json",
+      "sha256": "f7e91d2d76a6172b293a4ae686da35348408b553e748dc258c1d416feccb731a",
+      "bytes": 322
+    },
+    {
+      "source_relative_path": "implementation/pmc_qa_evidence_manifest_2026-10-01.json",
+      "sha256": "e742cb863e71d4abf383d06f0c53e3a4e3ea6722505ebf00041e042b55fbfdca",
+      "bytes": 608
+    },
+    {
+      "source_relative_path": "implementation/pmc_qa_development_exclusions_2026-09-30.json",
+      "sha256": "37b9e1f8630dddfd3219f801cefc6505b67ad31dbfeaddb2a0c45f12ab6f9bd2",
+      "bytes": 589
+    },
+    {
+      "source_relative_path": "implementation/pmc_token_inventory_manifest_2026-09-30.json",
+      "sha256": "edc6c0c6c2c776d9d28e55ae4684518eaba8a1b3d850c12114f5194a97878612",
+      "bytes": 576
+    },
+    {
+      "source_relative_path": "implementation/experiment_ledger.py",
+      "sha256": "48a8bd7aae7da9c5ef69cdf6bc9b66329f51051f7519d0f090ebd5f96049a86d",
+      "bytes": 5650
+    },
+    {
+      "source_relative_path": "implementation/pmc_monthly_ids_2026-09-28.jsonl",
+      "sha256": "919cfe66f3fb8373f839be49117b301fae92a115baaca05bb9d49e42a565fa54",
+      "bytes": 2341790
+    },
+    {
+      "source_relative_path": "implementation/pmc_fresh_screen_audit_2026-10-01.json",
+      "sha256": "f7667196b1193167280cc75bb909446e3a1cc52a96604f8cfdc79d445dd74524",
+      "bytes": 883
+    },
+    {
+      "source_relative_path": "implementation/mitdb_windows.py",
+      "sha256": "d04b02a70e38f37cfca8ae3e86266ce594afb8c5eab7ef282731894cda108f8a",
+      "bytes": 4545
+    },
+    {
+      "source_relative_path": "implementation/pmc_schema_screen_plan_2026-09-30.json",
+      "sha256": "565761dae6653d15a8d5c1160c4544c84927a1300924da2e8cc9f8c2cb77f35e",
+      "bytes": 1141
+    },
+    {
+      "source_relative_path": "implementation/audit_pmc_qa_evidence.py",
+      "sha256": "026adc98b783bc9d9f2e4a81c02b93bb5cfa613714242cb1681ce7f13448209e",
+      "bytes": 2538
+    },
+    {
+      "source_relative_path": "implementation/pmc_month_counts_2026-09-28.jsonl",
+      "sha256": "c12126ad303a4ed3b5e2d20437651d9844fa099eb7b7d5e8c9d0f8d006f2b2f7",
+      "bytes": 44718
+    },
+    {
+      "source_relative_path": "implementation/pmc_eligibility_audit.py",
+      "sha256": "1a09c3465e24b492bc1870b48a85ea93d8cc8c273ad22277415562403be282d5",
+      "bytes": 8274
+    },
+    {
+      "source_relative_path": "implementation/pmc_large_metadata_plan_2026-10-01.json",
+      "sha256": "01624e1b91dd6d5679955da9a77335b94ee2b98355ad54180d7490280d7e259d",
+      "bytes": 93217
+    },
+    {
+      "source_relative_path": "implementation/pmc_remaining_screen_manifest_2026-10-01.json",
+      "sha256": "2f1db9c51a3e563982a67841dbc706c043fd4c9870ba01af5e790b731a601965",
+      "bytes": 2820
+    },
+    {
+      "source_relative_path": "implementation/qwen_scope_check.py",
+      "sha256": "98a2336575ce32a042c6d670eeb29eb7771dd6397dbcfcabb2d6d9bd81f98fbf",
+      "bytes": 6349
+    },
+    {
+      "source_relative_path": "implementation/pmc_model_screen_audit_2026-09-30.json",
+      "sha256": "6328283dd7b44d1bc2ff61661f6b7f0cd4a977066cabc3113d90656860a9e5ab",
+      "bytes": 220
+    },
+    {
+      "source_relative_path": "implementation/pmc_schema_probe.py",
+      "sha256": "6719c44a3d398c634ac1f94c0e6284fbb85526ddf6fc305b5e5ac090d369e833",
+      "bytes": 3962
+    },
+    {
+      "source_relative_path": "implementation/pmc_notice_inventory.py",
+      "sha256": "d6fc30a652a5e4955394aa1dceadb26a15e164d6092abc395745625ac3cf8910",
+      "bytes": 3214
+    },
+    {
+      "source_relative_path": "implementation/pmc_remaining_xml_manifest_2026-10-01.json",
+      "sha256": "afaad266f9449f7e48811a9d3aab5887876dc50208feddd5e33e2c442a5f8180",
+      "bytes": 1296
+    },
+    {
+      "source_relative_path": "implementation/pmc_model_screen.py",
+      "sha256": "f3413ca731e6ec9cacb096726c46a68642623769b29b4760841259dc696c40ad",
+      "bytes": 7276
+    },
+    {
+      "source_relative_path": "implementation/qwen_scope_check_manifest_2026-10-02.json",
+      "sha256": "edd111cab4549ee7db562eb83ae46630c23da8c55a9c9c47d59aaa064ff1db33",
+      "bytes": 1539
+    },
+    {
+      "source_relative_path": "implementation/pmc_xml_pilot.py",
+      "sha256": "e73ee77033e8a41743f9fe141ab6f5a3df77947b5761b526333eea4827b77031",
+      "bytes": 9234
+    },
+    {
+      "source_relative_path": "implementation/pmc_count_2026-09-27.json",
+      "sha256": "0b96ad20d5cb76839a2ca73c1ab2bb462739f283efd89284fe622ea33a8d3c5b",
+      "bytes": 475
+    },
+    {
+      "source_relative_path": "implementation/pmc_qa_development_cases.py",
+      "sha256": "6e05744c3994ac5a8777baa6bfa5b99f3472751a5de8582b151215afe59021af",
+      "bytes": 4048
+    },
+    {
+      "source_relative_path": "implementation/pmc_evidence_screen_summary_2026-09-30.json",
+      "sha256": "682a406fc344630705f3af4f4319b1fcf81974b5d906b09095ddb6ea924e2730",
+      "bytes": 506
+    },
+    {
+      "source_relative_path": "implementation/run_qwen_qlora_compatibility.sbatch",
+      "sha256": "3ecb1339631c352d6be441cbf0b5992a2e3aef6ed7df749154829e878d071825",
+      "bytes": 439
+    },
+    {
+      "source_relative_path": "implementation/pmc_qa_development_cases_2026-09-30.jsonl",
+      "sha256": "d323d28626a2db23c6a31b46a0e9af381753b10252e096daaad78a6b17b4e1a9",
+      "bytes": 11687
+    },
+    {
+      "source_relative_path": "implementation/run_pmc_overlap_audit.sbatch",
+      "sha256": "cc1f72c299e46eee37935f51269d5370531f284a8152b9d9328df5354ad06806",
+      "bytes": 308
+    },
+    {
+      "source_relative_path": "implementation/qa_output_gate_replay_v2_2026-10-02.json",
+      "sha256": "8a5ac7ed40b2626ed6a4c6b6c0b3db87f53883f809895549cd715e8211d3d60c",
+      "bytes": 2393
+    },
+    {
+      "source_relative_path": "implementation/pmc_schema_probe_2026-09-30.json",
+      "sha256": "c19a8689ce3d5f781fa4bea8cace42851085b7b37292e52f18754a93560a8f6b",
+      "bytes": 1677
+    },
+    {
+      "source_relative_path": "implementation/pmc_eligibility_audit_2026-09-29.summary.json",
+      "sha256": "2b056541d30489244b9f331693b8a7d13ee7720edf84d5aea44ab7cf467426fb",
+      "bytes": 599
+    },
+    {
+      "source_relative_path": "implementation/pmc_expansion_source_failures_2026-09-30.jsonl",
+      "sha256": "69092506153a42faa0c153767284f47a193b6f0323222dbc3ef4ff3def2abe27",
+      "bytes": 1321
+    },
+    {
+      "source_relative_path": "implementation/pmc_large_xml.py",
+      "sha256": "ecc4de3e31f5c4967599128953b9141e983c8faa77a6826bdc988e458582d0b5",
+      "bytes": 3039
+    },
+    {
+      "source_relative_path": "implementation/qwen_qlora_compatibility_manifest_2026-10-01.json",
+      "sha256": "508518068490dbfb7b78e044a1b591a692d455f184786eea7363223acbb449e0",
+      "bytes": 481
+    },
+    {
+      "source_relative_path": "implementation/pmc_fresh_screen_plan_2026-10-01.json",
+      "sha256": "707b16a313e990591b2ecaea46d87f4ed1d1daa65a60c0a6081920eaf2458dff",
+      "bytes": 820
+    },
+    {
+      "source_relative_path": "implementation/longrun_slurm_accounting_2026-09-30.txt",
+      "sha256": "48fc2d455b9fcbac6ecddd8d5e8287adf69d058b8bca59a66331a6eda5257c6f",
+      "bytes": 5997
+    },
+    {
+      "source_relative_path": "implementation/pmc_fresh_screen_summary_2026-10-01.json",
+      "sha256": "2f8225640e04e6b9ebb508b2b20640fd6e9141378c1784478f1c571320f80cb0",
+      "bytes": 419
+    },
+    {
+      "source_relative_path": "implementation/pmc_xml_sample_plan_2026-09-28.jsonl",
+      "sha256": "e53ba43a35034182b4ed0b3b0ad33e8951a5134a585ba67d182097307da5cbb4",
+      "bytes": 26094
+    },
+    {
+      "source_relative_path": "implementation/pmc_large_metadata_audit_2026-10-01.json",
+      "sha256": "5f25ea820a81bad44b0797759cf4d280610f443d25597d3aee2d012ec26dadae",
+      "bytes": 329
+    },
+    {
+      "source_relative_path": "implementation/pmc_expansion_review_plan_2026-09-30.json",
+      "sha256": "283a7fa6d8ce96cc9c106e1e403cc1968f96e1de9accf5bd91768bd6b5b524e7",
+      "bytes": 712
+    },
+    {
+      "source_relative_path": "implementation/accounting_continuation_2026-10-01.txt",
+      "sha256": "66a6c1a1d035175f3b229b3791c238391dbb74352f16560d962d68eab46dd304",
+      "bytes": 747
+    },
+    {
+      "source_relative_path": "implementation/pmc_expansion_token_audit_2026-10-01.json",
+      "sha256": "ab62caaeb46775276ee8fab6cd4d6626d4fd0970b7afe63e3ca80baa256442d8",
+      "bytes": 442
+    },
+    {
+      "source_relative_path": "implementation/pmc_scope_review_labels_2026-10-02.jsonl",
+      "sha256": "bb7b520845c8582e8b5aae1011e5cb321bfd292f420d13ba2513cdcf205bcf70",
+      "bytes": 123779
+    },
+    {
+      "source_relative_path": "implementation/longrun_retrieval_hashes_2026-09-30.json",
+      "sha256": "9b5d876debfe642fcc86bfaaa2bbc09c22fce4be188df7c148abd89a7efe138c",
+      "bytes": 15298
+    },
+    {
+      "source_relative_path": "implementation/run_pmc_qa_baseline_smoke.sbatch",
+      "sha256": "32210166783cdf07ed90f4073ca5a8a7860f6aa1ffb3f492ef67c8c6ee06d4ae",
+      "bytes": 466
+    },
+    {
+      "source_relative_path": "implementation/pmc_remaining_audit_manifest_2026-10-01.json",
+      "sha256": "fe94c2f34897d25824c7504a075e27cdf88b041fd52df205fb3354550b6fb828",
+      "bytes": 2018
+    },
+    {
+      "source_relative_path": "implementation/qa_output_gate_replay_2026-10-02.json",
+      "sha256": "bacc81ab8a375871717ae88528bafd3e0f64570bdfa975b25796fbd809b514f3",
+      "bytes": 2397
+    },
+    {
+      "source_relative_path": "implementation/pmc_remaining_screen.py",
+      "sha256": "68fa822ee3e10e8b8984c2791e7f1477a8d2025861c844083b3b001555fc8e5f",
+      "bytes": 5194
+    },
+    {
+      "source_relative_path": "implementation/pmc_scope_review_manifest_2026-10-02.json",
+      "sha256": "904aaedeaeab78c62919ad62474fbb2ae304ba9152e97393ee7a6fe53e7d1c15",
+      "bytes": 2546
+    },
+    {
+      "source_relative_path": "implementation/pmc_year_counts_2026-09-27.json",
+      "sha256": "64d58c57f76068010180c0bdaf1d1602fb7a9c1cf1c29123e0e7899fb4ac7ad5",
+      "bytes": 1073
+    },
+    {
+      "source_relative_path": "implementation/pmc_inventory.py",
+      "sha256": "681cb2576dc16c31dfdba6db3a7ae4855fe4aa145fc7a3b5d9dd49e3d414259f",
+      "bytes": 3120
+    },
+    {
+      "source_relative_path": "implementation/pubmedqa_expert_exclusion_2026-09-29.json",
+      "sha256": "d7902e8b62e1e25f82f04a6fa5d9a63c5d95c717603a9e9be3804fcc919579dc",
+      "bytes": 16444
+    },
+    {
+      "source_relative_path": "implementation/audit_longruns_2026-09-30.py",
+      "sha256": "407beb039d773511058a7040d2d6917c50cccb44189de63cf378f7a6b4b3d828",
+      "bytes": 7195
+    },
+    {
+      "source_relative_path": "implementation/pmc_xml_summary_2026-09-28.json",
+      "sha256": "47e0991032cbf4992739d06c876a7027386d1781d72ab717fe04dfcd7242226a",
+      "bytes": 377
+    },
+    {
+      "source_relative_path": "implementation/pmc_qa_baseline_smoke.py",
+      "sha256": "5f9cc0c7e344bdd5fb19962169e2206fad5e1ddbe36378fd53a946e0b16222ce",
+      "bytes": 4215
+    },
+    {
+      "source_relative_path": "implementation/qwen_qlora_compatibility_audit_2026-10-01.json",
+      "sha256": "d20e8a6f81f17c485666dc5dbce16934162c275d8c7e35693ea63588aa9ba407",
+      "bytes": 474
+    },
+    {
+      "source_relative_path": "implementation/.gitignore",
+      "sha256": "3154b3522a2e802b05726a6413d19d8c3ed135577a8f57d9cdaf42d6a4329937",
+      "bytes": 42
+    },
+    {
+      "source_relative_path": "implementation/test_foundations.py",
+      "sha256": "e28d0d5131b03c2e5f895666f735fbaf630e21cad34f36150991f8caeb5159f4",
+      "bytes": 13110
+    },
+    {
+      "source_relative_path": "implementation/pmc_evidence_screen_audit_2026-09-30.json",
+      "sha256": "f3e8ecc7677b728bc69e97e39fd2386a3b5e7dd41648702b5489456dcb6d1698",
+      "bytes": 260
+    },
+    {
+      "source_relative_path": "implementation/longrun_audit_2026-09-30.json",
+      "sha256": "def76b0a380f050dfcf7fffed57effe9816e60414a2f2fcbd740feca2bad7867",
+      "bytes": 19268
+    },
+    {
+      "source_relative_path": "implementation/run_pmc_large_metadata.sbatch",
+      "sha256": "dc618a42444d5e95e489a5c4453a95a5ce511faa8b54492d15d3874430d2df43",
+      "bytes": 310
+    },
+    {
+      "source_relative_path": "implementation/pmc_manual_expansion_plan_2026-09-29.json",
+      "sha256": "6276d80c5827cd4df1697aa171600022b92f9325407d03226d47bff3791ee85a",
+      "bytes": 660
+    },
+    {
+      "source_relative_path": "implementation/qa_output_gate.py",
+      "sha256": "bba77964e7c9f06c0c5d0faa0ef781ba29124b4a7722f2dead24f8613442538a",
+      "bytes": 2779
+    },
+    {
+      "source_relative_path": "implementation/audit_pmc_current_checks.py",
+      "sha256": "9a57b9f31b99457e5ab12d7e182305e348d9d83183641dace2d2c2ea024c6ee1",
+      "bytes": 4504
+    },
+    {
+      "source_relative_path": "implementation/pmc_remaining_result_audit_2026-10-01.json",
+      "sha256": "5c00edc02d6f097976dd81bde4c5ebc82ba0c3d576b5cdbb28d281c220292a19",
+      "bytes": 902
+    },
+    {
+      "source_relative_path": "implementation/pmc_qa_baseline_smoke_manifest_2026-09-30.json",
+      "sha256": "c9c2fe97bf1fde80186b854522f5f31df38b4d17b3ad34672d9c1e1ff1acf633",
+      "bytes": 577
+    },
+    {
+      "source_relative_path": "implementation/pmc_xml_expansion.py",
+      "sha256": "47a1bfda8077d66e87b3710a97fe42d2b2c1468c8b40918747a9bb5e6d97d2d2",
+      "bytes": 8352
+    },
+    {
+      "source_relative_path": "implementation/pmc_notice_links.py",
+      "sha256": "d0161c3a875d429f1e11aa6646d906d257f4614e8148d5c995b7194ff5efce08",
+      "bytes": 5377
+    },
+    {
+      "source_relative_path": "implementation/pmc_manifest_summary_2026-09-28.json",
+      "sha256": "f30bacd4d504e297b4aa870fc5b9de2ac31b432fed0d7ec7faf793cb0f7fba0a",
+      "bytes": 1282
+    },
+    {
+      "source_relative_path": "implementation/pmc_schema_screen.py",
+      "sha256": "f0133111ac978eab443fa9c7e36ff3a6e2bc52c1c11927f9dda2d114fd3b4ffc",
+      "bytes": 9386
+    },
+    {
+      "source_relative_path": "implementation/cluster_resume_summary_2026-09-30.json",
+      "sha256": "4a5f23a6b56ecf0bb6b5ad7aae7e217b9caca48d57e15ddedc61f7af43a616af",
+      "bytes": 652
+    },
+    {
+      "source_relative_path": "implementation/pmc_model_screen_plan_2026-09-30.json",
+      "sha256": "1ccfe2aa96ed317c2bfaffd7305ec3b06a24ca7ff3a35085182a1c088760b938",
+      "bytes": 1556
+    },
+    {
+      "source_relative_path": "implementation/pmc_expansion_summary_2026-09-30.json",
+      "sha256": "05708e1ac5e7f01c3a90fdab0affb4c5b9bf17600f86e91d088a8a83dbac103d",
+      "bytes": 859
+    },
+    {
+      "source_relative_path": "implementation/pmc_large_xml_audit_2026-10-01.json",
+      "sha256": "5abcbf7349b4c14febb5a6e9a4d4230090e0964b59d433d4c3befb190c6fcc18",
+      "bytes": 103100
+    },
+    {
+      "source_relative_path": "implementation/pmc_primary_review_queue_2026-10-02.jsonl",
+      "sha256": "48891315dd1cb98e1d9cd880b71b938152fd79f4c0d40d34da841a6f271e0a19",
+      "bytes": 37274
+    },
+    {
+      "source_relative_path": "implementation/pmc_notice_links_result_2026-10-02.json",
+      "sha256": "42eee60f4474c87cc224c8f73d2aa187c7fccb8ab84c314b47577fe64d6df227",
+      "bytes": 2038
+    },
+    {
+      "source_relative_path": "implementation/pmc_count_2026-09-28.json",
+      "sha256": "cf79c050a97063567be64514a66478269c668364ecbfb922a933cbd9e20c592b",
+      "bytes": 782
+    },
+    {
+      "source_relative_path": "implementation/qwen_qlora_compatibility.py",
+      "sha256": "4dee0571a44b37611bdb073ea91b3f7508f32f885f8fce6d830d6298387ee76a",
+      "bytes": 3866
+    },
+    {
+      "source_relative_path": "implementation/pmc_qa_evidence_smoke.py",
+      "sha256": "a08676c52e249bf0a1a00f20af06a4285a6f477975b3ebd2deb1f122411da78c",
+      "bytes": 4401
+    },
+    {
+      "source_relative_path": "implementation/pmc_fresh_model_plan_2026-10-01.json",
+      "sha256": "11c928bcfb5b7a76115a2ada4548c46094d62a612e8e98e8c3ee7c55132265b9",
+      "bytes": 973
+    },
+    {
+      "source_relative_path": "implementation/repo_evidence.py",
+      "sha256": "76a4ee9801c57a9ad09ae0b875925517f53699c1cb9bf3bef39b40f07b865e86",
+      "bytes": 3390
+    },
+    {
+      "source_relative_path": "implementation/pmc_evidence_screen_plan_2026-09-30.json",
+      "sha256": "054c859231f6079c60a2cef00dafc62978ad093158724ecce00899ae660dba9e",
+      "bytes": 1141
+    },
+    {
+      "source_relative_path": "implementation/pmc_fulltext_review_packets_2026-09-30.json",
+      "sha256": "a93adbb0681c1e638597f43c2c557497acca3edd6b14e59912d52cd55715ea67",
+      "bytes": 5842
+    },
+    {
+      "source_relative_path": "implementation/pmc_expansion_qa_2026-09-30.json",
+      "sha256": "456725a9c4e3b21aff1fcd5ffef54b6cd3607459fd500080623f18717b74e454",
+      "bytes": 1149
+    },
+    {
+      "source_relative_path": "implementation/pmc_manual_expansion_labels_2026-09-29.jsonl",
+      "sha256": "939b9b2b6c7c020c364ce12d4e36cc9427855bc9a255301e14b494dd5be3bb7f",
+      "bytes": 4489
+    },
+    {
+      "source_relative_path": "implementation/pmc_xml_manual_review_2026-09-28.jsonl",
+      "sha256": "f8df195850a521b0ec498c4aeaeba626e3c8e9b5b7b3138fdd01f1892e112468",
+      "bytes": 9936
+    },
+    {
+      "source_relative_path": "implementation/pmc_sample_ids_2026-09-28.jsonl",
+      "sha256": "4283c3a57928707e9bcb1fee222275c61caa10b146106c2e56a6f5ed50fe2b8e",
+      "bytes": 44425
+    },
+    {
+      "source_relative_path": "implementation/accounting_2026-10-01.txt",
+      "sha256": "5ed54bb207a7b122025bb724d24418f90bb15c8887524a0981b37b35365dea1b",
+      "bytes": 1718
+    },
+    {
+      "source_relative_path": "implementation/pmc_schema_screen_summary_2026-09-30.json",
+      "sha256": "7a78d9b8299d63ee76206110aa6f9b044695d79171b45be37b917f42e8ea9135",
+      "bytes": 325
+    },
+    {
+      "source_relative_path": "implementation/incart_signal_download.py",
+      "sha256": "a1668aeb679d390044765c6463d5dbd44b387f607e3eec92ceea0812f20db9b7",
+      "bytes": 4038
+    },
+    {
+      "source_relative_path": "implementation/audit_pmc_xml_batch.py",
+      "sha256": "9156ec1e9e40c1a069f7e7b0ffd2b28b913fdcfd8bcd2110c1ba3a5fe3d9a6b8",
+      "bytes": 3924
+    },
+    {
+      "source_relative_path": "implementation/pmc_token_inventory_audit_2026-09-30.json",
+      "sha256": "22e8de2477666872e17cf31ec7c84c64d16825eae184a3bd45760bdba9ee7beb",
+      "bytes": 281
+    },
+    {
+      "source_relative_path": "implementation/pmc_manifest_batch.py",
+      "sha256": "ff0da3618f15a8c16bc0b12715f5e19b90785c83e30c60aa47ff5c1623b4e012",
+      "bytes": 7279
+    },
+    {
+      "source_relative_path": "implementation/pmc_primary_review_queue_2026-09-29.jsonl",
+      "sha256": "f9460850d6fc239f9d59ff0d284c47d93146ce3aae4bef0a335406d9f5bc8414",
+      "bytes": 5591
+    },
+    {
+      "source_relative_path": "implementation/pmc_qa_baseline_smoke_audit_2026-09-30.json",
+      "sha256": "d847dd4bfef144005cbad2d1ff5bf98afdb52c7f8debcb07b69604c3335ddc09",
+      "bytes": 1844
+    },
+    {
+      "source_relative_path": "implementation/pmc_overlap_audit.py",
+      "sha256": "052baa81ca6e24b78467e5bbb9c0a7254c3c65e6aee9d9ccc70648fff8976382",
+      "bytes": 3028
+    },
+    {
+      "source_relative_path": "implementation/pmc_metadata_pilot.py",
+      "sha256": "437df314108f7e4730b80e6cb7dac0e4db9cb35b2f2f6e12f443880866d3e12e",
+      "bytes": 8284
+    },
+    {
+      "source_relative_path": "implementation/pmc_expansion_provenance_2026-09-30.json",
+      "sha256": "e70f8f62dc75d2f02d12224aa813888ba48fc443a81c0a9a8d310b20ca732a0b",
+      "bytes": 1228
+    },
+    {
+      "source_relative_path": "implementation/pmc_primary_review_queue_2026-09-30.jsonl",
+      "sha256": "e20466f834a4ed4cb06ebe8fcb3a8d4e9c3de19955e7da1c3bdcb223ba980e38",
+      "bytes": 4990
+    },
+    {
+      "source_relative_path": "implementation/pmc_scope_benchmark_audit_2026-09-29.jsonl",
+      "sha256": "a451981bbe463a64bd1e256ba0b34dbbecd3000399302532b6b5c9693bdc8bd9",
+      "bytes": 624398
+    },
+    {
+      "source_relative_path": "implementation/pmc_large_metadata.py",
+      "sha256": "8b0922a58cabe4cb37f83d70a0fdf9f72422110245b68292cbb049e342d31cfd",
+      "bytes": 1913
+    },
+    {
+      "source_relative_path": "implementation/pmc_qa_evidence_audit_2026-10-01.json",
+      "sha256": "c07ae75d9bc2d938952283ddfef9edd5fe1e25a2489ab18a1efa552d72aaef03",
+      "bytes": 2096
+    },
+    {
+      "source_relative_path": "implementation/pmc_scope_benchmark_audit_2026-09-29.summary.json",
+      "sha256": "7d4b5a48e5bd03b319f0b7b18a2fb958b8f6691ec625640a92cd5587a9479a60",
+      "bytes": 1464
+    },
+    {
+      "source_relative_path": "implementation/pmc_scope_review_audit_2026-10-02.json",
+      "sha256": "cac5dd89ca4bccf411e7b0d7bf90108b242094c0c6aa9445b81b9cbf1a4bde97",
+      "bytes": 661
+    },
+    {
+      "source_relative_path": "implementation/pmc_token_inventory_2026-09-30.json",
+      "sha256": "8f2a9b551e5e08d879aaf360f6df1b634e439ebd69663cdbefbad5c001f0087a",
+      "bytes": 453726
+    },
+    {
+      "source_relative_path": "implementation/pmc_manual_expansion_audit.py",
+      "sha256": "17a803f706e1080cb9a194779b90deca2e9c17fba5ff53674ba977011d3e97bd",
+      "bytes": 2893
+    },
+    {
+      "source_relative_path": "implementation/pmc_acquisition_plan.py",
+      "sha256": "c49fb9bbb849d2ebfecb0b424ecc614489a2705f394b375a43d4a1b5900aabf1",
+      "bytes": 2238
+    },
+    {
+      "source_relative_path": "implementation/pmc_overlap_summary_2026-10-01.json",
+      "sha256": "2d2650a3b0ad680ff159e1304554302192124a7a158893eb6911b6dd149b0e7e",
+      "bytes": 587
+    }
+  ],
+  "excluded": "raw data directories, virtual environments, caches, model weights; no modifications to frozen sources"
+}

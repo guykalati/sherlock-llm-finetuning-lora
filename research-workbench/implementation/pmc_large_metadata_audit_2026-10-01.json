@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "records": 5000,
+  "versions": 5080,
+  "source_hashes_ids_order_bytes_and_first1000_verified": true,
+  "licenses": {
+    "CC BY": 5037,
+    "TDM": 12,
+    "CC0": 16,
+    "None": 15
+  },
+  "articles_with_retracted_or_unknown_version_flag": 19,
+  "no_version_articles": 1,
+  "training_admission": false
+}

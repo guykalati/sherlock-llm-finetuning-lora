@@ -1,0 +1,31 @@
+{
+  "pmcids": [
+    "PMC10860437",
+    "PMC11190372",
+    "PMC11335015",
+    "PMC12294447",
+    "PMC12676773",
+    "PMC12975904",
+    "PMC13080820",
+    "PMC13371658",
+    "PMC4856269",
+    "PMC5295571",
+    "PMC5960118",
+    "PMC6692400",
+    "PMC7230707",
+    "PMC7506137",
+    "PMC7793383",
+    "PMC8102189",
+    "PMC9246386",
+    "PMC9503453",
+    "PMC9637925",
+    "PMC9659841"
+  ],
+  "model": "gemma4:12b-it-qat",
+  "model_digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+  "documents_sha256": "3ad64a47c889463b4bd709ee94fe9f2edba62117f0b16ce9f206faac3988416d",
+  "source_sha256": "6e69438bba84c66f72b7137f28482697797770af891461932ee3130b2a64a1d8",
+  "calls_per_document_cap": 2,
+  "body_input": "First three extracted paragraphs, maximum 4000 characters; additional evidence changes input as well as prompt",
+  "purpose": "Fresh20 source-reviewed cases; frozen existing prompt; single-agent labels, not independent expert adjudication"
+}

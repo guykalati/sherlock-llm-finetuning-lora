@@ -1,0 +1,11 @@
+{
+  "purpose": "3-step4-bit LoRA compatibility smoke on nonmedical fixture",
+  "source_sha256": "4dee0571a44b37611bdb073ea91b3f7508f32f885f8fce6d830d6298387ee76a",
+  "max_gpu_minutes": 8,
+  "optimizer_steps": 3,
+  "no_corpus_training": true,
+  "files_sha256": {
+    "run_qwen_qlora_compatibility.sbatch": "3ecb1339631c352d6be441cbf0b5992a2e3aef6ed7df749154829e878d071825",
+    "qwen_qlora_compatibility.py": "4dee0571a44b37611bdb073ea91b3f7508f32f885f8fce6d830d6298387ee76a"
+  }
+}

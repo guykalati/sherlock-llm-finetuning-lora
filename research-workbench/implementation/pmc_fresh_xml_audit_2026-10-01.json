@@ -1,0 +1,121 @@
+{
+  "status": "passed",
+  "planned": 20,
+  "verified": 20,
+  "failed": 0,
+  "remaining": 0,
+  "languages": {
+    "en": 20
+  },
+  "article_types": {
+    "review-article": 2,
+    "brief-report": 1,
+    "research-article": 13,
+    "case-report": 4
+  },
+  "quality_identity_flags": [
+    {
+      "pmcid": "PMC11335015",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC12975904",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC9637925",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC12294447",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC13371658",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC8102189",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC4856269",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC5960118",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC5295571",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC9503453",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC9246386",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC10860437",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC7793383",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC7506137",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC12676773",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC7230707",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC13080820",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC6692400",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC11190372",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC9659841",
+      "flags": [],
+      "training_eligibility": "unreviewed"
+    }
+  ],
+  "exact_duplicate_body_groups": 0,
+  "training_admission": false,
+  "limits": "Basic source/extraction/identity checks only; flags require review. Topic/study scope, XML publication notices, cross-batch duplication and benchmark-context overlap remain pending."
+}

@@ -1,0 +1,47 @@
+{
+  "as_of_date": "2026-09-28",
+  "completed_months": 140,
+  "first_month": "2015-01",
+  "last_month": "2026-08",
+  "first_id_query_utc": "2026-09-28T09:28:06.567236+00:00",
+  "last_id_query_utc": "2026-09-28T13:03:09.091801+00:00",
+  "monthly_id_rows": 200177,
+  "unique_pmcids": 200177,
+  "cross_month_duplicate_rows": 0,
+  "max_monthly_candidates": 2822,
+  "sample_seed": 20260928,
+  "sample_size": 1000,
+  "sample_rule": "uniform without replacement over sorted, unique completed-month PMCIDs; proportional to month volume in expectation",
+  "sampled_year_counts": {
+    "2015": 37,
+    "2016": 32,
+    "2017": 39,
+    "2018": 44,
+    "2019": 54,
+    "2020": 91,
+    "2021": 109,
+    "2022": 145,
+    "2023": 118,
+    "2024": 110,
+    "2025": 126,
+    "2026": 95
+  },
+  "metadata_pmcids": 1000,
+  "metadata_versions": 1020,
+  "version_count_per_pmcid": {
+    "1": 980,
+    "2": 20
+  },
+  "license_codes": {
+    "CC BY": 1013,
+    "None": 4,
+    "TDM": 3
+  },
+  "retracted_versions": 4,
+  "manuscript_versions": 9,
+  "missing_doi_versions": 5,
+  "missing_pmid_versions": 15,
+  "missing_xml_versions": 0,
+  "missing_text_versions": 0,
+  "note": "Metadata only. Article text, English status, research type, XML integrity, DOI duplicates, and benchmark overlap remain unchecked."
+}

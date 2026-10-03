@@ -1,0 +1,35 @@
+{
+  "sampled_pmcids": 120,
+  "distinct_sampled_pmcids": 120,
+  "sampled_versions": 122,
+  "seed": 20260928,
+  "latest_sampled_month": "2026-08",
+  "sampled_year_counts": {
+    "2015": 10,
+    "2016": 11,
+    "2017": 10,
+    "2018": 10,
+    "2019": 10,
+    "2020": 11,
+    "2021": 10,
+    "2022": 10,
+    "2023": 11,
+    "2024": 10,
+    "2025": 10,
+    "2026": 7
+  },
+  "nonempty_months": 143,
+  "sampling_rule": "120 evenly spread completed publication months; prior checkpoint months retained",
+  "sum_monthly_candidate_counts": 201531,
+  "no_version_pmcids": 0,
+  "license_codes": {
+    "CC BY": 122
+  },
+  "retracted_versions": 0,
+  "manuscript_versions": 1,
+  "missing_doi_versions": 0,
+  "missing_pmid_versions": 2,
+  "missing_xml_versions": 0,
+  "missing_text_versions": 0,
+  "note": "Metadata pilot only; no full text or eligibility audit."
+}

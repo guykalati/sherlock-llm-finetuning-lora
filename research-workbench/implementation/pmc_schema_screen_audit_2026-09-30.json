@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "records": 29,
+  "screened": 28,
+  "unresolved": 1,
+  "no_training_admission": true,
+  "checks": [
+    "frozen source and document hashes",
+    "exact input excerpts",
+    "raw response quotes and cross-field rules",
+    "call cap",
+    "model digest",
+    "record coverage"
+  ],
+  "limits": "Development regression, no independent label validation."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "documents": 976,
+  "benchmark_context_flagged": 0,
+  "duplicate_doi": 0,
+  "duplicate_body": 0,
+  "naive_rescores": 10,
+  "elapsed_seconds": 8.56052295599875,
+  "documents_sha256": "723d8e6564be00c1615ea35a6283a858a399164ca26a9639706b7a3aa5ae3c28",
+  "screens_sha256": "71f200ff116472a3ad305bd774a484d3a8fe6b870bab023bc651237ace2ae3f9",
+  "training_admission": false,
+  "limits": "Only all1000 expert PubMedQA contexts and exact DOI/normalized-body duplicates against old977 and new batch. No semantic/paraphrase overlap or other benchmark exclusion claim."
+}

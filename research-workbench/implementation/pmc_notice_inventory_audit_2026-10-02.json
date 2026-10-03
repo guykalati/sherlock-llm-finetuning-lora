@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "documents_checked": 5819,
+  "flagged_or_related": 312,
+  "notice_type_flagged": 28,
+  "retraction_notices": 6,
+  "correction_notices": 22,
+  "relations": 402,
+  "notices_sha256": "80c820d3ada193caabff4bba75f79ffab7dd76a37a3f27695becde2ff989a1d8",
+  "limits": "Structured front/article-meta relationships and title/type keywords only. No registry refresh, unstructured body notice detection, resolved linkage or admission. Related article does not necessarily mean retraction; all flags require interpretation."
+}

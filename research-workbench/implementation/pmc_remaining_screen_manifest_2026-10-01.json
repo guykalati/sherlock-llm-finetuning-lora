@@ -1,0 +1,71 @@
+{
+  "chunks": [
+    {
+      "chunk": 0,
+      "planned": 970,
+      "excluded": 30,
+      "exclusion_reasons": {
+        "missing_identity": 25,
+        "retracted_or_unknown_version_flag": 5
+      },
+      "plan_sha256": "12dbfbf424a7cf59404537dc9a95a2a51429ac75fac7eb6e18aa71e54b707847"
+    },
+    {
+      "chunk": 1,
+      "planned": 967,
+      "excluded": 33,
+      "exclusion_reasons": {
+        "missing_identity": 30,
+        "retracted_or_unknown_version_flag": 3
+      },
+      "plan_sha256": "00a674f610ddb4db5a50c18afaaf2758f8fc1a26e5b3fadbd4297f2009b8edbd"
+    },
+    {
+      "chunk": 2,
+      "planned": 969,
+      "excluded": 31,
+      "exclusion_reasons": {
+        "missing_identity": 25,
+        "retracted_or_unknown_version_flag": 5,
+        "no_versions": 1
+      },
+      "plan_sha256": "7dca2a01d92b98393b6b80ed70627967f8994a52b6863d98ce3733e5640a92fc"
+    },
+    {
+      "chunk": 3,
+      "planned": 964,
+      "excluded": 36,
+      "exclusion_reasons": {
+        "retracted_or_unknown_version_flag": 4,
+        "missing_identity": 32
+      },
+      "plan_sha256": "a4fd00b1757729ff0c0672184c83f3bc8e23c6f82618c8cf03743c69825c0d51"
+    }
+  ],
+  "max_concurrent_jobs": 2,
+  "gpu_seconds": 0,
+  "max_cpu_allocation_minutes": 240,
+  "aggregate_storage_byte_cap": 8000000000,
+  "tokenizer_snapshot": "/home/guykalat/.cache/huggingface/hub/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "tokenizer_file_sha256": {
+    "config.json": "eed00b17e22553979d090fa492e587e92885e328914c8e0b0b78f0a0d3576b3b",
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+    "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+  },
+  "first_documents": "/home/guykalat/codex_pmc_large_xml_20261001/documents.jsonl",
+  "first_documents_sha256": "723d8e6564be00c1615ea35a6283a858a399164ca26a9639706b7a3aa5ae3c28",
+  "acquisition_root": "/home/guykalat/codex_pmc_remaining_xml_20261001",
+  "audit_root": "/home/guykalat/codex_pmc_remaining_audit_20261001",
+  "max_cpu_minutes": 10,
+  "max_gpu_seconds": 0,
+  "training_admission": false,
+  "files_sha256": {
+    "contexts.jsonl": "eebd44b4ac30744c0bf3e5ff5e0be992392a9bdf4203ea2009259c2dd3291116",
+    "run_screen.sbatch": "5d7fa50952d8cf5cf65e47e93371a7aa6d56f1d852b1f617969e80dba9ad59e7",
+    "pmc_remaining_screen.py": "68fa822ee3e10e8b8984c2791e7f1477a8d2025861c844083b3b001555fc8e5f",
+    "pmc_overlap_audit.py": "052baa81ca6e24b78467e5bbb9c0a7254c3c65e6aee9d9ccc70648fff8976382",
+    "old_index.jsonl": "4b9981259685ce36268e024c57f4401b46cabf141a04b25c84f4a6653da9d2d6"
+  }
+}

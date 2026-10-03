@@ -1,0 +1,13 @@
+{
+  "sample_size": 100,
+  "random": 80,
+  "targeted_edge": 20,
+  "manual_review_random": 20,
+  "selection_seed": 20260928,
+  "byte_cap": 250000000,
+  "xml_bytes": 11272324,
+  "well_formed": 100,
+  "jats_article": 100,
+  "rows_with_body": 99,
+  "note": "Random quality denominator is the 80 license/retraction-clean candidate articles; 20 edge cases are reported separately."
+}

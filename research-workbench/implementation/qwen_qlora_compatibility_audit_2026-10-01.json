@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "source_and_adapter_hashes_verified": true,
+  "optimizer_steps": 3,
+  "adapter_reload_max_logit_difference": 0,
+  "gpu_peak_bytes": 2983230976,
+  "runtime_versions": {
+    "torch": "2.5.1+cu124",
+    "transformers": "4.56.2",
+    "peft": "0.19.1",
+    "bitsandbytes": "0.46.1"
+  },
+  "limits": "Execution fixture only; reload uses a fresh adapter wrapper on same unchanged quantized base, not a separate process/model download or QA evaluation."
+}

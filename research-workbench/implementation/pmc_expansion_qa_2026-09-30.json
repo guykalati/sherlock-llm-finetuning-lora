@@ -1,0 +1,58 @@
+{
+  "planned": 981,
+  "verified_xml": 977,
+  "excluded_source_failures": 4,
+  "integrity_and_extraction_passed": true,
+  "naive_overlap_rescore_documents": 20,
+  "overlap_rescore_passed": true,
+  "extracted_body_words": 4647381,
+  "extraction_to_xml_word_ratio_below_80_percent": 0,
+  "lowest_extraction_ratios": [
+    [
+      0.8007174887892377,
+      "PMC12330163"
+    ],
+    [
+      0.9340729001584787,
+      "PMC7082816"
+    ],
+    [
+      0.9469324359306238,
+      "PMC4703143"
+    ],
+    [
+      0.9499516908212561,
+      "PMC7732055"
+    ],
+    [
+      0.9531436360538422,
+      "PMC8417068"
+    ],
+    [
+      0.9543336439888164,
+      "PMC9696618"
+    ],
+    [
+      0.9557403433476395,
+      "PMC12187777"
+    ],
+    [
+      0.9579476329013489,
+      "PMC8616474"
+    ],
+    [
+      0.9596674876847291,
+      "PMC8471681"
+    ],
+    [
+      0.9602541130477277,
+      "PMC13027932"
+    ]
+  ],
+  "structural_flags": {
+    "not_research_article": 297,
+    "short_body": 9,
+    "language_unconfirmed": 11
+  },
+  "note": "Word coverage counts omit section headings and some non-paragraph body elements; these are not model tokenizer counts."
+}

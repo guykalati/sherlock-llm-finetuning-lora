@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "documents": 29,
+  "screened": 14,
+  "unresolved": 15,
+  "no_training_admission": true,
+  "limits": "Checks exact quotes and declared cross-field gates; model labels remain unreliable and this was an error-informed regression set."
+}

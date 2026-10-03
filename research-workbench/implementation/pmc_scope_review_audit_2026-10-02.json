@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "rows": 32,
+  "quotes_checked": 82,
+  "label_sha256": "bb7b520845c8582e8b5aae1011e5cb321bfd292f420d13ba2513cdcf205bcf70",
+  "tiers": {
+    "human_clinical_empirical": 21,
+    "review_consensus": 1,
+    "human_health_services": 2,
+    "preclinical": 4,
+    "methods_only_or_unresolved": 1,
+    "case_report": 1,
+    "other": 2
+  },
+  "centrality": {
+    "uncertain": 7,
+    "core": 22,
+    "background_only": 3
+  },
+  "human_empirical_core": 15,
+  "training_admission": false,
+  "limits": "Single-Codex-reviewer source-narrative development labels; independent local quote/provenance checks, not independent scientific adjudication."
+}

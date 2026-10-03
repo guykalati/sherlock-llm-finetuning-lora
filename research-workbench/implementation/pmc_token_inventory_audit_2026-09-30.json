@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "job": 21906909,
+  "cpu_wall_seconds": 55,
+  "gpu_allocation": 0,
+  "token_inventory_sha256": "8f2a9b551e5e08d879aaf360f6df1b634e439ebd69663cdbefbad5c001f0087a",
+  "limits": "Hash/count audit of CPU tokenizer inventory; no approved corpus or training."
+}

@@ -1,0 +1,8 @@
+{
+  "documents": 15,
+  "raw_tokens": 137527,
+  "queue_sha256": "48891315dd1cb98e1d9cd880b71b938152fd79f4c0d40d34da841a6f271e0a19",
+  "label_sha256": "bb7b520845c8582e8b5aae1011e5cb321bfd292f420d13ba2513cdcf205bcf70",
+  "training_admission": false,
+  "limits": "Source-reviewed development candidate subset; mixed human/cell/animal flags preserved. Token policy raw and unfinished, no held-out split or independent domain adjudication."
+}

@@ -1,0 +1,23 @@
+{
+  "random_xml_pool": 80,
+  "reviewed_total": 40,
+  "original_random_review": 20,
+  "new_random_review": 20,
+  "central": 28,
+  "central_wilson_95": [
+    0.545696893456796,
+    0.8192532908430471
+  ],
+  "original_candidate": 16,
+  "original_candidate_wilson_95": [
+    0.2634811061240136,
+    0.5540438017260649
+  ],
+  "structural_queue_confusion": {
+    "queued_original": 14,
+    "queued_not_original": 9,
+    "not_queued_original": 2,
+    "not_queued_not_original": 15
+  },
+  "interpretation": "One agent qualitative screen; development estimate, not expert adjudication or training eligibility."
+}

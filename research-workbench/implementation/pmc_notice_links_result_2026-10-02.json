@@ -1,0 +1,36 @@
+{
+  "status": "resolved",
+  "documents": 5819,
+  "notice_rows": 312,
+  "relevant_relations": 130,
+  "relation_types": {
+    "correction-forward": 102,
+    "retracted-article": 6,
+    "corrected-article": 22
+  },
+  "targets_in_pool": 2,
+  "unparsed_targets": 0,
+  "held_for_review": 129,
+  "reason_counts": {
+    "correction-forward_requires_review": 101,
+    "notice_document_requires_review": 28,
+    "corrected-article_incoming_requires_review": 1,
+    "correction-forward_incoming_requires_review": 1
+  },
+  "input_sha256": {
+    "data/pmc_notice_retrieved_20261002/notices.jsonl": "80c820d3ada193caabff4bba75f79ffab7dd76a37a3f27695becde2ff989a1d8",
+    "data/pmc_xml_expansion_20260929/documents.jsonl": "77e94853fb936da3b378880532c56a32f9bcd6a7629d9e260cacd4f090928964",
+    "data/pmc_token_expand_retrieved_20261001/documents.jsonl": "723d8e6564be00c1615ea35a6283a858a399164ca26a9639706b7a3aa5ae3c28",
+    "data/pmc_remaining_retrieved_20261001/chunks/0/documents.jsonl": "bd19f9dc792f8265f6459fde4053e6b693151aade0aab89ca34e073cc84022ad",
+    "data/pmc_remaining_retrieved_20261001/chunks/1/documents.jsonl": "76f17770390edd4d797953de2e82545f637eabf4bfbccf4fb9448395a9ff55e1",
+    "data/pmc_remaining_retrieved_20261001/chunks/2/documents.jsonl": "dc5e6600aa1d0c53abd4e040af8f8b6ccaabff4077ff70d2fd55d28ecfa2a9fa",
+    "data/pmc_remaining_retrieved_20261001/chunks/3/documents.jsonl": "9ad140c93e72e07f063d29b328421ef65cf4c46409179a5dd67ce171e356aa35"
+  },
+  "training_admission": false,
+  "limits": "Exact explicitly typed PMCID/DOI/PMID links only. Corrections require content review; they do not prove invalid findings. No unstructured notice search, external registry refresh or deletion; remaining articles are still unreviewed.",
+  "source_sha256": "d0161c3a875d429f1e11aa6646d906d257f4614e8148d5c995b7194ff5efce08",
+  "outputs_sha256": {
+    "links.jsonl": "2e421815b4f879c216f265e8fae3ff1e3e349b3ef92959fc4078bf628f3a8152",
+    "review_holds.jsonl": "38d6adac04635608b8e78453161262596860db89568365997e7060c16466feb4"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "seed": 20260930,
+  "pool_size": 887,
+  "count": 20,
+  "pmcids": [
+    "PMC10206540",
+    "PMC10464339",
+    "PMC12169696",
+    "PMC12678842",
+    "PMC13013801",
+    "PMC4703143",
+    "PMC4961921",
+    "PMC5688621",
+    "PMC6388105",
+    "PMC7157501",
+    "PMC7847614",
+    "PMC7941269",
+    "PMC7993599",
+    "PMC8304882",
+    "PMC8562351",
+    "PMC8618309",
+    "PMC8682108",
+    "PMC8774900",
+    "PMC8959037",
+    "PMC9598265"
+  ],
+  "contract_sha256": "8912e8a6bf392b91698553ad0a5be1c27c39b4338f2bd09cd3da0f6dc5701b0e",
+  "note": "Fresh random development review outside original XML pilot; one-agent qualitative labels, no independent clinical adjudication; failed source files stay in denominator."
+}

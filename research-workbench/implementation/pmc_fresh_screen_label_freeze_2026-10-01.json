@@ -1,0 +1,8 @@
+{
+  "labels_sha256": "b2d0716e511dcc13df72f186888a3d5483342caf1daa8f12546fa3ee0a336a31",
+  "documents_sha256": "3ad64a47c889463b4bd709ee94fe9f2edba62117f0b16ce9f206faac3988416d",
+  "positive_candidates": 5,
+  "ambiguous_scope": 4,
+  "labels_frozen_before_model_outputs": true,
+  "independent_expert_adjudication": false
+}

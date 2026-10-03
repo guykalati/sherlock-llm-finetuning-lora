@@ -1,0 +1,18 @@
+{
+  "recorded": 20,
+  "fresh_20_agreement": {
+    "tp": 5,
+    "fp": 3,
+    "tn": 10,
+    "fn": 0,
+    "unresolved": 2
+  },
+  "fresh_disagreements": [
+    "PMC10860437",
+    "PMC11335015",
+    "PMC13080820",
+    "PMC4856269",
+    "PMC9503453"
+  ],
+  "limits": "Fresh-case agreement, with frozen source-only single-agent labels and four scope-ambiguous cases. Not independent expert validation or training admission."
+}

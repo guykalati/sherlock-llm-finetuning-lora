@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "artifact_checks": "manifest/source/cases hashes, ID coverage, context hashes and token caps",
+  "model_weights": "Compute job recorded cached file hashes and checked safetensor LFS blob hashes; weights not independently downloaded locally",
+  "manual_development_rubric": [
+    {
+      "case_id": "pmc_dev_01",
+      "expected_abstention": false,
+      "answer_content_supported_by_passage": true,
+      "correct_abstention": null,
+      "explicit_exact_support_quote_present": false
+    },
+    {
+      "case_id": "pmc_dev_02",
+      "expected_abstention": true,
+      "answer_content_supported_by_passage": true,
+      "correct_abstention": true,
+      "explicit_exact_support_quote_present": null
+    },
+    {
+      "case_id": "pmc_dev_03",
+      "expected_abstention": false,
+      "answer_content_supported_by_passage": true,
+      "correct_abstention": null,
+      "explicit_exact_support_quote_present": false
+    },
+    {
+      "case_id": "pmc_dev_04",
+      "expected_abstention": false,
+      "answer_content_supported_by_passage": true,
+      "correct_abstention": null,
+      "explicit_exact_support_quote_present": false
+    },
+    {
+      "case_id": "pmc_dev_05",
+      "expected_abstention": true,
+      "answer_content_supported_by_passage": true,
+      "correct_abstention": true,
+      "explicit_exact_support_quote_present": null
+    },
+    {
+      "case_id": "pmc_dev_06",
+      "expected_abstention": false,
+      "answer_content_supported_by_passage": true,
+      "correct_abstention": null,
+      "explicit_exact_support_quote_present": false
+    }
+  ],
+  "supported_answers": 4,
+  "correct_abstentions": 2,
+  "supported_answers_with_requested_quote": 0,
+  "limits": "Single-agent rubric of six constructed development cases, not an independent accuracy estimate or trained-model evaluation."
+}

@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "new_documents": 3866,
+  "failed": 4,
+  "failure_reasons": {
+    "ValueError: XML MD5 mismatch": 4
+  },
+  "languages": {
+    "en": 3838,
+    "pt": 18,
+    "de": 4,
+    "fr": 3,
+    "EN": 1,
+    "es": 2
+  },
+  "flags": {
+    "not_explicit_english": 28,
+    "short_body": 28,
+    "retraction_document": 5
+  },
+  "tokens_new_unreviewed": 33629658,
+  "tokens_new_english_unreviewed": 33345648,
+  "combined_distinct_documents": 5819,
+  "combined_raw_tokens": 50437502,
+  "combined_english_raw_tokens": 50018175,
+  "screens_sha256": "2606c647030a9a4e7d27e2b7f1c6e701f06b8a9c2c1765aeb18255cf972c291f",
+  "training_admission": false,
+  "limits": "Local source/plan/output hashes, row coverage and volume arithmetic verified; remote full XML extraction and overlap checks are not independently rerun locally. Retraction notices, language/body and study-scope flags block admission."
+}

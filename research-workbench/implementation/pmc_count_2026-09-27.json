@@ -1,0 +1,7 @@
+{
+  "queried_at_utc": "2026-09-27T20:29:59.251534+00:00",
+  "query": "(\"cc0 license\"[filter] OR \"cc by license\"[filter]) AND (cardiovascular[tiab] OR cardiac[tiab] OR electrocardiogram[tiab] OR arrhythmia[tiab]) AND 2015/01/01:2026/12/31[pubdate] NOT \"pmc embargo\"[filter]",
+  "candidate_count": 201510,
+  "source": "NCBI E-utilities ESearch, db=pmc, retmax=0",
+  "interpretation": "Search candidates only; not a verified eligible corpus or downloaded article count"
+}

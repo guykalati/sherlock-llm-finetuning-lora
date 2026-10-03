@@ -1,0 +1,22 @@
+{
+  "sample_articles": 1000,
+  "version_status": {
+    "version_candidate": 996,
+    "exclude_retracted": 4
+  },
+  "chosen_license": {
+    "CC BY": 996
+  },
+  "missing_doi_chosen_version": 5,
+  "duplicate_doi_article_rows": 0,
+  "xml_checked": 96,
+  "structural_queue_in_random_xml": 47,
+  "manual_reviewed": 20,
+  "manual_structural_confusion": {
+    "queue_and_eligible": 6,
+    "queue_but_ineligible": 6,
+    "not_queued_but_eligible": 0,
+    "not_queued_and_ineligible": 8
+  },
+  "note": "A structural queue is triage, not final topic or research eligibility. Benchmark overlap is unchecked."
+}

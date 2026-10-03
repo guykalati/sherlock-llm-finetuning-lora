@@ -1,0 +1,30 @@
+{
+  "purpose": "Fresh frozen corpus-screen development sample; selected before article content/model output inspection",
+  "pmcids": [
+    "PMC11335015",
+    "PMC7506137",
+    "PMC11190372",
+    "PMC9246386",
+    "PMC9659841",
+    "PMC5960118",
+    "PMC13080820",
+    "PMC13371658",
+    "PMC7793383",
+    "PMC12975904",
+    "PMC9637925",
+    "PMC10860437",
+    "PMC7230707",
+    "PMC9503453",
+    "PMC5295571",
+    "PMC12676773",
+    "PMC12294447",
+    "PMC4856269",
+    "PMC6692400",
+    "PMC8102189"
+  ],
+  "seed": 20261002,
+  "xml_plan_sha256": "f0d05e2d57ce19497a69e01509ada8bfd0134814fa778b57410a5b3b412abbc7",
+  "labels_status": "pending",
+  "model_outputs_status": "pending",
+  "limits": "Unseen cases for current prompt, but single-agent labels are not independent expert adjudication. No training admission."
+}

@@ -1,0 +1,64 @@
+{
+  "status": "artifact_checks_passed",
+  "valid_json_schema": 5,
+  "supported_answers_with_exact_quote": 4,
+  "semantic_abstentions": 2,
+  "strict_abstentions": 0,
+  "rows": [
+    {
+      "case_id": "pmc_dev_01",
+      "supported_question": true,
+      "valid_json_schema": true,
+      "exact_source_quote": true,
+      "strict_abstention_contract": null,
+      "source_consistent_answer_manual_review": true,
+      "semantic_abstention_manual_review": null
+    },
+    {
+      "case_id": "pmc_dev_02",
+      "supported_question": false,
+      "valid_json_schema": false,
+      "exact_source_quote": null,
+      "strict_abstention_contract": false,
+      "source_consistent_answer_manual_review": true,
+      "semantic_abstention_manual_review": true
+    },
+    {
+      "case_id": "pmc_dev_03",
+      "supported_question": true,
+      "valid_json_schema": true,
+      "exact_source_quote": true,
+      "strict_abstention_contract": null,
+      "source_consistent_answer_manual_review": true,
+      "semantic_abstention_manual_review": null
+    },
+    {
+      "case_id": "pmc_dev_04",
+      "supported_question": true,
+      "valid_json_schema": true,
+      "exact_source_quote": true,
+      "strict_abstention_contract": null,
+      "source_consistent_answer_manual_review": true,
+      "semantic_abstention_manual_review": null
+    },
+    {
+      "case_id": "pmc_dev_05",
+      "supported_question": false,
+      "valid_json_schema": true,
+      "exact_source_quote": null,
+      "strict_abstention_contract": false,
+      "source_consistent_answer_manual_review": true,
+      "semantic_abstention_manual_review": true
+    },
+    {
+      "case_id": "pmc_dev_06",
+      "supported_question": true,
+      "valid_json_schema": true,
+      "exact_source_quote": true,
+      "strict_abstention_contract": null,
+      "source_consistent_answer_manual_review": true,
+      "semantic_abstention_manual_review": null
+    }
+  ],
+  "limits": "Same six constructed development cases, single-agent answer-content review. Schema/quote substring checks automated; no independent accuracy or training claim."
+}

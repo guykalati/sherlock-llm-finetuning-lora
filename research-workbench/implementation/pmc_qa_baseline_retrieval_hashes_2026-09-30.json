@@ -1,0 +1,8 @@
+{
+  "result.json": "ac658ab343fae311a4af80ba7928b80e8807a33435a08923171b9d56e152179a",
+  "slurm-21919291.out": "e668d40073a54c6cb74b5d2ddb7e80de3e3b23b8b9794f31b0958aaded6f5d22",
+  "cases.jsonl": "d323d28626a2db23c6a31b46a0e9af381753b10252e096daaad78a6b17b4e1a9",
+  "run_pmc_qa_baseline_smoke.sbatch": "32210166783cdf07ed90f4073ca5a8a7860f6aa1ffb3f492ef67c8c6ee06d4ae",
+  "pmc_qa_baseline_smoke.py": "5f9cc0c7e344bdd5fb19962169e2206fad5e1ddbe36378fd53a946e0b16222ce",
+  "manifest.json": "c9c2fe97bf1fde80186b854522f5f31df38b4d17b3ad34672d9c1e1ff1acf633"
+}
