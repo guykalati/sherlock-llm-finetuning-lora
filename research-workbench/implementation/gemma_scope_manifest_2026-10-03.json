@@ -1,0 +1,15 @@
+{
+  "input_sha256": {
+    "gemma_scope_screen.py": "76f6438de6db580e04348ee8095a66e0bf0e77d26c1ed010ad26a01199bcecee",
+    "scope_output_gate.py": "3d2294ce6541b19838c42527877ff74cf09bf3f0bfc5bae89bee3329a2d905f6",
+    "qwen_scope_check.py": "98a2336575ce32a042c6d670eeb29eb7771dd6397dbcfcabb2d6d9bd81f98fbf",
+    "cases.jsonl": "edf085a394a893573ea661d70c73e8c08331cb714775b81247a5f104d9128d40"
+  },
+  "protocol_sha256": "229435a0504a3684d796aac1a9af0a091ddec728cb9c7f5ab9aa14169225c62c",
+  "model": "gemma4:12b-it-qat",
+  "model_digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+  "max_calls": 48,
+  "max_local_seconds": 1500,
+  "retries": 0,
+  "training_admission": false
+}

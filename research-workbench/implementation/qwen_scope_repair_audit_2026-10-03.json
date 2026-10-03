@@ -1,0 +1,488 @@
+{
+  "status": "audited_complete",
+  "raw_sha256": "8e9154f47e06a8e28b9b7cce0d668941318d838843d382e849652dfcbc055724",
+  "groups": {
+    "old_development_revised": {
+      "cases": 32,
+      "strict_valid": 4,
+      "transport_valid": 4,
+      "both_agreement_over_all_cases": 2,
+      "tier_agreement_over_all_cases": 3,
+      "centrality_agreement_over_all_cases": 2,
+      "reference_centrality_uncertain": 7,
+      "primary_proposals": 2,
+      "primary_proposals_matching_draft_primary": 1,
+      "primary_proposals_reference_uncertain": 1,
+      "primary_proposals_clear_draft_nonprimary": 0,
+      "transport_failures": {
+        "schema": 27,
+        "population_quote_not_exact": 1
+      },
+      "confusion_counts": {
+        "study_tier": [
+          {
+            "reference": "human_clinical_empirical",
+            "prediction": "human_clinical_empirical",
+            "count": 3
+          },
+          {
+            "reference": "human_clinical_empirical",
+            "prediction": "preclinical",
+            "count": 1
+          }
+        ],
+        "cardiac_centrality": [
+          {
+            "reference": "uncertain",
+            "prediction": "core",
+            "count": 1
+          },
+          {
+            "reference": "background_only",
+            "prediction": "background_only",
+            "count": 1
+          },
+          {
+            "reference": "core",
+            "prediction": "core",
+            "count": 1
+          },
+          {
+            "reference": "core",
+            "prediction": "background_only",
+            "count": 1
+          }
+        ]
+      },
+      "disagreements": [
+        {
+          "pmcid": "PMC11353756",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": ""
+        },
+        {
+          "pmcid": "PMC9387187",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "prediction": {
+            "study_tier": "preclinical",
+            "cardiac_centrality": "background_only"
+          },
+          "reason": "The study primarily focuses on the impact of time since diagnosis on cardiac autonomic modulation in PD patients, rather than directly studying cardiovascular disease or its treatments."
+        }
+      ]
+    },
+    "fresh_development_baseline": {
+      "cases": 16,
+      "strict_valid": 0,
+      "transport_valid": 9,
+      "both_agreement_over_all_cases": 3,
+      "tier_agreement_over_all_cases": 7,
+      "centrality_agreement_over_all_cases": 3,
+      "reference_centrality_uncertain": 9,
+      "primary_proposals": 6,
+      "primary_proposals_matching_draft_primary": 3,
+      "primary_proposals_reference_uncertain": 3,
+      "primary_proposals_clear_draft_nonprimary": 0,
+      "transport_failures": {
+        "question_quote_not_exact": 5,
+        "population_quote_not_exact": 2
+      },
+      "confusion_counts": {
+        "study_tier": [
+          {
+            "reference": "human_clinical_empirical",
+            "prediction": "human_clinical_empirical",
+            "count": 7
+          },
+          {
+            "reference": "preclinical",
+            "prediction": "human_clinical_empirical",
+            "count": 1
+          },
+          {
+            "reference": "human_health_services",
+            "prediction": "human_clinical_empirical",
+            "count": 1
+          }
+        ],
+        "cardiac_centrality": [
+          {
+            "reference": "core",
+            "prediction": "core",
+            "count": 3
+          },
+          {
+            "reference": "uncertain",
+            "prediction": "core",
+            "count": 3
+          },
+          {
+            "reference": "uncertain",
+            "prediction": "background_only",
+            "count": 3
+          }
+        ]
+      },
+      "disagreements": [
+        {
+          "pmcid": "PMC5824886",
+          "reference": {
+            "study_tier": "preclinical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study focuses on the redox and coordinate interactions of epinephrine with iron, which are crucial for understanding cardiovascular issues related to chronic stress."
+        },
+        {
+          "pmcid": "PMC12656480",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study focuses on a specific population of hemodialysis patients and examines the relationship between leptin, adiponectin, and their ratio with mortality, which is a direct concern for cardiovascular health."
+        },
+        {
+          "pmcid": "PMC11489290",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "background_only"
+          },
+          "reason": "The study focuses on patients with type 2 diabetes mellitus, which is a metabolic condition rather than a direct cardiovascular issue."
+        },
+        {
+          "pmcid": "PMC7010311",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The abstract clearly states that the study aims to determine the impact of therapy on salt intake in PA patients, focusing on how adrenalectomy versus mineralocorticoid receptor antagonists affect salt consumption."
+        },
+        {
+          "pmcid": "PMC13088976",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "background_only"
+          },
+          "reason": "The study focuses on the prevalence and risk factors of DSPN in T2DM patients, which is a metabolic disease rather than a cardiovascular disease."
+        },
+        {
+          "pmcid": "PMC9214991",
+          "reference": {
+            "study_tier": "human_health_services",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "background_only"
+          },
+          "reason": "The study focuses on assessing the quality of care processes in different clinic settings for SLE patients, but does not primarily concern cardiovascular or cerebrovascular diseases."
+        }
+      ]
+    },
+    "fresh_development_revised": {
+      "cases": 16,
+      "strict_valid": 1,
+      "transport_valid": 2,
+      "both_agreement_over_all_cases": 0,
+      "tier_agreement_over_all_cases": 1,
+      "centrality_agreement_over_all_cases": 0,
+      "reference_centrality_uncertain": 9,
+      "primary_proposals": 0,
+      "primary_proposals_matching_draft_primary": 0,
+      "primary_proposals_reference_uncertain": 0,
+      "primary_proposals_clear_draft_nonprimary": 0,
+      "transport_failures": {
+        "population_quote_not_exact": 2,
+        "schema": 12
+      },
+      "confusion_counts": {
+        "study_tier": [
+          {
+            "reference": "human_clinical_empirical",
+            "prediction": "preclinical",
+            "count": 1
+          },
+          {
+            "reference": "human_health_services",
+            "prediction": "human_health_services",
+            "count": 1
+          }
+        ],
+        "cardiac_centrality": [
+          {
+            "reference": "uncertain",
+            "prediction": "background_only",
+            "count": 2
+          }
+        ]
+      },
+      "disagreements": [
+        {
+          "pmcid": "PMC11489290",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "preclinical",
+            "cardiac_centrality": "background_only"
+          },
+          "reason": "The study primarily focuses on the EGG and its relation to T2DM, with no primary emphasis on cardiovascular outcomes."
+        },
+        {
+          "pmcid": "PMC9214991",
+          "reference": {
+            "study_tier": "human_health_services",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_health_services",
+            "cardiac_centrality": "background_only"
+          },
+          "reason": ""
+        }
+      ]
+    },
+    "old_development_original": {
+      "cases": 32,
+      "strict_valid": 0,
+      "transport_valid": 21,
+      "both_agreement_over_all_cases": 10,
+      "tier_agreement_over_all_cases": 13,
+      "centrality_agreement_over_all_cases": 16,
+      "reference_centrality_uncertain": 7,
+      "primary_proposals": 18,
+      "primary_proposals_matching_draft_primary": 9,
+      "primary_proposals_reference_uncertain": 3,
+      "primary_proposals_clear_draft_nonprimary": 6,
+      "transport_failures": {
+        "population_quote_not_exact": 7,
+        "question_quote_not_exact": 4
+      },
+      "confusion_counts": {
+        "study_tier": [
+          {
+            "reference": "human_clinical_empirical",
+            "prediction": "human_clinical_empirical",
+            "count": 13
+          },
+          {
+            "reference": "review_consensus",
+            "prediction": "human_clinical_empirical",
+            "count": 1
+          },
+          {
+            "reference": "human_health_services",
+            "prediction": "human_clinical_empirical",
+            "count": 2
+          },
+          {
+            "reference": "preclinical",
+            "prediction": "human_clinical_empirical",
+            "count": 3
+          },
+          {
+            "reference": "case_report",
+            "prediction": "human_clinical_empirical",
+            "count": 1
+          },
+          {
+            "reference": "other",
+            "prediction": "human_clinical_empirical",
+            "count": 1
+          }
+        ],
+        "cardiac_centrality": [
+          {
+            "reference": "uncertain",
+            "prediction": "core",
+            "count": 3
+          },
+          {
+            "reference": "uncertain",
+            "prediction": "background_only",
+            "count": 2
+          },
+          {
+            "reference": "background_only",
+            "prediction": "background_only",
+            "count": 1
+          },
+          {
+            "reference": "core",
+            "prediction": "core",
+            "count": 15
+          }
+        ]
+      },
+      "disagreements": [
+        {
+          "pmcid": "PMC11353756",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study focuses on patients with psoriasis and metabolic syndrome, which falls under the core category of cardiovascular/cerebrovascular disease, making it a relevant clinical study."
+        },
+        {
+          "pmcid": "PMC7499680",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "background_only"
+          },
+          "reason": "The study focuses on describing clinical characteristics of paediatric patients with COVID-19, but does not have a primary cardiac focus."
+        },
+        {
+          "pmcid": "PMC11211012",
+          "reference": {
+            "study_tier": "review_consensus",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "background_only"
+          },
+          "reason": "The study focuses on evaluating the effects of different types of fluids on the prognosis of patients undergoing noncardiac surgery, but does not specifically center around cardiovascular or cerebrovascular diseases."
+        },
+        {
+          "pmcid": "PMC13217667",
+          "reference": {
+            "study_tier": "human_health_services",
+            "cardiac_centrality": "core"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study focuses on caregivers of children with Rett syndrome, which is a neurodevelopmental disorder associated with increased risks of respiratory and cardiorespiratory instability."
+        },
+        {
+          "pmcid": "PMC13500855",
+          "reference": {
+            "study_tier": "preclinical",
+            "cardiac_centrality": "core"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The abstract clearly states that the study investigates the impact of endothelial ADAM17 on post-myocardial infarction recovery, making it a core question related to cardiovascular disease."
+        },
+        {
+          "pmcid": "PMC9692711",
+          "reference": {
+            "study_tier": "case_report",
+            "cardiac_centrality": "core"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The abstract and opening body clearly indicate that the study focuses on MVP, which is a valvular heart defect, and the genetic mutations contributing to arrhythmias in familial MVP cases. The conclusion section reinforces this focus on MVP and arrhythmias."
+        },
+        {
+          "pmcid": "PMC5460254",
+          "reference": {
+            "study_tier": "preclinical",
+            "cardiac_centrality": "core"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study focuses on comparing the effects of expanded CUG and CCUG repeats in Drosophila models, directly addressing the pathogenesis of DM1 and DM2."
+        },
+        {
+          "pmcid": "PMC6772048",
+          "reference": {
+            "study_tier": "human_health_services",
+            "cardiac_centrality": "core"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study focuses on cardiometabolic risk factors that are known to contribute to cardiovascular disease, making it a core study in the field of cardiovascular research."
+        },
+        {
+          "pmcid": "PMC8905559",
+          "reference": {
+            "study_tier": "other",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study focuses on evaluating the effectiveness of asynchronous online lectures versus traditional lectures in teaching cardiovascular physiology to medical students during the COVID-19 pandemic. It uses empirical data from a multi-person human cohort (613 medical students) to assess academic achievement and attitudes."
+        },
+        {
+          "pmcid": "PMC8391914",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study focuses on cancer patients and their risk factors for severe COVID-19, including cardiac disease, which is central to the research question."
+        },
+        {
+          "pmcid": "PMC9394444",
+          "reference": {
+            "study_tier": "preclinical",
+            "cardiac_centrality": "core"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The abstract clearly states that the study examines the effect of ursolic acid on Trypanosoma cruzi infection in vitro, specifically targeting the late infection stage in macrophages and cardiac cells."
+        }
+      ]
+    }
+  },
+  "fresh_contexts_clipped": 2,
+  "gpu_elapsed_seconds": 323.35898178396747,
+  "gpu_name": "NVIDIA GeForce RTX 3090",
+  "training_admission": false,
+  "limits": "Agreement with single-agent draft references, not expert accuracy. Old cases are error-informed; fresh source labels are limited-scope and include uncertainty. No automatic corpus admission."
+}

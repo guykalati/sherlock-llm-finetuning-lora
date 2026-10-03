@@ -1,0 +1,495 @@
+{
+  "status": "audited_complete",
+  "raw_sha256": "18723a69b89785d487ec380acfe0859662154e87bcc1e299cebbec93f0bf4845",
+  "groups": {
+    "old_development": {
+      "cases": 32,
+      "controller_valid_records": 32,
+      "model_json_compliance": "not measured: controller constructs records",
+      "study_tier_agreement": 23,
+      "centrality_agreement": 22,
+      "both_agreement": 15,
+      "disagreements": [
+        {
+          "pmcid": "PMC11353756",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "background_only"
+          },
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC7499680",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC11211012",
+          "prediction": {
+            "study_tier": "review_consensus",
+            "cardiac_centrality": "background_only"
+          },
+          "reference": {
+            "study_tier": "review_consensus",
+            "cardiac_centrality": "uncertain"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC9269959",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC9738010",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "background_only"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC13217667",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "human_health_services",
+            "cardiac_centrality": "core"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC13500855",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "preclinical",
+            "cardiac_centrality": "core"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC7762686",
+          "prediction": {
+            "study_tier": "other",
+            "cardiac_centrality": "background_only"
+          },
+          "reference": {
+            "study_tier": "methods_only_or_unresolved",
+            "cardiac_centrality": "uncertain"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC9692711",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "case_report",
+            "cardiac_centrality": "core"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC5460254",
+          "prediction": {
+            "study_tier": "preclinical",
+            "cardiac_centrality": "uncertain"
+          },
+          "reference": {
+            "study_tier": "preclinical",
+            "cardiac_centrality": "core"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC12340430",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC5074518",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "background_only"
+          },
+          "reference": {
+            "study_tier": "other",
+            "cardiac_centrality": "background_only"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC8096277",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "preclinical",
+            "cardiac_centrality": "core"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC6772048",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "human_health_services",
+            "cardiac_centrality": "core"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC9598265",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "background_only"
+          },
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC8905559",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "other",
+            "cardiac_centrality": "uncertain"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC9394444",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "preclinical",
+            "cardiac_centrality": "core"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        }
+      ],
+      "confusion_counts": {
+        "study_tier": [
+          {
+            "reference": "human_clinical_empirical",
+            "prediction": "human_clinical_empirical",
+            "count": 21
+          },
+          {
+            "reference": "review_consensus",
+            "prediction": "review_consensus",
+            "count": 1
+          },
+          {
+            "reference": "human_health_services",
+            "prediction": "human_clinical_empirical",
+            "count": 2
+          },
+          {
+            "reference": "preclinical",
+            "prediction": "human_clinical_empirical",
+            "count": 3
+          },
+          {
+            "reference": "methods_only_or_unresolved",
+            "prediction": "other",
+            "count": 1
+          },
+          {
+            "reference": "case_report",
+            "prediction": "human_clinical_empirical",
+            "count": 1
+          },
+          {
+            "reference": "preclinical",
+            "prediction": "preclinical",
+            "count": 1
+          },
+          {
+            "reference": "other",
+            "prediction": "human_clinical_empirical",
+            "count": 2
+          }
+        ],
+        "cardiac_centrality": [
+          {
+            "reference": "uncertain",
+            "prediction": "background_only",
+            "count": 3
+          },
+          {
+            "reference": "uncertain",
+            "prediction": "core",
+            "count": 3
+          },
+          {
+            "reference": "core",
+            "prediction": "uncertain",
+            "count": 2
+          },
+          {
+            "reference": "background_only",
+            "prediction": "uncertain",
+            "count": 1
+          },
+          {
+            "reference": "core",
+            "prediction": "core",
+            "count": 19
+          },
+          {
+            "reference": "background_only",
+            "prediction": "background_only",
+            "count": 2
+          },
+          {
+            "reference": "core",
+            "prediction": "background_only",
+            "count": 1
+          },
+          {
+            "reference": "uncertain",
+            "prediction": "uncertain",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "fresh_development": {
+      "cases": 16,
+      "controller_valid_records": 16,
+      "model_json_compliance": "not measured: controller constructs records",
+      "study_tier_agreement": 13,
+      "centrality_agreement": 8,
+      "both_agreement": 7,
+      "disagreements": [
+        {
+          "pmcid": "PMC11834866",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "background_only"
+          },
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC5824886",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "preclinical",
+            "cardiac_centrality": "uncertain"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC10266211",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "background_only"
+          },
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC12656480",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC10607586",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC7010311",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC13088976",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC9214991",
+          "prediction": {
+            "study_tier": "other",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "human_health_services",
+            "cardiac_centrality": "uncertain"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        },
+        {
+          "pmcid": "PMC12048898",
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reference": {
+            "study_tier": "preclinical",
+            "cardiac_centrality": "core"
+          },
+          "both_agree": false,
+          "source_review_required": true
+        }
+      ],
+      "confusion_counts": {
+        "study_tier": [
+          {
+            "reference": "human_clinical_empirical",
+            "prediction": "human_clinical_empirical",
+            "count": 13
+          },
+          {
+            "reference": "preclinical",
+            "prediction": "human_clinical_empirical",
+            "count": 2
+          },
+          {
+            "reference": "human_health_services",
+            "prediction": "other",
+            "count": 1
+          }
+        ],
+        "cardiac_centrality": [
+          {
+            "reference": "uncertain",
+            "prediction": "background_only",
+            "count": 2
+          },
+          {
+            "reference": "core",
+            "prediction": "core",
+            "count": 7
+          },
+          {
+            "reference": "uncertain",
+            "prediction": "core",
+            "count": 6
+          },
+          {
+            "reference": "uncertain",
+            "prediction": "uncertain",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  "elapsed_seconds": 51.710791185032576,
+  "gpu_name": "NVIDIA GeForce RTX 3090",
+  "training_admission": false,
+  "limits": "All48 are now development cases. Draft-reference agreement only; not independent expert accuracy. Controller schema does not prove model JSON compliance, evidence support, or calibrated confidence."
+}
