@@ -7,3 +7,7 @@ Cluster connection was restored via a shared SSH control connection. The latest 
 ## Saved-output continuation
 
 The 32 invalid_json results all contain complete fenced JSON. A separately reported fence-only replay validates 21/32 outputs; 11 still fail quote constraints. Only 10/21 derived valid cases agree with the draft reference on both study tier and cardiac centrality. See [the diagnosis](QWEN_SCOPE_SAVED_RESULT_2026-10-03.md). The original strict failures remain unchanged. No new GPU run or admission occurred.
+
+## Scope repair comparison
+
+Job 21997748 submitted: 64 calls under a 20-minute GPU cap, no retries/training/admission. Revised instructions on 32 old cases and paired baseline/revised instructions on 16 source-reviewed fresh cases. Fresh labels are frozen draft review, not expert gold. Results pending. See the frozen scope repair protocol.

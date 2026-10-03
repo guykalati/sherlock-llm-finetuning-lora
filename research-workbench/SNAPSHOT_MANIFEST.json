@@ -1156,6 +1156,36 @@
       "source_relative_path": "implementation/qwen_scope_saved_audit_2026-10-03.json",
       "sha256": "51cdb29e27f3a9d9ea5a953b345fa6c6868885e344fd62c310e677091390db14",
       "bytes": 30213
+    },
+    {
+      "source_relative_path": "QWEN_SCOPE_REPAIR_PROTOCOL_2026-10-03.md",
+      "sha256": "c4db2d5f260bcd67ffed241ee9a5b372e413ebcc6ce8dfe249a637509b1ffb6f",
+      "bytes": 3258
+    },
+    {
+      "source_relative_path": "implementation/qwen_scope_repair.py",
+      "sha256": "136323893009149ea5669f0a0312036f7c2242df2570b343d4d95139a9de9dac",
+      "bytes": 7612
+    },
+    {
+      "source_relative_path": "implementation/audit_qwen_scope_repair.py",
+      "sha256": "203dd804ed169ca486eac7351ef542c92906cca72d5e24d81648d680ef8c28d2",
+      "bytes": 6477
+    },
+    {
+      "source_relative_path": "implementation/qwen_scope_repair_manifest_2026-10-03.json",
+      "sha256": "7475d4c18a985fe796b2a32d4d7debfcda0e2a35b4b85f30ceb6e99134ee249f",
+      "bytes": 1833
+    },
+    {
+      "source_relative_path": "implementation/pmc_scope_fresh_labels_2026-10-03.jsonl",
+      "sha256": "65cb570bfc33e4a4760775589b6f71931e703f8142fc309461f4db7883247df8",
+      "bytes": 22104
+    },
+    {
+      "source_relative_path": "implementation/pmc_scope_fresh_label_freeze_2026-10-03.json",
+      "sha256": "5947cb6975e5d4f9d4f264afb1d9adde0d794f0a646f42858ed9d5e2f3bf2d3c",
+      "bytes": 508
     }
   ],
   "excluded": "raw data directories, virtual environments, caches, model weights; no modifications to frozen sources"

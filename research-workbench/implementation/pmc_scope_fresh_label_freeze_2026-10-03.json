@@ -1,0 +1,11 @@
+{
+  "selected_before_source_review": true,
+  "labels_frozen_before_model_execution": true,
+  "selection_sha256": "d08d0451f83e29adcdd1dd5a4ac6ef1187cdefff3871dcbd1b9146dd63054595",
+  "labels_sha256": "65cb570bfc33e4a4760775589b6f71931e703f8142fc309461f4db7883247df8",
+  "source_packet_sha256": "e6adde0d9c137e6b8c91104fee9ba06e24f0d6fbedf09de28fd97d6c55a909a3",
+  "cases": 16,
+  "reference_quality": "single-agent source review, not expert gold",
+  "centrality_uncertain": 9,
+  "training_admission": false
+}

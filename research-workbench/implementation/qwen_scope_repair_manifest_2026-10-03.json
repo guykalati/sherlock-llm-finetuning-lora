@@ -1,0 +1,28 @@
+{
+  "snapshot": "/home/guykalat/.cache/huggingface/hub/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "model_file_sha256": {
+    "config.json": "eed00b17e22553979d090fa492e587e92885e328914c8e0b0b78f0a0d3576b3b",
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+    "model-00001-of-00002.safetensors": "67347b23fb4165b652eb6611f5e1f2a06dfcddba8e909df1b2b0b1857bee06c2",
+    "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "generation_config.json": "ea35dfb6fc5051b01114f9b995820d55dab01ed33ee490f6378b442af82c09f9",
+    "model-00002-of-00002.safetensors": "a40d941d0e7e0b966ad8b62bb6d6b7c88cce1299197b599d9d0a4ce59aabfc1d",
+    "model.safetensors.index.json": "bc8aaa0c87d4335177e01c765f1de0db81661c67c1a72fbfb0d521b09f5ddc56",
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+  },
+  "input_sha256": {
+    "qwen_scope_repair.py": "136323893009149ea5669f0a0312036f7c2242df2570b343d4d95139a9de9dac",
+    "qwen_scope_check.py": "98a2336575ce32a042c6d670eeb29eb7771dd6397dbcfcabb2d6d9bd81f98fbf",
+    "scope_output_gate.py": "3d2294ce6541b19838c42527877ff74cf09bf3f0bfc5bae89bee3329a2d905f6",
+    "cases.jsonl": "1d4bbb328008d35ece9673bf486d472f4b4f3c02d818f9748f31818e2b807334"
+  },
+  "sbatch_sha256": "70c80f972ebdf32cf4b831a4f66be63ae9d27276df8d722876c4cce8f9724fb3",
+  "protocol_sha256": "c4db2d5f260bcd67ffed241ee9a5b372e413ebcc6ce8dfe249a637509b1ffb6f",
+  "fresh_label_freeze_sha256": "5947cb6975e5d4f9d4f264afb1d9adde0d794f0a646f42858ed9d5e2f3bf2d3c",
+  "max_calls": 64,
+  "max_allocated_gpu_minutes": 20,
+  "training_steps": 0,
+  "retries": 0,
+  "training_admission": false
+}
