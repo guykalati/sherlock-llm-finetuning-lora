@@ -1131,6 +1131,31 @@
       "source_relative_path": "implementation/pmc_overlap_summary_2026-10-01.json",
       "sha256": "2d2650a3b0ad680ff159e1304554302192124a7a158893eb6911b6dd149b0e7e",
       "bytes": 587
+    },
+    {
+      "source_relative_path": "QWEN_SCOPE_SAVED_RESULT_2026-10-03.md",
+      "sha256": "a404f22e7bce52b0a67a725df5dcf5e9e8a77f3575762f7a05cf2be850fba57e",
+      "bytes": 4922
+    },
+    {
+      "source_relative_path": "implementation/scope_output_gate.py",
+      "sha256": "3d2294ce6541b19838c42527877ff74cf09bf3f0bfc5bae89bee3329a2d905f6",
+      "bytes": 1859
+    },
+    {
+      "source_relative_path": "implementation/test_scope_output_gate.py",
+      "sha256": "3d3541327221b66d44597de452673f6f9ec643d93d36ae348b948a09c8f5c9c5",
+      "bytes": 2368
+    },
+    {
+      "source_relative_path": "implementation/audit_qwen_scope_saved.py",
+      "sha256": "c7304470eb5d1830aa775fa3c3a3264af2a67a1a40572550ec45758aba6bd3ab",
+      "bytes": 4956
+    },
+    {
+      "source_relative_path": "implementation/qwen_scope_saved_audit_2026-10-03.json",
+      "sha256": "51cdb29e27f3a9d9ea5a953b345fa6c6868885e344fd62c310e677091390db14",
+      "bytes": 30213
     }
   ],
   "excluded": "raw data directories, virtual environments, caches, model weights; no modifications to frozen sources"

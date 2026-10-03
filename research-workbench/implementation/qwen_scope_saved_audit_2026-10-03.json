@@ -1,0 +1,576 @@
+{
+  "status": "audited_saved_outputs",
+  "raw_sha256": "aae8d36c9d70ebfc1da375d9b47354e3b9c5ad0696a57c992699e8a81068f156",
+  "cases": 32,
+  "original_strict_valid": 0,
+  "whole_fence_responses": 32,
+  "derived_valid": 21,
+  "derived_failures": {
+    "population_quote_not_exact": 7,
+    "question_quote_not_exact": 4
+  },
+  "draft_agreement_counts_among_derived_valid": {
+    "study_tier": 13,
+    "cardiac_centrality": 16,
+    "both": 10
+  },
+  "draft_comparison_denominator": 21,
+  "confusion_counts": {
+    "study_tier": [
+      {
+        "reference": "human_clinical_empirical",
+        "prediction": "human_clinical_empirical",
+        "count": 13
+      },
+      {
+        "reference": "review_consensus",
+        "prediction": "human_clinical_empirical",
+        "count": 1
+      },
+      {
+        "reference": "human_health_services",
+        "prediction": "human_clinical_empirical",
+        "count": 2
+      },
+      {
+        "reference": "preclinical",
+        "prediction": "human_clinical_empirical",
+        "count": 3
+      },
+      {
+        "reference": "case_report",
+        "prediction": "human_clinical_empirical",
+        "count": 1
+      },
+      {
+        "reference": "other",
+        "prediction": "human_clinical_empirical",
+        "count": 1
+      }
+    ],
+    "cardiac_centrality": [
+      {
+        "reference": "uncertain",
+        "prediction": "core",
+        "count": 3
+      },
+      {
+        "reference": "uncertain",
+        "prediction": "background_only",
+        "count": 2
+      },
+      {
+        "reference": "background_only",
+        "prediction": "background_only",
+        "count": 1
+      },
+      {
+        "reference": "core",
+        "prediction": "core",
+        "count": 15
+      }
+    ]
+  },
+  "truncated_contexts": 11,
+  "rows": [
+    {
+      "pmcid": "PMC11353756",
+      "xml_sha256": "94a4cdaded6b9bca34b3bf8d85892cb4e8da9ba90acfc0fe6583051a352b2dc3",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "This study aimed to explore the complex relationship between psoriasis and metabolic syndrome by analyzing clinical, biochemical, and immunological parameters in patients with psoriasis alone and in patients combining psoriasis and metabolic syndrome.",
+        "question_quote": "The presence of potential metabolic comorbidities underscores the necessity for an integrated approach to the management of psoriasis.",
+        "reason": "The study focuses on patients with psoriasis and metabolic syndrome, which falls under the core category of cardiovascular/cerebrovascular disease, making it a relevant clinical study."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "uncertain"
+      }
+    },
+    {
+      "pmcid": "PMC7499680",
+      "xml_sha256": "3c4024966a3e6790563b3e7b3d1bda2ee2108f67c1e197d82fdb3e146d1ae6bb",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "background_only",
+        "population_quote": "A cross-sectional study of paediatric patients who were admitted to a COVID-19-dedicated PICU from 16 March 2020 to 21 April 2020 with COVID-19.",
+        "question_quote": "To describe the clinical characteristics of paediatric patients admitted to a single paediatric intensive care unit (PICU) in Iran with COVID-19.",
+        "reason": "The study focuses on describing clinical characteristics of paediatric patients with COVID-19, but does not have a primary cardiac focus."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "uncertain"
+      }
+    },
+    {
+      "pmcid": "PMC11211012",
+      "xml_sha256": "b92865ec5e7189a9417d768882fb25e968acb46aa36a676ca5573ca9a8b62c8b",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "background_only",
+        "population_quote": "An important duty of anesthesiologists is to maintain the stability of intraoperative hemodynamics by suitable fluid infusion, which can meet the needs of sufficient organ perfusion.",
+        "question_quote": "To evaluate the effect of colloids versus crystalloids under GDFT on prognosis in patients undergoing noncardiac surgery.",
+        "reason": "The study focuses on evaluating the effects of different types of fluids on the prognosis of patients undergoing noncardiac surgery, but does not specifically center around cardiovascular or cerebrovascular diseases."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "review_consensus",
+        "cardiac_centrality": "uncertain"
+      }
+    },
+    {
+      "pmcid": "PMC9269959",
+      "xml_sha256": "14d6a736ee989f60c4dc907c0c6f4d2299334b7382c71591a7dda9b87143c99b",
+      "prediction": null,
+      "failure": "population_quote_not_exact",
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC9738010",
+      "xml_sha256": "038279b15dc8d2fd59485662ee305eeb711cf797d0f93cbbbf3449c30a20f9ab",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "background_only",
+        "population_quote": "Of the 1816 participants in the population-based Iwaki study of Japanese people, 1751 participants with a complete dataset were included.",
+        "question_quote": "We hypothesized that the extent of kidney damage in patients with T2D may be responsible for this inconsistency and, thus, examined association between S-Adipo and T2D after consideration for the extent of kidney damage present.",
+        "reason": "The study involves a large population-based cohort study with a complete dataset, focusing on the relationship between serum adiponectin and type 2 diabetes, considering kidney damage as a confounding variable."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "background_only"
+      }
+    },
+    {
+      "pmcid": "PMC5994394",
+      "xml_sha256": "9cdcc84ad75c58cd62dafd161ab0cffecfefb1faa262041d71946b5ce520095d",
+      "prediction": null,
+      "failure": "question_quote_not_exact",
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC13217667",
+      "xml_sha256": "9e51504560cba2398605543e53332d5b5fe94d46a818fc894a38cd3fb6e0fb86",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "Rett syndrome is a rare neurodevelopmental disorder associated with an increased risk of severe respiratory dysfunction and cardiorespiratory instability.",
+        "question_quote": "This pilot study aimed to evaluate the effectiveness of simulation-based PBLS training for caregivers of children with Rett syndrome.",
+        "reason": "The study focuses on caregivers of children with Rett syndrome, which is a neurodevelopmental disorder associated with increased risks of respiratory and cardiorespiratory instability."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "human_health_services",
+        "cardiac_centrality": "core"
+      }
+    },
+    {
+      "pmcid": "PMC13500855",
+      "xml_sha256": "8a4c77e0829fb6a87b56b9073f25882d9e8da0646bf203e9030148b7fce37ef3",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "Myocardial infarction (MI) remains one of the most common causes of morbidity and mortality worldwide.",
+        "question_quote": "We investigated whether loss of endothelial ADAM17 could improve post-MI recovery using male and female mice with inducible endothelial-specific ADAM17 knockdown ( Adam17 f/f / Cdhr5- Cre ERT2 ;  Adam17 EC-KD ).",
+        "reason": "The abstract clearly states that the study investigates the impact of endothelial ADAM17 on post-myocardial infarction recovery, making it a core question related to cardiovascular disease."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "preclinical",
+        "cardiac_centrality": "core"
+      }
+    },
+    {
+      "pmcid": "PMC7762686",
+      "xml_sha256": "52a558431fa887372a222cb78b8d76c285a96e882383643023afc266e264651c",
+      "prediction": null,
+      "failure": "question_quote_not_exact",
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC13080744",
+      "xml_sha256": "5562112bda0ba2ac8d4750ce48ff93ff3b27e66e615d4b6702820ec0302b6b3a",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "Left ventricular (LV), left atrial (LA), and right ventricular (RV) longitudinal strain have become increasingly accessible in research and clinical settings. Impaired strain values are often associated with poor outcomes.",
+        "question_quote": "The authors aimed to compare head-to-head the associations of LVGLS, LASr, and RVfwLS with major adverse cardiovascular events (MACE) using 2-dimensional speckle tracking echocardiography (2D-STE) and cardiac magnetic resonance feature tracking (CMR-FT).",
+        "reason": "The study uses a large cohort of patients undergoing echocardiography and CMR, providing a comprehensive empirical evaluation of the relationship between different cardiac chamber strains and adverse cardiovascular events."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core"
+      }
+    },
+    {
+      "pmcid": "PMC9692711",
+      "xml_sha256": "228211672bfdf98c46d6ff016e94188a327508be2dfc892aedc6cafdb3127cf8",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "Mitral valve prolapse (MVP) is a common valvulopathy with variable outcomes. It is characterized by fibromyxomatous changes in the mitral leaflet tissue and a systolic displacement of one or both mitral valve leaflets into the left atrium [ 1 , 2 ]. The estimated prevalence of MVP is between 1% and 3% in the general population [ 3 , 4 ].",
+        "question_quote": "Our study is highly suggestive of the contribution of  SCN5A  mutations as the potential genetic cause of the electric instability leading to ventricular arrhythmias in familial MVP cases with syncope and/or SCD history.",
+        "reason": "The abstract and opening body clearly indicate that the study focuses on MVP, which is a valvular heart defect, and the genetic mutations contributing to arrhythmias in familial MVP cases. The conclusion section reinforces this focus on MVP and arrhythmias."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "case_report",
+        "cardiac_centrality": "core"
+      }
+    },
+    {
+      "pmcid": "PMC10808226",
+      "xml_sha256": "8c7a1b7c28cd99a71285c8358e7c46a64ffe3ca4e5f541a701d3464193ee2f61",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "Transcatheter aortic valve replacement (TAVR) is an established therapeutic option for patients with severe aortic stenosis and high surgical risk as an alternative to open heart surgery [ 1 ].",
+        "question_quote": "Patients with a low TCBI, based on a cut-off value of 985.3, were more likely to have elevated right atrial pressure ( p \u2009=\u20090.04), elevated right ventricular pressure ( p \u2009<\u20090.01), right ventricular systolic dysfunction ( p \u2009<\u20090.01), tricuspid regurgitation\u2009\u2265\u2009moderate ( p \u2009<\u20090.01).",
+        "reason": "The study focuses on patients undergoing TAVR, a procedure related to cardiovascular health, and evaluates the association between a simple nutritional index (TCBI) and clinical outcomes."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core"
+      }
+    },
+    {
+      "pmcid": "PMC7211405",
+      "xml_sha256": "6b66f88792a74a58636563b02bf7c9b1d47bde6095869b850b434f1f82e643e7",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "This study demonstrated the importance of identifying specific heart rate trajectory patterns and elucidating their associations with all-cause mortality, coronary artery disease, and CVA in a community-based population.",
+        "question_quote": "A markedly increased heart rate trajectory pattern may be associated with all-cause mortality risks.",
+        "reason": "The study focuses on identifying specific heart rate trajectory patterns and their associations with mortality and cardiovascular events in a community-based population, which is clearly a core question related to cardiovascular disease."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core"
+      }
+    },
+    {
+      "pmcid": "PMC9570993",
+      "xml_sha256": "0f0f986e027d60ec5146510860d901a5eafb78b72ce74f406105d1c5a827a6ca",
+      "prediction": null,
+      "failure": "population_quote_not_exact",
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC5460254",
+      "xml_sha256": "80fe8da96a91fd647aed0a40a4ff7a84b7cb23be8831f796593b4f1c6669490c",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "Myotonic dystrophies (DM1\u20132) are neuromuscular genetic disorders caused by the pathological expansion of untranslated microsatellites.",
+        "question_quote": "To study the differences and similarities in the pathogenesis of DM1 and DM2, we generated model flies by expressing pure expanded CUG ([250]\u00d7) or CCUG ([1100]\u00d7) repeats, respectively, and compared them with control flies expressing either 20 repeat units or GFP.",
+        "reason": "The study focuses on comparing the effects of expanded CUG and CCUG repeats in Drosophila models, directly addressing the pathogenesis of DM1 and DM2."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "preclinical",
+        "cardiac_centrality": "core"
+      }
+    },
+    {
+      "pmcid": "PMC12755106",
+      "xml_sha256": "ec39f4f8447c6085374edbd5317f00c8da5ad88250b6a0ca85d778ddda634ad6",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "Atherosclerosis-related cardiovascular diseases (CVD), such as coronary artery disease (CAD) and cerebrovascular disease, are the leading cause of morbidity and mortality worldwide ( 1 ).",
+        "question_quote": "This study aimed to assess the prevalence and clustering of cardiovascular risk factors in a cohort of Brazilian military police officers and to investigate their associations with job type and work schedule.",
+        "reason": "The abstract clearly states that the study aims to assess cardiovascular risk factors in a specific population (Brazilian military police officers) and investigates their associations with job type and work schedule, making the study tier 'human_clinical_empirical' and the cardiac centrality 'core'."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core"
+      }
+    },
+    {
+      "pmcid": "PMC12340430",
+      "xml_sha256": "c7c0ca5ddf044940ddc27719220135d25ed728584dcae4acdc0cc5f0d09ade12",
+      "prediction": null,
+      "failure": "population_quote_not_exact",
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC5074518",
+      "xml_sha256": "a6851f215d6546ab376db5e16f8105e10bd698484f8d34ca04b8e496cf460429",
+      "prediction": null,
+      "failure": "question_quote_not_exact",
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC6733485",
+      "xml_sha256": "08a1435681474f91e22f284fed5a23961ee38274f3f3a22d93cadcebd43ce949",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "Between 2012 and 2018, 669 patients with de novo implantation of CRT devices (permanent pacemakers and defibrillators) with 3 leads, or with an upgrade to CRT with implantation of atrial and transvenous LV leads were included in this observational, multicenter study.",
+        "question_quote": "To evaluate the long-term performance of the SonRtip atrial lead.",
+        "reason": "The study focuses on evaluating a new atrial lead that includes a sensor for measuring cardiac contractility, which is directly related to the performance and functionality of the lead in patients undergoing cardiac resynchronization therapy."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core"
+      }
+    },
+    {
+      "pmcid": "PMC8096277",
+      "xml_sha256": "d826dfed5858b5afabe5c71232c687e2f2c4c17012b82136b28e802411b57ca5",
+      "prediction": null,
+      "failure": "population_quote_not_exact",
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC9286443",
+      "xml_sha256": "d3c30a6e4369e4eb4a5c5335ce0ac598b67ba88d55f56fc6d62b857e2df3d17c",
+      "prediction": null,
+      "failure": "population_quote_not_exact",
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC6772048",
+      "xml_sha256": "f78772ba0673b3222408d652a76e76e3bcaa3423716defeb9407629b83f07ed7",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "The study describes a range of CMRFs with different distributions in the study region. The results allow generation of hypotheses to test in future research concerning location specific population health approaches.",
+        "question_quote": "This study aims to utilise the regional database of a major laboratory network to describe the geographic distribution pattern of eight different cardiometabolic risk factors (CMRFs), which in turn can potentially generate hypotheses for future research into locality specific preventive approaches.",
+        "reason": "The study focuses on cardiometabolic risk factors that are known to contribute to cardiovascular disease, making it a core study in the field of cardiovascular research."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "human_health_services",
+        "cardiac_centrality": "core"
+      }
+    },
+    {
+      "pmcid": "PMC9598265",
+      "xml_sha256": "50cc47df914c2cfebbbcb4b80413eea89c66614599f6c151eb440c683b77b369",
+      "prediction": null,
+      "failure": "population_quote_not_exact",
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC8905559",
+      "xml_sha256": "5dd6935b2149355352c7066505e51c5e693d2e82deb339526239a9293c37c1b5",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "Lecture in a classroom has been a traditional and widely accepted method for large group teaching in medical education [ 1 ].",
+        "question_quote": "Asynchronous online lecture alone might not be an effective teaching method in undergraduate medical education particularly when the country\u2019s public health policy on physical distancing measures is required.",
+        "reason": "The study focuses on evaluating the effectiveness of asynchronous online lectures versus traditional lectures in teaching cardiovascular physiology to medical students during the COVID-19 pandemic. It uses empirical data from a multi-person human cohort (613 medical students) to assess academic achievement and attitudes."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "other",
+        "cardiac_centrality": "uncertain"
+      }
+    },
+    {
+      "pmcid": "PMC8391914",
+      "xml_sha256": "c5b38d149fc2b2885c8e6d2d38b8c469f8cc848768d5225eadb40720b21c6b26",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "A total of 127 individuals were included: 46.5% males and 53.5% females, with a median age of 72 years.",
+        "question_quote": "Our cohort revealed that 84.3% of patients had more than one risk factor for severe disease rather than cancer.",
+        "reason": "The study focuses on cancer patients and their risk factors for severe COVID-19, including cardiac disease, which is central to the research question."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "uncertain"
+      }
+    },
+    {
+      "pmcid": "PMC12292771",
+      "xml_sha256": "901f11e65efb50c6c19e9b5209bdba3aa01d84cadff5d8e4ad04e5426e09fad8",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "Non-smoking males between the ages of 18\u201359 years were eligible for participation.",
+        "question_quote": "how heart rate variability changes in response to exercise training and detraining among individuals in different age groups",
+        "reason": "The abstract and methods section clearly indicate that the study involved a specific age group (young and middle-aged men) and focused on heart rate variability (HRV) in response to exercise training and detraining."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core"
+      }
+    },
+    {
+      "pmcid": "PMC10117984",
+      "xml_sha256": "f674ac1a048a96b62cb1990786705a21a7b2ec775d29b060981ca063c2197023",
+      "prediction": null,
+      "failure": "population_quote_not_exact",
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC9387187",
+      "xml_sha256": "8943ec37c1fef7b845abb7ff10bef1b5bd9f5d8ca00e09b5bdd028f348f78d91",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "The participants with PD were recruited from the neurology sector of the Center for Physical Therapy and Rehabilitation Studies and Treatment of S\u00e3o Paulo State University (UNESP) Faculty of Sciences and Technology, Presidente Prudente, Brazil, and the matching controls were recruited from health care centers and clinics in the same city.",
+        "question_quote": "To investigate the impact of the length of time since diagnosis on the cardiac autonomic modulation of individuals with PD and compare with healthy individuals.",
+        "reason": "The study focuses on the impact of time since diagnosis on cardiac autonomic modulation in Parkinson's disease patients, comparing them to healthy controls, making it a core research question."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core"
+      }
+    },
+    {
+      "pmcid": "PMC9394444",
+      "xml_sha256": "251c646398248fb11d7f0dc4dd3aa5cd4ca27e38ec2fafd7d41d610a72f6c166",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "Chagas disease (CD) or American trypanosomiasis is caused by the protozoan parasite  Trypanosoma cruzi . The WHO estimates that 8 to 10 million people are infected worldwide, mostly in Latin America, where the disease is endemic.",
+        "question_quote": "The aim of this work was to study the effect of UA on  T. cruzi  infection  in vitro  in the late infection stage, when the nests of intracellular parasites are forming, in both macrophages and cardiac cells.",
+        "reason": "The abstract clearly states that the study examines the effect of ursolic acid on Trypanosoma cruzi infection in vitro, specifically targeting the late infection stage in macrophages and cardiac cells."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "preclinical",
+        "cardiac_centrality": "core"
+      }
+    },
+    {
+      "pmcid": "PMC7540875",
+      "xml_sha256": "d51fcbc4cc206887071cc533a2e430f59acfbd95c772d0192ec038274ee3ed96",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "Twenty-seven young and healthy volunteers participated in the study (14 females and 13 males; average age: 26.2 \u00b1 4.3 years; Morningness-Eveningness Score: 53.1 \u00b1 10.5 [ 28 ]; body mass index, BMI: 23.2 \u00b1 2.8).",
+        "question_quote": "We assessed the acute effects of lighting in three scenarios, at two times of day, on effort-related changes to cardiac contraction as indexed by the cardiac pre-ejection period (PEP).",
+        "reason": "The study involves a specific population (young and healthy volunteers) and focuses on the acute effects of lighting on cardiac contraction, specifically the cardiac pre-ejection period (PEP), which is a measure of effort-related cardiac response."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core"
+      }
+    },
+    {
+      "pmcid": "PMC4730864",
+      "xml_sha256": "7ae811d35d6089d057faad6caa33a23a249edf0cccea1f13f23dd207703b2689",
+      "prediction": null,
+      "failure": "question_quote_not_exact",
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed"
+    },
+    {
+      "pmcid": "PMC7961400",
+      "xml_sha256": "088755530f8a45b49be62c468d2a517c73a59531dcd7f354894333fbcdebc38d",
+      "prediction": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core",
+        "population_quote": "Despite advances in cardiac arrest resuscitation, the rate of survival to discharge in patients with out-of-hospital cardiac arrest (OHCA) who receive cardiopulmonary resuscitation (CPR) remains low, ranging from 6.7% to 10.8%, and only 5% of survivors experience full neurological recovery [ 1 , 2 , 3 , 4 , 5 ].",
+        "question_quote": "We developed and validated a machine learning-based system to predict good outcome in OHCA patients before ROSC.",
+        "reason": "The study focuses on predicting favorable neurological outcomes in cardiac arrest patients before they achieve return of spontaneous circulation, which is a core question related to cardiovascular disease."
+      },
+      "failure": null,
+      "fence_removed": true,
+      "raw_failure": "invalid_json",
+      "training_eligibility": "unreviewed",
+      "draft_reference": {
+        "study_tier": "human_clinical_empirical",
+        "cardiac_centrality": "core"
+      }
+    }
+  ],
+  "limits": "Post hoc fence-only replay, not raw format success or a new model run. Exact quotes do not prove scientific classification. Draft reference is one agent narrative review, not expert gold. No automatic admission or training."
+}
