@@ -8,3 +8,4 @@ research-workbench/implementation/data/
 *.pt
 *.pth
 *.safetensors
+cv-closure/output/*/adapter/
