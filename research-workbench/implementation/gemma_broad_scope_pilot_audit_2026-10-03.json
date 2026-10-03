@@ -1,0 +1,13 @@
+{
+  "status": "confirmed_request_timeout_no_scientific_result",
+  "attempted_cases": 1,
+  "valid_scientific_responses": 0,
+  "unattempted_cases": 23,
+  "elapsed_seconds": 180.0841135419978,
+  "raw_rows_sha256": "9db548c52ed23545be42cd838240b755f2cd6ffe780c91468f5ff8a5f420fa26",
+  "manifest_sha256": "d41595f8d2ddd1b43c7dc37169e76b34e8fed8a2cc21dc48480850cfbd69a407",
+  "failed_pmcid": "PMC10061871",
+  "training_admission": false,
+  "runtime_observation": "Server log: 6,638 input tokens; 151.40 seconds prefill (~43.82 tokens/sec); only 15 further tokens before the 180-second HTTP limit. Client cancellation propagated, and all server slots became idle. No late output collected.",
+  "limitations": "Operational latency failure only; no classification/gold accuracy inference. No retry or stacked request."
+}

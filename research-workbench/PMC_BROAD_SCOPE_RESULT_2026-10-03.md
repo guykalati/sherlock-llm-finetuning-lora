@@ -29,3 +29,7 @@ The separate 12-paper boundary review completed with six clinical and six precli
 The boundary review and pilot are complete and audited. Address source-level topic/design disagreements, choose final narrative extraction and a stratified group mixture, retain development/benchmark families outside training, and freeze article families before partitions. Measure tokens on that final emitted text. Only then define a finite continued-pretraining/evaluation run. The 50,437,502 cached raw-Qwen tokens remain an upper-level inventory, not usable training volume.
 
 Evidence: implementation/pmc_broad_scope_audit_2026-10-03.json; pmc_broad_fresh_review_audit_2026-10-03.json; pmc_broad_partition_audit_2026-10-03.json; PMC_BROAD_FRESH_SOURCE_REVIEW_2026-10-03.md; QWEN_BROAD_SCOPE_PILOT_PROTOCOL_2026-10-03.md.
+
+## Pause for CV closure
+
+The larger-model six-case continuation completed with 6/6 draft evidence-group agreement but only 3/6 topic agreement. Both background-only cases were called primary. It remains unsuitable for topical scaling/admission. All jobs/calls are finished. Guy paused expansion to close the exact CV claims across all three projects on a separate branch; see GEMMA_BROAD_REMAINING_RESULT_2026-10-03.md.

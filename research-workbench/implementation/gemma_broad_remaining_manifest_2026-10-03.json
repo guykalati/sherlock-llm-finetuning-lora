@@ -1,0 +1,25 @@
+{
+  "input_sha256": {
+    "gemma_broad_remaining.py": "7a66678ecaabf8801a0e06547b9901131183571865fc5834e0d7186172f0770f",
+    "cases.jsonl": "47dd665b5c1943bcc40c94ad4ed13fcd18e54ffcbb4a82878d70be6cd2035193",
+    "policy.md": "d18e28a356764192faad82e576c73ff8a461921a2145d313e33504f261a479d8"
+  },
+  "protocol_sha256": "03e534e93fe11c0e7725baa297a5a620b4e915d10d13706a5ba292cf8eb04d07",
+  "reference_sha256": {
+    "project-first-scan/implementation/pmc_broad_fresh_labels_2026-10-03.jsonl": "35bc1e82c836d7c78929058893f99fad92ba00b6c20e290666bd36b840b12bbe",
+    "project-first-scan/implementation/pmc_broad_boundary_labels_2026-10-03.jsonl": "91a2d1d6881c3bd614d5abc51f9fc720a9254193175361ad4c3b0de9c49123d9"
+  },
+  "prior_failure_result_sha256": "d56db00978aa0ac8dd1e68e0671f9021fef8b645338145f77b5e607eb6050083",
+  "prior_failed_ids": [
+    "PMC10061871"
+  ],
+  "max_seconds": 1800,
+  "max_calls": 6,
+  "request_seconds_cap": 420,
+  "output_byte_cap": 10000000,
+  "cumulative_wall_cap_seconds": 2100,
+  "prior_elapsed_seconds": 180.0841135419978,
+  "training_steps": 0,
+  "retries": 0,
+  "training_admission": false
+}

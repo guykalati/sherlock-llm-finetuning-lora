@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "expected_cases": 6,
+  "attempted_cases": 6,
+  "elapsed_seconds": 841.7010247910002,
+  "rows_sha256": "297b0d89d1508b23dd4f62001fa417390803383bc612766280a3b362aaac4444",
+  "manifest_sha256": "29c8ed6f4be27d189a558bed43e6c0d2c4574d4b2dde35a66094cd9f2a2fc0ab",
+  "model": "gemma4:12b-it-qat",
+  "model_digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+  "ollama_version": {
+    "version": "0.35.0"
+  },
+  "training_admission": false,
+  "limitations": "Cached local 12B model and schema decoder with broader narrative prefixes. Six sources unattempted in the first broad Gemma campaign; smaller context allocation/shorter output/longer request cap. Changes are coupled, not isolated causal attribution. Valid paragraph IDs do not prove evidence entailment or scientific accuracy. No retries/training/download/admission."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "request_failure_partial",
+  "expected_cases": 24,
+  "attempted_cases": 1,
+  "elapsed_seconds": 180.0841135419978,
+  "rows_sha256": "9db548c52ed23545be42cd838240b755f2cd6ffe780c91468f5ff8a5f420fa26",
+  "manifest_sha256": "d41595f8d2ddd1b43c7dc37169e76b34e8fed8a2cc21dc48480850cfbd69a407",
+  "model": "gemma4:12b-it-qat",
+  "model_digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+  "ollama_version": {
+    "version": "0.35.0"
+  },
+  "training_admission": false,
+  "limitations": "Cached local 12B model and schema decoder with broader narrative prefixes. Model/context/decoder differ from Qwen pilot; not isolated model-size causality. Valid paragraph IDs do not prove evidence entailment or scientific accuracy. No retries/training/download/admission."
+}
