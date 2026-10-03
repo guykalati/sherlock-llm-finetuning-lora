@@ -1,0 +1,19 @@
+{
+  "input_sha256": {
+    "gemma_broad_scope_pilot.py": "bb00c3e5a1428f1d703435f6c87d440dc1e531b322f60baf8f303cce6fe1d1b3",
+    "cases.jsonl": "37e1d69d4411c8f2b8b46b5924bd5d716f90c0aaf7cf7c80c16d3cc61a240d19",
+    "policy.md": "d18e28a356764192faad82e576c73ff8a461921a2145d313e33504f261a479d8"
+  },
+  "protocol_sha256": "7d0ce35002de1d5b841a7e5f4a6bd2b4be6b44d05eacc44aa684b1b36e0ba161",
+  "reference_sha256": {
+    "project-first-scan/implementation/pmc_broad_fresh_labels_2026-10-03.jsonl": "35bc1e82c836d7c78929058893f99fad92ba00b6c20e290666bd36b840b12bbe",
+    "project-first-scan/implementation/pmc_broad_boundary_labels_2026-10-03.jsonl": "91a2d1d6881c3bd614d5abc51f9fc720a9254193175361ad4c3b0de9c49123d9"
+  },
+  "max_seconds": 2100,
+  "max_calls": 24,
+  "request_seconds_cap": 180,
+  "output_byte_cap": 10000000,
+  "training_steps": 0,
+  "retries": 0,
+  "training_admission": false
+}

@@ -1,0 +1,41 @@
+{
+  "pmcids": [
+    "PMC9738010",
+    "PMC5074518",
+    "PMC4730864",
+    "PMC13500855",
+    "PMC5460254",
+    "PMC8096277",
+    "PMC9394444",
+    "PMC11353756",
+    "PMC11834866",
+    "PMC5824886",
+    "PMC9214991",
+    "PMC12656480"
+  ],
+  "packets_sha256": {
+    "PMC12656480": "2542d71ba5c01d7e8de890b75c5f757a236a9cd5fc7acd1a82c2fa814464891d",
+    "PMC4730864": "66b35acd9596992e23638ccc2796c3a1cc83215dae3516cee9cf0721c7036215",
+    "PMC9214991": "95e9f8b4ae208b94b3a3e160dc20cda82a5a05b193523ba36c0ceb213cc0ec03",
+    "PMC9738010": "c116ed3b49a608bec57385e810d73d568fb51b0e18fae07d5d560684e09b34e5",
+    "PMC9394444": "2c087eab9d20b95fd9dd48cb6e75fb10f3faee7a112138f1452722c02226e306",
+    "PMC5460254": "cd72a9bee5cf2ecbe28e2b4119dd880ecaffc2e055a3f64850571039516a31bc",
+    "PMC11353756": "b14539defd8e5351861ed5c1c38cebbefec21f3dc0e560073b3bdf318ca1294a",
+    "PMC5824886": "7b2fd09ed3b2ab07477310daad9a1a627a8a498ee18ce3d259deefe501693001",
+    "PMC13500855": "bdc0aa73f7bfeb184667c4c8ce426cbdff88d9ac3d915a7a2b6aac992bceca37",
+    "PMC8096277": "191a2a76530e4c9a82188c54f16e0d9f30a96d56fd1ebef2bd9092767d334f06",
+    "PMC5074518": "1137932a3784d6bcdd78a33badc5aeec92d36e077e000f5b982d889cc6895d70",
+    "PMC11834866": "4d7c8f1d8331ec8169592ec8dab863f0b45e194fc87b7726fec588ee1dfea447"
+  },
+  "sources": {
+    "project-first-scan/implementation/data/pmc_xml_expansion_20260929/documents.jsonl": "77e94853fb936da3b378880532c56a32f9bcd6a7629d9e260cacd4f090928964",
+    "project-first-scan/implementation/data/pmc_token_expand_retrieved_20261001/documents.jsonl": "723d8e6564be00c1615ea35a6283a858a399164ca26a9639706b7a3aa5ae3c28",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/0/documents.jsonl": "bd19f9dc792f8265f6459fde4053e6b693151aade0aab89ca34e073cc84022ad",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/1/documents.jsonl": "76f17770390edd4d797953de2e82545f637eabf4bfbccf4fb9448395a9ff55e1",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/2/documents.jsonl": "dc5e6600aa1d0c53abd4e040af8f8b6ccaabff4077ff70d2fd55d28ecfa2a9fa",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/3/documents.jsonl": "9ad140c93e72e07f063d29b328421ef65cf4c46409179a5dd67ce171e356aa35"
+  },
+  "policy_sha256": "d18e28a356764192faad82e576c73ff8a461921a2145d313e33504f261a479d8",
+  "purpose": "Purposive re-review of 12 previously used development articles under chosen broader policy. Selection uses old label strata to include prior background-only, preclinical and uncertain cases; reviewer does not receive those labels. Not fresh validation, gold or retroactive regrading.",
+  "training_admission": false
+}

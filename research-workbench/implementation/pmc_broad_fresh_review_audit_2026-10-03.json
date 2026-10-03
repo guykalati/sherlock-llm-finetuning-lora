@@ -1,0 +1,25 @@
+{
+  "status": "passed_provenance_and_evidence_transport",
+  "cases": 12,
+  "sampling_strata": {
+    "narrative_review": 4,
+    "systematic_review": 4,
+    "case": 4
+  },
+  "draft_evidence_groups": {
+    "review": 7,
+    "unresolved_or_other": 1,
+    "clinical": 4
+  },
+  "draft_topical_roles": {
+    "primary": 8,
+    "secondary_substantive": 4
+  },
+  "exact_source_anchors": 24,
+  "labels_sha256": "35bc1e82c836d7c78929058893f99fad92ba00b6c20e290666bd36b840b12bbe",
+  "review_report_sha256": "45f391b3903ef8fb5e62244cfe43588cdfc75cf1927de68b32c442fc9103b62d",
+  "freeze_sha256": "c40294599d4b1f91f2cc77e560d294f8b2beaac4d705a3f32e5b411b40028638",
+  "policy_sha256": "d18e28a356764192faad82e576c73ff8a461921a2145d313e33504f261a479d8",
+  "training_admission": false,
+  "limitations": "Independent artifact checks do not establish scientific correctness or expert agreement. Single-agent draft; four equal samples per newly eligible metadata stratum; zero demonstrated negatives and no new preclinical examples. Unresolved/other remains held."
+}

@@ -1,0 +1,7 @@
+{
+  "job_id": "22003398",
+  "remote_directory": "/home/guykalat/codex_qwen_broad_scope_pilot_20261003",
+  "manifest": "qwen_broad_scope_pilot_manifest_2026-10-03.json",
+  "submitted": true,
+  "training_admission": false
+}

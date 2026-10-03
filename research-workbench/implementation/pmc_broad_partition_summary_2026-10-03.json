@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "queue_entries": 5403,
+  "source_family_objects": 5819,
+  "benchmark_expert_contexts": 1000,
+  "review_or_qa_reserved_ids": 164,
+  "reserved_ids_present_in_source": 164,
+  "overlapping_hold_counts": {
+    "development_family_reserved": 154
+  },
+  "entries_with_a_hold": 154,
+  "entries_without_these_holds": 5249,
+  "naive_context_rescores": 10,
+  "elapsed_seconds": 30.271583166999335,
+  "source_sha256": "f120004d1afa968e6888ad5908db2b144b50c3540a12ad79766aca9800854fca",
+  "manifest_sha256": "8d8a20074fcb8b1e7d7f481d3cd3145367cf7cdcd71c7ec27b61b7a891c2dbbb",
+  "screens_sha256": "4ee009bdae046f537e13a6df38a2651a78fd0873b59933a95ae22cba82c317ca",
+  "training_admission": false,
+  "limitations": "Exact normalized cached-body/DOI/PMID families and frozen PubMedQA five-token contexts only. No semantic duplicate, paraphrase, other benchmark, final narrative extraction, clinical evidence correctness or training eligibility claim."
+}

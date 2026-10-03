@@ -1,0 +1,25 @@
+{
+  "source_sha256": "f120004d1afa968e6888ad5908db2b144b50c3540a12ad79766aca9800854fca",
+  "sources": {
+    "project-first-scan/implementation/data/pmc_xml_expansion_20260929/documents.jsonl": "77e94853fb936da3b378880532c56a32f9bcd6a7629d9e260cacd4f090928964",
+    "project-first-scan/implementation/data/pmc_token_expand_retrieved_20261001/documents.jsonl": "723d8e6564be00c1615ea35a6283a858a399164ca26a9639706b7a3aa5ae3c28",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/0/documents.jsonl": "bd19f9dc792f8265f6459fde4053e6b693151aade0aab89ca34e073cc84022ad",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/1/documents.jsonl": "76f17770390edd4d797953de2e82545f637eabf4bfbccf4fb9448395a9ff55e1",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/2/documents.jsonl": "dc5e6600aa1d0c53abd4e040af8f8b6ccaabff4077ff70d2fd55d28ecfa2a9fa",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/3/documents.jsonl": "9ad140c93e72e07f063d29b328421ef65cf4c46409179a5dd67ce171e356aa35"
+  },
+  "benchmark": "project-first-scan/implementation/data/pubmedqa_exclusion_2026-09-29/ori_pqal.json",
+  "development_selection": "project-first-scan/implementation/pmc_broad_fresh_selection_2026-10-03.json",
+  "qa_exclusions": "project-first-scan/implementation/pmc_qa_development_exclusions_2026-09-30.json",
+  "candidates": "project-first-scan/implementation/data/pmc_broad_scope_20261003/candidates.jsonl",
+  "max_local_seconds": 300,
+  "output_byte_cap": 10000000,
+  "training_admission": false,
+  "inputs_sha256": {
+    "project-first-scan/implementation/data/pubmedqa_exclusion_2026-09-29/ori_pqal.json": "8b3276be8942ebbd77f3ddcda12c1749bf0e490045a736fd8438ee40cf37a41d",
+    "project-first-scan/implementation/pmc_broad_fresh_selection_2026-10-03.json": "03ba91b2c3b3e2db369e0e62ac8a1423357820da2bebb7b04efae4918156063c",
+    "project-first-scan/implementation/pmc_qa_development_exclusions_2026-09-30.json": "37b9e1f8630dddfd3219f801cefc6505b67ad31dbfeaddb2a0c45f12ab6f9bd2",
+    "project-first-scan/implementation/data/pmc_broad_scope_20261003/candidates.jsonl": "5fdbd3e3993c329c2e0e65d9133ef368b2d9f41246f321859d78b9971297d88a",
+    "project-first-scan/implementation/pmc_overlap_audit.py": "052baa81ca6e24b78467e5bbb9c0a7254c3c65e6aee9d9ccc70648fff8976382"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "selection_sha256": "03ba91b2c3b3e2db369e0e62ac8a1423357820da2bebb7b04efae4918156063c",
+  "packets_sha256": {
+    "PMC12072934": "3b4ed1deb5556d40f973dee71efc973969a0f50c0a61dc857cb0ddd1858ea090",
+    "PMC12745960": "bb70d57415bd8ca0dcd7fc5e42ebf23ce6c2820c1dd2d43800e819cb42220e47",
+    "PMC13345815": "27e7f82e32b9ad657816be15a6252ef5839092ada024ddfed8a995c6144b8c98",
+    "PMC10454430": "404c2a87581453a50eec11c046ec31415b6d4a3d96fe65c095314175d3c773b9",
+    "PMC10061871": "ca0114effaf0c60955576e9769b130c347250b35eca0e9998f4aa485de44d120",
+    "PMC12098576": "b8dfe4d5d579d54e2f4b5ee09e538765ad7f1a91dbdc981959d40a4f80c7ab40",
+    "PMC7177019": "50010c3e1643541a9689e3e032eb9e396433c75f6051d68e1c74c37e24491f17",
+    "PMC6965312": "398f1ea533e0a1f7d2056a3daed645ca56b45768f889574adef9b34f4cefafae",
+    "PMC7084472": "29a5c62e73c02ef4d0fea8dee59f37eb99f2cf70f1440ab10ac2af6e63378912",
+    "PMC11094275": "6a384c9613ceeb8fa4acc39521bc24e6a163d4804fd8f7898547afb7694ce9b3",
+    "PMC8453835": "c6dd88174233137acb7ad008deada062bb342256badaee5249b21f776f83f692",
+    "PMC13534096": "80ef2254b2be943cc7aa5a3989149a4bec426cd52a46ff342e4a6f6c21da838e"
+  },
+  "policy_sha256": "d18e28a356764192faad82e576c73ff8a461921a2145d313e33504f261a479d8",
+  "sources": {
+    "project-first-scan/implementation/data/pmc_xml_expansion_20260929/documents.jsonl": "77e94853fb936da3b378880532c56a32f9bcd6a7629d9e260cacd4f090928964",
+    "project-first-scan/implementation/data/pmc_token_expand_retrieved_20261001/documents.jsonl": "723d8e6564be00c1615ea35a6283a858a399164ca26a9639706b7a3aa5ae3c28",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/0/documents.jsonl": "bd19f9dc792f8265f6459fde4053e6b693151aade0aab89ca34e073cc84022ad",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/1/documents.jsonl": "76f17770390edd4d797953de2e82545f637eabf4bfbccf4fb9448395a9ff55e1",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/2/documents.jsonl": "dc5e6600aa1d0c53abd4e040af8f8b6ccaabff4077ff70d2fd55d28ecfa2a9fa",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/3/documents.jsonl": "9ad140c93e72e07f063d29b328421ef65cf4c46409179a5dd67ce171e356aa35"
+  },
+  "purpose": "12 newly selected full extracted-narrative source reviews; single-agent draft, not gold or admission"
+}

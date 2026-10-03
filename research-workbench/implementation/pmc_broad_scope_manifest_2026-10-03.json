@@ -1,0 +1,19 @@
+{
+  "source_sha256": "21bccf8b11f21835d47fc9a66653b16b4d315b8e1fc7831c5d0a9865ee273475",
+  "sources": {
+    "project-first-scan/implementation/data/pmc_xml_expansion_20260929/documents.jsonl": "77e94853fb936da3b378880532c56a32f9bcd6a7629d9e260cacd4f090928964",
+    "project-first-scan/implementation/data/pmc_token_expand_retrieved_20261001/documents.jsonl": "723d8e6564be00c1615ea35a6283a858a399164ca26a9639706b7a3aa5ae3c28",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/0/documents.jsonl": "bd19f9dc792f8265f6459fde4053e6b693151aade0aab89ca34e073cc84022ad",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/1/documents.jsonl": "76f17770390edd4d797953de2e82545f637eabf4bfbccf4fb9448395a9ff55e1",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/2/documents.jsonl": "dc5e6600aa1d0c53abd4e040af8f8b6ccaabff4077ff70d2fd55d28ecfa2a9fa",
+    "project-first-scan/implementation/data/pmc_remaining_retrieved_20261001/chunks/3/documents.jsonl": "9ad140c93e72e07f063d29b328421ef65cf4c46409179a5dd67ce171e356aa35"
+  },
+  "holds": "project-first-scan/implementation/data/pmc_notice_links_v2_20261002/review_holds.jsonl",
+  "holds_sha256": "38d6adac04635608b8e78453161262596860db89568365997e7060c16466feb4",
+  "old_candidates": "project-first-scan/implementation/data/pmc_scope_review_20261002/candidates.jsonl",
+  "old_candidates_sha256": "1bc1e8ff3deddf99fe2b2e3535ed06b3f337a4cc2a81482877b36dd48e832fad",
+  "policy_sha256": "d18e28a356764192faad82e576c73ff8a461921a2145d313e33504f261a479d8",
+  "max_local_seconds": 300,
+  "output_byte_cap": 10000000,
+  "training_admission": false
+}

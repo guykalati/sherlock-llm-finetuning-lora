@@ -1,0 +1,24 @@
+{
+  "status": "passed_provenance_and_evidence_transport",
+  "cases": 12,
+  "sampling_strata": {
+    "purposive_reused_development": 12
+  },
+  "draft_evidence_groups": {
+    "clinical": 6,
+    "preclinical": 6
+  },
+  "draft_topical_roles": {
+    "background_only": 4,
+    "primary": 3,
+    "secondary_substantive": 4,
+    "unresolved": 1
+  },
+  "exact_source_anchors": 24,
+  "labels_sha256": "91a2d1d6881c3bd614d5abc51f9fc720a9254193175361ad4c3b0de9c49123d9",
+  "review_report_sha256": "62d783d640a50ad9ba71d83e54801727ed1f1bd8d8ad52fb91ccdaf04ae45e72",
+  "freeze_sha256": "9dc8438d04d4369a119a34dce8944aa3cfd569f30444f67ded2000e236483bec",
+  "policy_sha256": "d18e28a356764192faad82e576c73ff8a461921a2145d313e33504f261a479d8",
+  "training_admission": false,
+  "limitations": "Independent artifact checks do not establish scientific correctness or expert agreement. Single-agent draft on purposively selected, previously used development papers; no independent validation, gold labels or retroactive regrading. Unresolved/other remains held."
+}

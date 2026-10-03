@@ -1,0 +1,33 @@
+{
+  "snapshot": "/home/guykalat/.cache/huggingface/hub/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "model_file_sha256": {
+    "config.json": "eed00b17e22553979d090fa492e587e92885e328914c8e0b0b78f0a0d3576b3b",
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+    "model-00001-of-00002.safetensors": "67347b23fb4165b652eb6611f5e1f2a06dfcddba8e909df1b2b0b1857bee06c2",
+    "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "generation_config.json": "ea35dfb6fc5051b01114f9b995820d55dab01ed33ee490f6378b442af82c09f9",
+    "model-00002-of-00002.safetensors": "a40d941d0e7e0b966ad8b62bb6d6b7c88cce1299197b599d9d0a4ce59aabfc1d",
+    "model.safetensors.index.json": "bc8aaa0c87d4335177e01c765f1de0db81661c67c1a72fbfb0d521b09f5ddc56",
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+  },
+  "input_sha256": {
+    "qwen_broad_scope_pilot.py": "648145628e6fcb9b7d9acd88e2a6941b22297544eb1240a89d89f0cd02d9327f",
+    "cases.jsonl": "37e1d69d4411c8f2b8b46b5924bd5d716f90c0aaf7cf7c80c16d3cc61a240d19",
+    "policy.md": "d18e28a356764192faad82e576c73ff8a461921a2145d313e33504f261a479d8",
+    "run.sbatch": "f01131cdb8049707c019d9f4435a10968f24324609f3eca98f8ff353d2cd152c"
+  },
+  "protocol_sha256": "19ae393b170851be16719e757297ad688f3fb3158178f4f3b68570201f069fe0",
+  "source_packet_freezes": {
+    "project-first-scan/implementation/pmc_broad_review_freeze_2026-10-03.json": "c40294599d4b1f91f2cc77e560d294f8b2beaac4d705a3f32e5b411b40028638",
+    "project-first-scan/implementation/pmc_broad_boundary_freeze_2026-10-03.json": "9dc8438d04d4369a119a34dce8944aa3cfd569f30444f67ded2000e236483bec"
+  },
+  "cases": 24,
+  "forward_calls_cap": 48,
+  "max_seconds": 660,
+  "max_allocated_gpu_minutes": 12,
+  "output_byte_cap": 10000000,
+  "training_steps": 0,
+  "retries": 0,
+  "training_admission": false
+}

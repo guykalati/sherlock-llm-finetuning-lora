@@ -1,0 +1,9 @@
+# Larger cached-model broader-scope pilot — frozen 3 October 2026
+
+Purpose: test an operational alternative after the one-token Qwen pilot misclassified every review and three of four background-only sources. Same 24 development articles; no old-reference regrading. Keep full-narrative policy-specific draft references separate from model inputs.
+
+Use only the already cached local gemma4:12b-it-qat model, frozen digest, no cloud/download/training. One schema-constrained response per article: evidence group, topic role, design and topic original paragraph indices, short rationale. Include every extracted narrative paragraph using a common prefix cap within 35,000 source characters plus title/abstract. Record available/submitted narrative character coverage, exact context and request hashes. Short articles may be fully present; long ones remain excerpted. Local context 16,384 tokens, 512 generated tokens; stop if observed prompt count exceeds 15,872 to avoid near-context-limit acceptance. No guaranteed semantic completeness.
+
+Exactly 24 ordered calls maximum, 35 minutes total elapsed cap, each request at most 180 seconds or remaining budget, 10 MB row-output cap. No retries or budget extension. A timeout/request failure stops the campaign because the server may still be computing; do not stack calls. Partial/unattempted cases remain explicit.
+
+Audit source/case/policy/model/request hashes, enum and paragraph-location validity independently; then compare with new draft group/topic references. Valid IDs do not prove evidence entailment. Preserve invalid outputs and inspect scientific errors. Model, tokenizer, context and decoder differ from the Qwen pilot, so this tests operational usefulness without isolated causal attribution. No automatic scaling or corpus admission follows from agreement on these 24 development sources.

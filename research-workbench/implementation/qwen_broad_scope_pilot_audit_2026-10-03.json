@@ -1,0 +1,947 @@
+{
+  "status": "passed_artifact_audit_model_rejected_for_scaling",
+  "cases": 24,
+  "agreement_counts_with_draft_references": {
+    "evidence_group": 12,
+    "topical_role": 10,
+    "both": 3
+  },
+  "confusions": {
+    "evidence_group": {
+      "review -> unresolved_or_other": 5,
+      "unresolved_or_other -> unresolved_or_other": 1,
+      "review -> clinical": 2,
+      "clinical -> clinical": 9,
+      "preclinical -> clinical": 3,
+      "clinical -> unresolved_or_other": 1,
+      "preclinical -> unresolved_or_other": 1,
+      "preclinical -> preclinical": 2
+    },
+    "topical_role": {
+      "primary -> primary": 9,
+      "secondary_substantive -> primary": 5,
+      "primary -> unresolved": 2,
+      "secondary_substantive -> unresolved": 3,
+      "background_only -> primary": 3,
+      "background_only -> background_only": 1,
+      "unresolved -> primary": 1
+    }
+  },
+  "errors": [
+    {
+      "pmcid": "PMC10061871",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "review",
+          "agrees": false,
+          "context_sha256": "003fd893c6aa047913e0cf57cc48b5110bb6ad4516e4a16dc20a15f5219b8ee5",
+          "input_tokens": 3543
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "primary",
+          "agrees": true,
+          "context_sha256": "003fd893c6aa047913e0cf57cc48b5110bb6ad4516e4a16dc20a15f5219b8ee5",
+          "input_tokens": 3553
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC10454430",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "review",
+          "agrees": false,
+          "context_sha256": "e028eaf05db5fa4ba09682eaa607a03fbfca9f6a6de6521cfc3fd803eb1c4caa",
+          "input_tokens": 3920
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "primary",
+          "agrees": true,
+          "context_sha256": "e028eaf05db5fa4ba09682eaa607a03fbfca9f6a6de6521cfc3fd803eb1c4caa",
+          "input_tokens": 3930
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC11094275",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "unresolved_or_other",
+          "agrees": true,
+          "context_sha256": "b52f03da1a9d8e70b535a96576466126ad5c58a7e69dfffb0f342c7019412aa6",
+          "input_tokens": 3143
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "b52f03da1a9d8e70b535a96576466126ad5c58a7e69dfffb0f342c7019412aa6",
+          "input_tokens": 3153
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC12072934",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "review",
+          "agrees": false,
+          "context_sha256": "cb7eb35c8fa0abb994a4343bb08655b3ff0bdf4dfe91726495df5eb83380cc00",
+          "input_tokens": 3596
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "primary",
+          "agrees": true,
+          "context_sha256": "cb7eb35c8fa0abb994a4343bb08655b3ff0bdf4dfe91726495df5eb83380cc00",
+          "input_tokens": 3606
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC12098576",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "review",
+          "agrees": false,
+          "context_sha256": "c42e0e742f92dd9c6337da687a454fea8a8afbdc5b75dc12587e1cd8fb159b4d",
+          "input_tokens": 2738
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "primary",
+          "agrees": true,
+          "context_sha256": "c42e0e742f92dd9c6337da687a454fea8a8afbdc5b75dc12587e1cd8fb159b4d",
+          "input_tokens": 2748
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC12745960",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "5fc513332453bacb5398de71c2325fffb9bc124013a1b7f5989d17aa44bec525",
+          "input_tokens": 2041
+        },
+        "topical_role": {
+          "prediction": "unresolved",
+          "draft_reference": "primary",
+          "agrees": false,
+          "context_sha256": "5fc513332453bacb5398de71c2325fffb9bc124013a1b7f5989d17aa44bec525",
+          "input_tokens": 2051
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC13534096",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "review",
+          "agrees": false,
+          "context_sha256": "6640ec9d3475e193152818737d244f57f18e816442bd5acf365d9e7be0b5b0d2",
+          "input_tokens": 3380
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "primary",
+          "agrees": true,
+          "context_sha256": "6640ec9d3475e193152818737d244f57f18e816442bd5acf365d9e7be0b5b0d2",
+          "input_tokens": 3390
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC6965312",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "e0d6f080e1bbd5daebba9126a7bb39ec7979e5fd827e0952f7bbeb8cafca78f0",
+          "input_tokens": 1772
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "e0d6f080e1bbd5daebba9126a7bb39ec7979e5fd827e0952f7bbeb8cafca78f0",
+          "input_tokens": 1782
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC7084472",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "review",
+          "agrees": false,
+          "context_sha256": "8ba610c77a2a5a3c4a4b4237a913a09a225a0038fb5da520b386c634f3a3d818",
+          "input_tokens": 3703
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "8ba610c77a2a5a3c4a4b4237a913a09a225a0038fb5da520b386c634f3a3d818",
+          "input_tokens": 3713
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC7177019",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "review",
+          "agrees": false,
+          "context_sha256": "296627d7e60e83c443ea88d35a19de25ea50d2f690e9d6700969178d0174ead5",
+          "input_tokens": 3220
+        },
+        "topical_role": {
+          "prediction": "unresolved",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "296627d7e60e83c443ea88d35a19de25ea50d2f690e9d6700969178d0174ead5",
+          "input_tokens": 3230
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC11353756",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "9647dfa3048189dfa8246748c3d9d416e1502b6c269ef1a0bac6c83418a62bf8",
+          "input_tokens": 3159
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "9647dfa3048189dfa8246748c3d9d416e1502b6c269ef1a0bac6c83418a62bf8",
+          "input_tokens": 3169
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC11834866",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "4f1f58fdf187ef22057fa9064e5d94f66c6e8c9f8878316cb67c51a4c1670af3",
+          "input_tokens": 3532
+        },
+        "topical_role": {
+          "prediction": "unresolved",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "4f1f58fdf187ef22057fa9064e5d94f66c6e8c9f8878316cb67c51a4c1670af3",
+          "input_tokens": 3542
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC12656480",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "27670c7e0d7c53c0525f39a87532abbb0cc6d8bca292252fadb7821207d1064b",
+          "input_tokens": 3580
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "background_only",
+          "agrees": false,
+          "context_sha256": "27670c7e0d7c53c0525f39a87532abbb0cc6d8bca292252fadb7821207d1064b",
+          "input_tokens": 3590
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC13500855",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "preclinical",
+          "agrees": false,
+          "context_sha256": "201e5af8f40dcc66fe232f8415e2053805be8d3c5cd1a7501257516017264b46",
+          "input_tokens": 4064
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "primary",
+          "agrees": true,
+          "context_sha256": "201e5af8f40dcc66fe232f8415e2053805be8d3c5cd1a7501257516017264b46",
+          "input_tokens": 4074
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC4730864",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "clinical",
+          "agrees": false,
+          "context_sha256": "a669f34d95cd04e56ba6c4412ffcb3b74a0d73a1ede98655b6729100166a4259",
+          "input_tokens": 2671
+        },
+        "topical_role": {
+          "prediction": "background_only",
+          "draft_reference": "background_only",
+          "agrees": true,
+          "context_sha256": "a669f34d95cd04e56ba6c4412ffcb3b74a0d73a1ede98655b6729100166a4259",
+          "input_tokens": 2681
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC5074518",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "preclinical",
+          "agrees": false,
+          "context_sha256": "2e9c72897ec1e39b78ba0dd88368a3c77c31c316012831d71d09d6773fe7f0df",
+          "input_tokens": 3701
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "background_only",
+          "agrees": false,
+          "context_sha256": "2e9c72897ec1e39b78ba0dd88368a3c77c31c316012831d71d09d6773fe7f0df",
+          "input_tokens": 3711
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC5460254",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "preclinical",
+          "agrees": false,
+          "context_sha256": "52c638e13626db164149220354146371acef0a91690a952b3fdf7316a19baf35",
+          "input_tokens": 3319
+        },
+        "topical_role": {
+          "prediction": "unresolved",
+          "draft_reference": "primary",
+          "agrees": false,
+          "context_sha256": "52c638e13626db164149220354146371acef0a91690a952b3fdf7316a19baf35",
+          "input_tokens": 3329
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC5824886",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "preclinical",
+          "agrees": false,
+          "context_sha256": "b3aa94d98f60e29a3c114a40f8a3816be9b5ec88039876d64dda7650de2405ce",
+          "input_tokens": 3683
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "unresolved",
+          "agrees": false,
+          "context_sha256": "b3aa94d98f60e29a3c114a40f8a3816be9b5ec88039876d64dda7650de2405ce",
+          "input_tokens": 3693
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC9214991",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "5ddc3954dfb3985986a85d8ffb08579055e9dd9d53f61cb5044e673818276f24",
+          "input_tokens": 3259
+        },
+        "topical_role": {
+          "prediction": "unresolved",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "5ddc3954dfb3985986a85d8ffb08579055e9dd9d53f61cb5044e673818276f24",
+          "input_tokens": 3269
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC9394444",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "preclinical",
+          "draft_reference": "preclinical",
+          "agrees": true,
+          "context_sha256": "9d4d1944b992db26a648a7f893839d863848c06eb4f32472aa9e6db89914527d",
+          "input_tokens": 3778
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "9d4d1944b992db26a648a7f893839d863848c06eb4f32472aa9e6db89914527d",
+          "input_tokens": 3788
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC9738010",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "992cf1ed6743b88084b12543e0a00718914da42c64604c7e1eaf3a8516630bfa",
+          "input_tokens": 3129
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "background_only",
+          "agrees": false,
+          "context_sha256": "992cf1ed6743b88084b12543e0a00718914da42c64604c7e1eaf3a8516630bfa",
+          "input_tokens": 3139
+        }
+      },
+      "training_admission": false
+    }
+  ],
+  "compact_decisions": [
+    {
+      "pmcid": "PMC10061871",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "review",
+          "agrees": false,
+          "context_sha256": "003fd893c6aa047913e0cf57cc48b5110bb6ad4516e4a16dc20a15f5219b8ee5",
+          "input_tokens": 3543
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "primary",
+          "agrees": true,
+          "context_sha256": "003fd893c6aa047913e0cf57cc48b5110bb6ad4516e4a16dc20a15f5219b8ee5",
+          "input_tokens": 3553
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC10454430",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "review",
+          "agrees": false,
+          "context_sha256": "e028eaf05db5fa4ba09682eaa607a03fbfca9f6a6de6521cfc3fd803eb1c4caa",
+          "input_tokens": 3920
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "primary",
+          "agrees": true,
+          "context_sha256": "e028eaf05db5fa4ba09682eaa607a03fbfca9f6a6de6521cfc3fd803eb1c4caa",
+          "input_tokens": 3930
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC11094275",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "unresolved_or_other",
+          "agrees": true,
+          "context_sha256": "b52f03da1a9d8e70b535a96576466126ad5c58a7e69dfffb0f342c7019412aa6",
+          "input_tokens": 3143
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "b52f03da1a9d8e70b535a96576466126ad5c58a7e69dfffb0f342c7019412aa6",
+          "input_tokens": 3153
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC12072934",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "review",
+          "agrees": false,
+          "context_sha256": "cb7eb35c8fa0abb994a4343bb08655b3ff0bdf4dfe91726495df5eb83380cc00",
+          "input_tokens": 3596
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "primary",
+          "agrees": true,
+          "context_sha256": "cb7eb35c8fa0abb994a4343bb08655b3ff0bdf4dfe91726495df5eb83380cc00",
+          "input_tokens": 3606
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC12098576",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "review",
+          "agrees": false,
+          "context_sha256": "c42e0e742f92dd9c6337da687a454fea8a8afbdc5b75dc12587e1cd8fb159b4d",
+          "input_tokens": 2738
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "primary",
+          "agrees": true,
+          "context_sha256": "c42e0e742f92dd9c6337da687a454fea8a8afbdc5b75dc12587e1cd8fb159b4d",
+          "input_tokens": 2748
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC12745960",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "5fc513332453bacb5398de71c2325fffb9bc124013a1b7f5989d17aa44bec525",
+          "input_tokens": 2041
+        },
+        "topical_role": {
+          "prediction": "unresolved",
+          "draft_reference": "primary",
+          "agrees": false,
+          "context_sha256": "5fc513332453bacb5398de71c2325fffb9bc124013a1b7f5989d17aa44bec525",
+          "input_tokens": 2051
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC13345815",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "793725fad4ce76bc554ac908cbc6d19e42dc64c2518352dbeff6549a7dbbedea",
+          "input_tokens": 2331
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "primary",
+          "agrees": true,
+          "context_sha256": "793725fad4ce76bc554ac908cbc6d19e42dc64c2518352dbeff6549a7dbbedea",
+          "input_tokens": 2341
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC13534096",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "review",
+          "agrees": false,
+          "context_sha256": "6640ec9d3475e193152818737d244f57f18e816442bd5acf365d9e7be0b5b0d2",
+          "input_tokens": 3380
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "primary",
+          "agrees": true,
+          "context_sha256": "6640ec9d3475e193152818737d244f57f18e816442bd5acf365d9e7be0b5b0d2",
+          "input_tokens": 3390
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC6965312",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "e0d6f080e1bbd5daebba9126a7bb39ec7979e5fd827e0952f7bbeb8cafca78f0",
+          "input_tokens": 1772
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "e0d6f080e1bbd5daebba9126a7bb39ec7979e5fd827e0952f7bbeb8cafca78f0",
+          "input_tokens": 1782
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC7084472",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "review",
+          "agrees": false,
+          "context_sha256": "8ba610c77a2a5a3c4a4b4237a913a09a225a0038fb5da520b386c634f3a3d818",
+          "input_tokens": 3703
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "8ba610c77a2a5a3c4a4b4237a913a09a225a0038fb5da520b386c634f3a3d818",
+          "input_tokens": 3713
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC7177019",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "review",
+          "agrees": false,
+          "context_sha256": "296627d7e60e83c443ea88d35a19de25ea50d2f690e9d6700969178d0174ead5",
+          "input_tokens": 3220
+        },
+        "topical_role": {
+          "prediction": "unresolved",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "296627d7e60e83c443ea88d35a19de25ea50d2f690e9d6700969178d0174ead5",
+          "input_tokens": 3230
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC8453835",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "e0b012fbfbe0b553e878ad4fb568b3e4f715b20db51f43531ac419af24e50978",
+          "input_tokens": 1776
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "primary",
+          "agrees": true,
+          "context_sha256": "e0b012fbfbe0b553e878ad4fb568b3e4f715b20db51f43531ac419af24e50978",
+          "input_tokens": 1786
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC11353756",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "9647dfa3048189dfa8246748c3d9d416e1502b6c269ef1a0bac6c83418a62bf8",
+          "input_tokens": 3159
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "9647dfa3048189dfa8246748c3d9d416e1502b6c269ef1a0bac6c83418a62bf8",
+          "input_tokens": 3169
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC11834866",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "4f1f58fdf187ef22057fa9064e5d94f66c6e8c9f8878316cb67c51a4c1670af3",
+          "input_tokens": 3532
+        },
+        "topical_role": {
+          "prediction": "unresolved",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "4f1f58fdf187ef22057fa9064e5d94f66c6e8c9f8878316cb67c51a4c1670af3",
+          "input_tokens": 3542
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC12656480",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "27670c7e0d7c53c0525f39a87532abbb0cc6d8bca292252fadb7821207d1064b",
+          "input_tokens": 3580
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "background_only",
+          "agrees": false,
+          "context_sha256": "27670c7e0d7c53c0525f39a87532abbb0cc6d8bca292252fadb7821207d1064b",
+          "input_tokens": 3590
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC13500855",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "preclinical",
+          "agrees": false,
+          "context_sha256": "201e5af8f40dcc66fe232f8415e2053805be8d3c5cd1a7501257516017264b46",
+          "input_tokens": 4064
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "primary",
+          "agrees": true,
+          "context_sha256": "201e5af8f40dcc66fe232f8415e2053805be8d3c5cd1a7501257516017264b46",
+          "input_tokens": 4074
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC4730864",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "clinical",
+          "agrees": false,
+          "context_sha256": "a669f34d95cd04e56ba6c4412ffcb3b74a0d73a1ede98655b6729100166a4259",
+          "input_tokens": 2671
+        },
+        "topical_role": {
+          "prediction": "background_only",
+          "draft_reference": "background_only",
+          "agrees": true,
+          "context_sha256": "a669f34d95cd04e56ba6c4412ffcb3b74a0d73a1ede98655b6729100166a4259",
+          "input_tokens": 2681
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC5074518",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "preclinical",
+          "agrees": false,
+          "context_sha256": "2e9c72897ec1e39b78ba0dd88368a3c77c31c316012831d71d09d6773fe7f0df",
+          "input_tokens": 3701
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "background_only",
+          "agrees": false,
+          "context_sha256": "2e9c72897ec1e39b78ba0dd88368a3c77c31c316012831d71d09d6773fe7f0df",
+          "input_tokens": 3711
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC5460254",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "unresolved_or_other",
+          "draft_reference": "preclinical",
+          "agrees": false,
+          "context_sha256": "52c638e13626db164149220354146371acef0a91690a952b3fdf7316a19baf35",
+          "input_tokens": 3319
+        },
+        "topical_role": {
+          "prediction": "unresolved",
+          "draft_reference": "primary",
+          "agrees": false,
+          "context_sha256": "52c638e13626db164149220354146371acef0a91690a952b3fdf7316a19baf35",
+          "input_tokens": 3329
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC5824886",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "preclinical",
+          "agrees": false,
+          "context_sha256": "b3aa94d98f60e29a3c114a40f8a3816be9b5ec88039876d64dda7650de2405ce",
+          "input_tokens": 3683
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "unresolved",
+          "agrees": false,
+          "context_sha256": "b3aa94d98f60e29a3c114a40f8a3816be9b5ec88039876d64dda7650de2405ce",
+          "input_tokens": 3693
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC8096277",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "preclinical",
+          "draft_reference": "preclinical",
+          "agrees": true,
+          "context_sha256": "36a23d98f56c9c96ec558990b4b6fb6054ce1cf3511e1450667351a5582baf11",
+          "input_tokens": 3813
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "primary",
+          "agrees": true,
+          "context_sha256": "36a23d98f56c9c96ec558990b4b6fb6054ce1cf3511e1450667351a5582baf11",
+          "input_tokens": 3823
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC9214991",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "5ddc3954dfb3985986a85d8ffb08579055e9dd9d53f61cb5044e673818276f24",
+          "input_tokens": 3259
+        },
+        "topical_role": {
+          "prediction": "unresolved",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "5ddc3954dfb3985986a85d8ffb08579055e9dd9d53f61cb5044e673818276f24",
+          "input_tokens": 3269
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC9394444",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "preclinical",
+          "draft_reference": "preclinical",
+          "agrees": true,
+          "context_sha256": "9d4d1944b992db26a648a7f893839d863848c06eb4f32472aa9e6db89914527d",
+          "input_tokens": 3778
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "secondary_substantive",
+          "agrees": false,
+          "context_sha256": "9d4d1944b992db26a648a7f893839d863848c06eb4f32472aa9e6db89914527d",
+          "input_tokens": 3788
+        }
+      },
+      "training_admission": false
+    },
+    {
+      "pmcid": "PMC9738010",
+      "decisions": {
+        "evidence_group": {
+          "prediction": "clinical",
+          "draft_reference": "clinical",
+          "agrees": true,
+          "context_sha256": "992cf1ed6743b88084b12543e0a00718914da42c64604c7e1eaf3a8516630bfa",
+          "input_tokens": 3129
+        },
+        "topical_role": {
+          "prediction": "primary",
+          "draft_reference": "background_only",
+          "agrees": false,
+          "context_sha256": "992cf1ed6743b88084b12543e0a00718914da42c64604c7e1eaf3a8516630bfa",
+          "input_tokens": 3139
+        }
+      },
+      "training_admission": false
+    }
+  ],
+  "reference_sha256": {
+    "pmc_broad_fresh_labels_2026-10-03.jsonl": "35bc1e82c836d7c78929058893f99fad92ba00b6c20e290666bd36b840b12bbe",
+    "pmc_broad_boundary_labels_2026-10-03.jsonl": "91a2d1d6881c3bd614d5abc51f9fc720a9254193175361ad4c3b0de9c49123d9"
+  },
+  "raw_result_sha256": "43136494b77201301a21eef520ce7f74678a5015cdb1861183ea149309b38a9a",
+  "raw_rows_sha256": "21253fb4c1c844f28102c3895566c37df9b95234759838b5d5b9369ba268ba36",
+  "manifest_sha256": "834d2b64738d2cb161700cfa8a9a59d4a158db86c5360e79b4efeb7ac33f9e98",
+  "elapsed_seconds": 46.56159719778225,
+  "allocated_job_elapsed_seconds": 57,
+  "gpu_name": "NVIDIA GeForce RTX 3090",
+  "training_admission": false,
+  "decision": "Do not scale this one-token constrained-score pilot into an admission classifier. Review design and background-only false inclusion errors first.",
+  "limits": "24 mixed fresh/purposive development articles; single-agent draft references are not expert gold. Exact context reconstruction checks provenance, not semantic correctness. Old labels/scores unchanged."
+}

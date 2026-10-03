@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "verified_queue_records": 5403,
+  "verified_source_family_objects": 5819,
+  "independent_naive_context_rescores": 24,
+  "overlapping_hold_counts": {
+    "development_family_reserved": 154
+  },
+  "summary_sha256": "b84d637bb4127769e9b55ef56006b2194029f8b0965d11cced3d689efbe812d2",
+  "screens_sha256": "4ee009bdae046f537e13a6df38a2651a78fd0873b59933a95ae22cba82c317ca",
+  "manifest_sha256": "8d8a20074fcb8b1e7d7f481d3cd3145367cf7cdcd71c7ec27b61b7a891c2dbbb",
+  "training_admission": false,
+  "limitations": "All identity, exact-family and reservation fields checked; context algorithm independently sampled on 24 cases, not exhaustively independently rescored. No scientific relevance or semantic overlap verdict."
+}

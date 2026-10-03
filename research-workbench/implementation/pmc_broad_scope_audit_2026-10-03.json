@@ -1,0 +1,2636 @@
+{
+  "status": "passed",
+  "source_objects": 5819,
+  "old_candidates": 3892,
+  "broad_candidates": 5403,
+  "new_candidates": 1511,
+  "held_objects": 416,
+  "notice_held_objects": 129,
+  "candidate_article_types": {
+    "review-article": 1060,
+    "research-article": 3892,
+    "case-report": 392,
+    "systematic-review": 48,
+    "case-study": 11
+  },
+  "overlapping_exclusion_counts": {
+    "notice_link_hold": 129,
+    "publication_type_hold": 222,
+    "short_body": 129,
+    "language_hold": 43,
+    "identity_hold": 4
+  },
+  "candidates_sha256": "5fdbd3e3993c329c2e0e65d9133ef368b2d9f41246f321859d78b9971297d88a",
+  "policy_sha256": "d18e28a356764192faad82e576c73ff8a461921a2145d313e33504f261a479d8",
+  "excluded_objects": [
+    {
+      "pmcid": "PMC10015917",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10020335",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10020636",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10035189",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10037243",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10050760",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10052523",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10067240",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10068659",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10106719",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10107565",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10129086",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10163139",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10171236",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10206540",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10219618",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10263409",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10284326",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10294368",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10298288",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10322540",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10332857",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10337644",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10344775",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10356999",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10359362",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10362590",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10382035",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10390362",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10392842",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10402841",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10414964",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10435640",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10436003",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10469309",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10484327",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10496385",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10614120",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10615359",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10617075",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10617327",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10631814",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10644326",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10662303",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10667470",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10674779",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10693104",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10712235",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10714158",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10769624",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10787365",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10813904",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10816953",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10828310",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10833228",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10871000",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10904635",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10910991",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10939479",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10941374",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10941684",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10941686",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10956186",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10977289",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC10993661",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC10994154",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11012577",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11043320",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11109093",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11138022",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11169947",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11177708",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11195687",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11211357",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11214541",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11222733",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11274573",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11316156",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11335990",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11356405",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11371693",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11428198",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11431847",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11440330",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11462437",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11473959",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11476753",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11477318",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11533438",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11534761",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11536622",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11544966",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11551795",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11587763",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11624353",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11630019",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11634203",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11634318",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11653187",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11711818",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11719875",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11735946",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11748745",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11749104",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11750186",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11750205",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11768530",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11776028",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11792534",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11802365",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11805572",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11810483",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11834729",
+      "reasons": [
+        "publication_type_hold",
+        "language_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11937652",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11944373",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC11955861",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11983660",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC11998784",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12008263",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12036527",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12053878",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12060291",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12102753",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12123508",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12136113",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12136753",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12147585",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12172250",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12198246",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12213044",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12220618",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12238814",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12238880",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12245495",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12295335",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12299816",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12319149",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12357684",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12359277",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12381506",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12396749",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12427831",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12442677",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12489176",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12509943",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12519027",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12522175",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12531885",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12602261",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12607635",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12622757",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12635848",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12695850",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12712743",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12714311",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12714890",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12752988",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12756861",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12805163",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12830286",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12835375",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12838606",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12849025",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12852506",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12853369",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12858495",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12892340",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12898759",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12901356",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12922616",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12929026",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC12975904",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12978375",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12978990",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12980093",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12982656",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12985467",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC12992009",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13012904",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC13035597",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13035736",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC13047312",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13079143",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13089009",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13098178",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13116761",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13117715",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13132384",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13132920",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13143946",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13148856",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13155782",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13155783",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13164112",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC13190354",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13190778",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13198112",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC13213869",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13215651",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13249993",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC13296249",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC13326253",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC13329344",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13333640",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC13337759",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13382367",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13399042",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13399221",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13420561",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC13423858",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13448802",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13461513",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC13477673",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC13512882",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC13582233",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC4371614",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC4383326",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC4446286",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC4466604",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC4495097",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC4561308",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC4652955",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC4662535",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC4662957",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC4794825",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC4855682",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC4897948",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC4926290",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC4928163",
+      "reasons": [
+        "identity_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC4943890",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC5079564",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5083844",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5105252",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5161762",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC5206926",
+      "reasons": [
+        "identity_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5295571",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC5321158",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5331242",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5360313",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5385911",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC5409702",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5413524",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC5460387",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC5479867",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5493255",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC5493466",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC5494087",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5574834",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5613694",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5623462",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5640133",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5655826",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5700485",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5795755",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5813764",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5818858",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5820009",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC5822631",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC5827297",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC5905152",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5961440",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5962622",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5990379",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC5998182",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6020396",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6038973",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC6051668",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6053837",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6060972",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC6077554",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC6096713",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6143368",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6148736",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6161885",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6207674",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6238279",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6307925",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6420484",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6524904",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6592466",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC6597732",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6601217",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC6673654",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC6682342",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC6689828",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6767425",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6835160",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC6852452",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6861052",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC6933920",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6948275",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC6966798",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC6994436",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC7022140",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7033912",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7039459",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7046118",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7048042",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7052103",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7077579",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC7174474",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7183114",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7205234",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC7280178",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7309885",
+      "reasons": [
+        "identity_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7314792",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC7333022",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7356402",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7497766",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC7522028",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7536221",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7538891",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7580933",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC7581582",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7600667",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7675101",
+      "reasons": [
+        "notice_link_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC7717314",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7722025",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7734129",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7749586",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC7754046",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7783488",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7803293",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7828595",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7848119",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7852172",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7900084",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7905102",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7967364",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7980147",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC7989711",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8009393",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8024939",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC8054458",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC8099823",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8102283",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8121129",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC8121406",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8121413",
+      "reasons": [
+        "notice_link_hold",
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8133790",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC8140395",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8159500",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8165345",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8196432",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC8223883",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC8294730",
+      "reasons": [
+        "publication_type_hold",
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8322407",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8375112",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC8379654",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8384287",
+      "reasons": [
+        "publication_type_hold",
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8384321",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8390002",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8397626",
+      "reasons": [
+        "publication_type_hold",
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8488192",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8531404",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8576398",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8641773",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC8674745",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8677726",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8678270",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8682108",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8757147",
+      "reasons": [
+        "notice_link_hold",
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8759775",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8762202",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8774925",
+      "reasons": [
+        "identity_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8775095",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC8776535",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC8792535",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8828485",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8854428",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8945336",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8949076",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC8959037",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9021182",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9079041",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9102272",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9116587",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9138705",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9172806",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9206334",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9253986",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9258958",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9275531",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9285545",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9292010",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9317828",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9352113",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9352125",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9358284",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9363074",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9369653",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9392652",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9405212",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9436878",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9459867",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9561622",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9580007",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9606811",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9743765",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9744338",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9745564",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9754843",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9761026",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9806424",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9832772",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9849312",
+      "reasons": [
+        "notice_link_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9860089",
+      "reasons": [
+        "language_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9873902",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9875288",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9892722",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9924917",
+      "reasons": [
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9932605",
+      "reasons": [
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9939813",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9966537",
+      "reasons": [
+        "publication_type_hold"
+      ]
+    },
+    {
+      "pmcid": "PMC9983176",
+      "reasons": [
+        "notice_link_hold",
+        "publication_type_hold",
+        "short_body"
+      ]
+    },
+    {
+      "pmcid": "PMC9987217",
+      "reasons": [
+        "short_body"
+      ]
+    }
+  ],
+  "training_admission": false,
+  "limitations": "Independently reproduced metadata queue only. No scientific relevance, benchmark-overlap, duplicate, final extraction or training admission verdict."
+}

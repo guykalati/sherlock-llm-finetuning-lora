@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "cases": 24,
+  "forward_calls": 48,
+  "elapsed_seconds": 46.56159719778225,
+  "gpu_name": "NVIDIA GeForce RTX 3090",
+  "gpu_peak_bytes": 7699868160,
+  "rows_sha256": "21253fb4c1c844f28102c3895566c37df9b95234759838b5d5b9369ba268ba36",
+  "manifest_sha256": "834d2b64738d2cb161700cfa8a9a59d4a158db86c5360e79b4efeb7ac33f9e98",
+  "training_admission": false,
+  "limitations": "24 development sources; excerpts versus full-narrative draft references. No expert-gold accuracy, admission, model training or automatic scaling decision."
+}
