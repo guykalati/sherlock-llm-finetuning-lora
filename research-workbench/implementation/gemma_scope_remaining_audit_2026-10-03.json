@@ -1,0 +1,227 @@
+{
+  "status": "audited_complete",
+  "raw_sha256": "81a76bc57aac61f4b4b3e59516e3c8f1fa274dd6875be0c3b66ce167ef350faf",
+  "calls_completed_or_failed": 24,
+  "request_failure_ids": [],
+  "non_stop_completion_ids": [],
+  "groups": {
+    "old_development": {
+      "cases": 8,
+      "strict_valid": 6,
+      "transport_valid": 6,
+      "both_agreement_over_all_cases": 5,
+      "tier_agreement_over_all_cases": 6,
+      "centrality_agreement_over_all_cases": 5,
+      "reference_centrality_uncertain": 1,
+      "primary_proposals": 5,
+      "primary_proposals_matching_draft_primary": 4,
+      "primary_proposals_reference_uncertain": 1,
+      "primary_proposals_clear_draft_nonprimary": 0,
+      "transport_failures": {
+        "population_quote_not_exact": 2
+      },
+      "confusion_counts": {
+        "study_tier": [
+          {
+            "reference": "human_clinical_empirical",
+            "prediction": "human_clinical_empirical",
+            "count": 6
+          }
+        ],
+        "cardiac_centrality": [
+          {
+            "reference": "uncertain",
+            "prediction": "core",
+            "count": 1
+          },
+          {
+            "reference": "core",
+            "prediction": "core",
+            "count": 4
+          },
+          {
+            "reference": "background_only",
+            "prediction": "background_only",
+            "count": 1
+          }
+        ]
+      },
+      "disagreements": [
+        {
+          "pmcid": "PMC8391914",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study is a retrospective clinical cohort analysis of 127 human patients. It is core because it specifically investigates risk factors for COVID-19 severity and mortality, identifying cardiac disease as a significant associated factor."
+        }
+      ]
+    },
+    "fresh_development": {
+      "cases": 16,
+      "strict_valid": 12,
+      "transport_valid": 12,
+      "both_agreement_over_all_cases": 4,
+      "tier_agreement_over_all_cases": 11,
+      "centrality_agreement_over_all_cases": 5,
+      "reference_centrality_uncertain": 9,
+      "primary_proposals": 10,
+      "primary_proposals_matching_draft_primary": 4,
+      "primary_proposals_reference_uncertain": 6,
+      "primary_proposals_clear_draft_nonprimary": 0,
+      "transport_failures": {
+        "population_quote_not_exact": 4
+      },
+      "confusion_counts": {
+        "study_tier": [
+          {
+            "reference": "human_clinical_empirical",
+            "prediction": "human_clinical_empirical",
+            "count": 11
+          },
+          {
+            "reference": "human_health_services",
+            "prediction": "human_clinical_empirical",
+            "count": 1
+          }
+        ],
+        "cardiac_centrality": [
+          {
+            "reference": "uncertain",
+            "prediction": "core",
+            "count": 6
+          },
+          {
+            "reference": "core",
+            "prediction": "core",
+            "count": 4
+          },
+          {
+            "reference": "uncertain",
+            "prediction": "background_only",
+            "count": 1
+          },
+          {
+            "reference": "uncertain",
+            "prediction": "uncertain",
+            "count": 1
+          }
+        ]
+      },
+      "disagreements": [
+        {
+          "pmcid": "PMC11834866",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study is a retrospective clinical cohort analysis of 664 patients with myasthenia gravis. It is core because it specifically investigates the correlation between autoantibodies and clinical manifestations, including cardiovascular and cerebrovascular diseases."
+        },
+        {
+          "pmcid": "PMC10266211",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study is a completed human clinical trial involving a cohort of 15 patients with cardiovascular/cerebrovascular disease. The primary research question focuses on the effects of a cardiovascular medication (anti-PCSK9 mAb) on metabolic parameters."
+        },
+        {
+          "pmcid": "PMC12656480",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study is a prospective cohort study involving 448 human patients. It is core because it investigates the association between adipokines (leptin/adiponectin) and mortality, specifically noting that leptin is pro-atherogenic and associated with cardiovascular disease."
+        },
+        {
+          "pmcid": "PMC10607586",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study is a clinical empirical study involving a cohort of 199 patients with rheumatoid arthritis. It is core because it specifically investigates the role of microRNAs in inflammation and atherosclerosis (cardiovascular disease) within this patient population."
+        },
+        {
+          "pmcid": "PMC11489290",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study is a completed cross-sectional clinical trial involving a cohort of 65 patients with type 2 diabetes. It is core because it specifically investigates diabetic cardiac autonomic neuropathy (DCAN) and heart rate variability (HRV) as factors influencing gastric electrical rhythm."
+        },
+        {
+          "pmcid": "PMC7010311",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study is a prospective observational longitudinal cohort study involving 148 patients with primary aldosteronism, a condition directly linked to hypertension and cardiovascular damage. It measures the effect of specific treatments (adrenalectomy vs. MRA) on salt intake."
+        },
+        {
+          "pmcid": "PMC13088976",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "background_only"
+          },
+          "reason": "The study is a cross-sectional clinical study of a human cohort (T2DM patients) to determine the prevalence and risk factors of peripheral neuropathy. While cardiovascular disease is mentioned as a significant variable in the results, the primary research question focuses on diabetic neuropathy, making cardiac centrality background_only."
+        },
+        {
+          "pmcid": "PMC9214991",
+          "reference": {
+            "study_tier": "human_health_services",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "reason": "The study is a cross-sectional clinical study of a human cohort (SLE patients). It is classified as uncertain for cardiac centrality because while it mentions cardiovascular risk factors as one of many quality indicators, the primary research question is about general SLE care quality across clinic settings."
+        }
+      ]
+    }
+  },
+  "model": "gemma4:12b-it-qat",
+  "model_digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+  "ollama_version": {
+    "version": "0.35.0"
+  },
+  "elapsed_seconds": 1732.337355292002,
+  "prompt_eval_count_range": [
+    1760,
+    3688
+  ],
+  "training_admission": false,
+  "limits": "Schema-guided local generation, development agreement with draft references. Different model/decoder/runtime together; no model-size causality, expert gold, independent accuracy or corpus admission. Requested context hashes verified; internal server text truncation not independently observed."
+}

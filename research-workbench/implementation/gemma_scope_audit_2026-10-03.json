@@ -1,0 +1,175 @@
+{
+  "status": "audited_request_failure_partial",
+  "raw_sha256": "3b812f3cb3cc0e2eb86f5ccf232b988cf5d7ac2300291e5b325fc925257dc1b8",
+  "calls_completed_or_failed": 24,
+  "request_failure_ids": [
+    "PMC8905559"
+  ],
+  "non_stop_completion_ids": [],
+  "groups": {
+    "old_development": {
+      "cases": 23,
+      "strict_valid": 16,
+      "transport_valid": 16,
+      "both_agreement_over_all_cases": 10,
+      "tier_agreement_over_all_cases": 13,
+      "centrality_agreement_over_all_cases": 13,
+      "reference_centrality_uncertain": 5,
+      "primary_proposals": 9,
+      "primary_proposals_matching_draft_primary": 7,
+      "primary_proposals_reference_uncertain": 0,
+      "primary_proposals_clear_draft_nonprimary": 2,
+      "transport_failures": {
+        "population_quote_not_exact": 4,
+        "question_quote_not_exact": 3
+      },
+      "confusion_counts": {
+        "study_tier": [
+          {
+            "reference": "human_clinical_empirical",
+            "prediction": "human_clinical_empirical",
+            "count": 10
+          },
+          {
+            "reference": "review_consensus",
+            "prediction": "review_consensus",
+            "count": 1
+          },
+          {
+            "reference": "human_health_services",
+            "prediction": "human_clinical_empirical",
+            "count": 2
+          },
+          {
+            "reference": "preclinical",
+            "prediction": "preclinical",
+            "count": 2
+          },
+          {
+            "reference": "other",
+            "prediction": "preclinical",
+            "count": 1
+          }
+        ],
+        "cardiac_centrality": [
+          {
+            "reference": "uncertain",
+            "prediction": "uncertain",
+            "count": 1
+          },
+          {
+            "reference": "uncertain",
+            "prediction": "background_only",
+            "count": 1
+          },
+          {
+            "reference": "uncertain",
+            "prediction": "core",
+            "count": 1
+          },
+          {
+            "reference": "core",
+            "prediction": "core",
+            "count": 11
+          },
+          {
+            "reference": "background_only",
+            "prediction": "uncertain",
+            "count": 1
+          },
+          {
+            "reference": "background_only",
+            "prediction": "background_only",
+            "count": 1
+          }
+        ]
+      },
+      "disagreements": [
+        {
+          "pmcid": "PMC7499680",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "background_only"
+          },
+          "reason": "The study is a cross-sectional clinical study of a human cohort (children in a PICU). The primary research question is about the clinical characteristics of COVID-19 in children, not cardiovascular disease; cardiac arrhythmias are mentioned as a finding but are not the central focus."
+        },
+        {
+          "pmcid": "PMC11211012",
+          "reference": {
+            "study_tier": "review_consensus",
+            "cardiac_centrality": "uncertain"
+          },
+          "prediction": {
+            "study_tier": "review_consensus",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study is a meta-analysis of randomized controlled trials (review_consensus). It is core because it specifically evaluates complications of the cardiac system and overall prognosis in a surgical population."
+        },
+        {
+          "pmcid": "PMC9738010",
+          "reference": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "background_only"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "uncertain"
+          },
+          "reason": "The study is a population-based cross-sectional analysis of human participants. While it mentions cardiovascular disease as a potential future application, the primary research question focuses on the relationship between adiponectin, kidney damage (uACR), and Type 2 Diabetes."
+        },
+        {
+          "pmcid": "PMC13217667",
+          "reference": {
+            "study_tier": "human_health_services",
+            "cardiac_centrality": "core"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study is a completed pilot trial involving a human cohort (caregivers) and measures performance in pediatric basic life support (PBLS), which is a core cardiovascular/resuscitation intervention."
+        },
+        {
+          "pmcid": "PMC5074518",
+          "reference": {
+            "study_tier": "other",
+            "cardiac_centrality": "background_only"
+          },
+          "prediction": {
+            "study_tier": "preclinical",
+            "cardiac_centrality": "background_only"
+          },
+          "reason": "The study is preclinical as it involves the structural and functional characterization of a recombinant enzyme (Klac PNP) from yeast. Cardiac centrality is background_only because the study focuses on enzyme engineering for food processing to manage hyperuricemia, with cardiovascular risk mentioned only as a general consequence of the condition."
+        },
+        {
+          "pmcid": "PMC6772048",
+          "reference": {
+            "study_tier": "human_health_services",
+            "cardiac_centrality": "core"
+          },
+          "prediction": {
+            "study_tier": "human_clinical_empirical",
+            "cardiac_centrality": "core"
+          },
+          "reason": "The study is a cross-sectional analysis of a large human cohort (256,525 adults) using laboratory data to assess cardiometabolic risk factors, which are central to cardiovascular disease."
+        }
+      ]
+    }
+  },
+  "model": "gemma4:12b-it-qat",
+  "model_digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+  "ollama_version": {
+    "version": "0.35.0"
+  },
+  "elapsed_seconds": 1500.0327688329999,
+  "prompt_eval_count_range": [
+    0,
+    3565
+  ],
+  "training_admission": false,
+  "limits": "Schema-guided local generation, development agreement with draft references. Different model/decoder/runtime together; no model-size causality, expert gold, independent accuracy or corpus admission. Requested context hashes verified; internal server text truncation not independently observed."
+}

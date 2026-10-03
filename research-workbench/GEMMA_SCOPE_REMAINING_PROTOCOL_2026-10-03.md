@@ -1,0 +1,7 @@
+# Gemma scope check — previously unattempted cases
+
+The first frozen 25-minute campaign ended at its wall ceiling: 23 completed calls, one deadline-timeout call, 24 unattempted cases. Raw result and failure remain unchanged. Ollama logged cancellation of the timed-out request and all slots idle before another campaign began. No failed or completed case is retried.
+
+A separate frozen continuation covers only the 24 unattempted cases (eight old development cases and the 16 newer development cases). Same cached local model/digest, original instructions, schema, requested source texts, temperature zero, seed and token/context limits. Freeze the attempted-ID exclusion list and predecessor result checksum. **24 calls maximum, 30-minute local wall cap, each call at most 120 seconds, no retries or further extension.** Total across both stages is at most 48 distinct article calls, with at most 55 minutes of local campaign wall time. Training/admission/downloads/cloud calls remain zero. Stop on request failure; preserve partial results.
+
+The continuation starts only after the separate finite experiment-agent proposal campaign finishes, with one local model caller. Independently audit source/context/model hashes and exact-quote/schema gates. Report both stages' failures and denominators; do not silently combine them into a complete 48-case success. All cases are development cases and the reference is draft review, not expert gold.

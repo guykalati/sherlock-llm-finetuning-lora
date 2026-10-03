@@ -10,7 +10,7 @@ This branch preserves the original course artifacts and adds the new personal re
 
 ## Status
 
-5,819 acquired articles and 50,437,502 raw cached-Qwen tokens remain unadmitted. The longer revised scope prompt was rejected: transport-valid outputs dropped from 21/32 to 4/32 on old cases and 9/16 to 2/16 on the newer sample. Fixed-choice classification removed generated-JSON failures (48/48 controller-valid), but both-label agreement was 15/32 and 7/16 against draft references. A frozen local Gemma 12B schema-guided comparison is running with a 48-call / 25-minute ceiling. No biomedical adaptation or automatic admission occurred.
+5,819 acquired articles and 50,437,502 raw cached-Qwen tokens remain unadmitted. The revised long Qwen prompt was rejected; fixed-choice classification fixes output transport but scientific disagreement persists. Two local Gemma stages attempted48distinct cases:47responses, one unretried deadline timeout,34strict schema/exact-quote-valid records and19both-label agreements with draft references. Scope is not reliable for automatic admission. A corpus coverage choice is pending before training:strict heart-focused original human studies versus broader labeled cardiovascular literature.
 
 ## Snapshot layout
 

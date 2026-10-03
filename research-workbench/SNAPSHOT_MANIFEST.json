@@ -253,9 +253,24 @@
       "bytes": 15225
     },
     {
+      "source_relative_path": "GEMMA_SCOPE_COMBINED_RESULT_2026-10-03.md",
+      "sha256": "d2c26a3b7e69a1d7d85e05e841a998599ead769bddd39f46af14bae783b25431",
+      "bytes": 2614
+    },
+    {
+      "source_relative_path": "GEMMA_SCOPE_FIRST_STAGE_RESULT_2026-10-03.md",
+      "sha256": "c5d17f088b9021a939af7315bb90b0fa8cbcf34bf550a101c5c6010957d68269",
+      "bytes": 1718
+    },
+    {
       "source_relative_path": "GEMMA_SCOPE_PROTOCOL_2026-10-03.md",
       "sha256": "229435a0504a3684d796aac1a9af0a091ddec728cb9c7f5ab9aa14169225c62c",
       "bytes": 1970
+    },
+    {
+      "source_relative_path": "GEMMA_SCOPE_REMAINING_PROTOCOL_2026-10-03.md",
+      "sha256": "8547db99b1080d83b947e8c9626963a97f131f503083e2dc51e5c4a9410914d9",
+      "bytes": 1446
     },
     {
       "source_relative_path": "INCART_EXTERNAL_PROTOCOL_2026-09-29.md",
@@ -483,6 +498,16 @@
       "bytes": 3583
     },
     {
+      "source_relative_path": "implementation/audit_gemma_scope_combined.py",
+      "sha256": "55a05dc5cc03ee5099e73df24bb882b3503853a111c645a43901606bcab023c3",
+      "bytes": 1937
+    },
+    {
+      "source_relative_path": "implementation/audit_gemma_scope_remaining.py",
+      "sha256": "41ed92cb2efe004140747dcba5bdf8aefbb24dc4f19c05fe8859f83651a8fb22",
+      "bytes": 4377
+    },
+    {
       "source_relative_path": "implementation/audit_longruns_2026-09-30.py",
       "sha256": "407beb039d773511058a7040d2d6917c50cccb44189de63cf378f7a6b4b3d828",
       "bytes": 7195
@@ -548,9 +573,34 @@
       "bytes": 2896
     },
     {
+      "source_relative_path": "implementation/gemma_scope_audit_2026-10-03.json",
+      "sha256": "83baada988555cc7922e2462a44dae332fb14ea61d0b5112e4e3e6df150a8bee",
+      "bytes": 6635
+    },
+    {
+      "source_relative_path": "implementation/gemma_scope_combined_audit_2026-10-03.json",
+      "sha256": "2268407077d2312829e38e9cc30af12fb3b37a51ad3a8382373f85388dcf0456",
+      "bytes": 13941
+    },
+    {
       "source_relative_path": "implementation/gemma_scope_manifest_2026-10-03.json",
       "sha256": "e7694ee582d89e8402ea9c5245b4e1f3486e909bd3992a22ebd905c4620d929f",
       "bytes": 704
+    },
+    {
+      "source_relative_path": "implementation/gemma_scope_remaining.py",
+      "sha256": "e895b0c93b67eda7b3b4481d26e4b4fcfaff00281abe1db67e4f7e3c4a454278",
+      "bytes": 4645
+    },
+    {
+      "source_relative_path": "implementation/gemma_scope_remaining_audit_2026-10-03.json",
+      "sha256": "849fc5d1d62dfb1fc303e65e8a113a0795860205e13005544c074f18ad088921",
+      "bytes": 9200
+    },
+    {
+      "source_relative_path": "implementation/gemma_scope_remaining_manifest_2026-10-03.json",
+      "sha256": "68e58f3fbf5dc15e599f908a1bece0df049211d87631cf1290fdf4a2c6777eb1",
+      "bytes": 1351
     },
     {
       "source_relative_path": "implementation/gemma_scope_screen.py",
