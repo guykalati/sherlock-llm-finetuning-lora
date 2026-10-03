@@ -1,0 +1,89 @@
+{
+  "initial": {
+    "loss": 2.506971796353658,
+    "perplexity": 12.26772458773858,
+    "target_tokens": 12264
+  },
+  "history": [
+    {
+      "step": 25,
+      "train_loss": 2.229359447956085,
+      "validation": {
+        "loss": 2.4113248387972512,
+        "perplexity": 11.148721624226141,
+        "target_tokens": 12264
+      },
+      "seconds": 81.7924913330935
+    },
+    {
+      "step": 50,
+      "train_loss": 2.420275032520294,
+      "validation": {
+        "loss": 2.384616290529569,
+        "perplexity": 10.854896739039704,
+        "target_tokens": 12264
+      },
+      "seconds": 157.91069093393162
+    },
+    {
+      "step": 75,
+      "train_loss": 2.3762753009796143,
+      "validation": {
+        "loss": 2.371619239449501,
+        "perplexity": 10.714727955217791,
+        "target_tokens": 12264
+      },
+      "seconds": 234.10912658413872
+    },
+    {
+      "step": 100,
+      "train_loss": 2.5286083817481995,
+      "validation": {
+        "loss": 2.368460680047671,
+        "perplexity": 10.680938241996886,
+        "target_tokens": 12264
+      },
+      "seconds": 310.28367313882336
+    },
+    {
+      "step": 125,
+      "train_loss": 2.6452783346176147,
+      "validation": {
+        "loss": 2.362460588415464,
+        "perplexity": 10.61704351263239,
+        "target_tokens": 12264
+      },
+      "seconds": 386.47227164311334
+    },
+    {
+      "step": 150,
+      "train_loss": 2.408210515975952,
+      "validation": {
+        "loss": 2.3594133655230203,
+        "perplexity": 10.584740257196525,
+        "target_tokens": 12264
+      },
+      "seconds": 462.6432619388215
+    },
+    {
+      "step": 175,
+      "train_loss": 2.4361302256584167,
+      "validation": {
+        "loss": 2.358149528503418,
+        "perplexity": 10.571371320474675,
+        "target_tokens": 12264
+      },
+      "seconds": 538.8254937380552
+    },
+    {
+      "step": 200,
+      "train_loss": 2.576176345348358,
+      "validation": {
+        "loss": 2.3579410165548325,
+        "perplexity": 10.569167293032436,
+        "target_tokens": 12264
+      },
+      "seconds": 615.0257744402625
+    }
+  ]
+}

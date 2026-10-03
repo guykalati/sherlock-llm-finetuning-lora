@@ -1,0 +1,79 @@
+{
+  "files": {
+    "test_answers.jsonl": "7ab58dea6f37993c94656a09078eb4dcd61d9764dcab8a636a5c53bc6fb098f3",
+    "validation_messages.jsonl": "e1a4490151d6684162bc1c6c124bfe887f0f48a7326622e6294d390ab1fe06d7",
+    "test_messages.jsonl": "25255d0477e719dc23c28fe07c8dd61365b2d29116b14c39d534b74b5b236336",
+    "train_messages.jsonl": "8399ba959260b17b63251280030249feb0ae18294a3c5d441c369a6a3e9595bc",
+    "books/pg1661.txt": "09037f29eab877783671b8291fec2595c56e61912c5378faa422d6cd8aa97c97",
+    "books/pg3289.txt": "abe84f82ff3617c299c9421e10fdc1bdfa1339b361fdb1daa3d4ade3a4ececc8",
+    "books/pg834.txt": "d5bc69775624307a3515713c0ece889664df455591ad15665295c54673e47688",
+    "books/pg244.txt": "31e93a5ad562f50dcf009aee68d6284180d0d838437c236bbaa99ad3c369f64f",
+    "books/pg108.txt": "d9d92307187f2c750eb1d8eaf48af65ba8b1e2109727f1c2fe44c4ba2ef6e305",
+    "books/pg2350.txt": "cf6c019f414cde86b3143ecab07c286d899dcccd7921a0fcf41438d41fb6e406",
+    "books/pg69700.txt": "0465d9cd95574347fdff5a63d2480bcefedf21f581feb0f454298b9b6ae637e7",
+    "books/pg2852.txt": "21a90b85670b7d1ce62027b1407ee839d9f29f33384f7a63f07dc1629b65a920",
+    "books/pg2097.txt": "e840334735fcf5af81cbd6213c89650602a2ef667f94426dc7e6dc700cd0a776"
+  },
+  "books": {
+    "pg108.txt": {
+      "tokens": 158714,
+      "train_chunks": 278,
+      "guard_chunks": 1,
+      "validation_chunks": 30
+    },
+    "pg1661.txt": {
+      "tokens": 137533,
+      "train_chunks": 241,
+      "guard_chunks": 1,
+      "validation_chunks": 26
+    },
+    "pg2097.txt": {
+      "tokens": 57623,
+      "train_chunks": 100,
+      "guard_chunks": 1,
+      "validation_chunks": 11
+    },
+    "pg2350.txt": {
+      "tokens": 78274,
+      "train_chunks": 136,
+      "guard_chunks": 1,
+      "validation_chunks": 15
+    },
+    "pg244.txt": {
+      "tokens": 57876,
+      "train_chunks": 101,
+      "guard_chunks": 1,
+      "validation_chunks": 11
+    },
+    "pg2852.txt": {
+      "tokens": 82763,
+      "train_chunks": 144,
+      "guard_chunks": 1,
+      "validation_chunks": 16
+    },
+    "pg3289.txt": {
+      "tokens": 76759,
+      "train_chunks": 134,
+      "guard_chunks": 1,
+      "validation_chunks": 14
+    },
+    "pg69700.txt": {
+      "tokens": 113766,
+      "train_chunks": 199,
+      "guard_chunks": 1,
+      "validation_chunks": 22
+    },
+    "pg834.txt": {
+      "tokens": 133917,
+      "train_chunks": 234,
+      "guard_chunks": 1,
+      "validation_chunks": 26
+    }
+  },
+  "sft_counts": {
+    "train": 458,
+    "validation": 59,
+    "test": 106
+  },
+  "cpt_validation_chunks": 24
+}

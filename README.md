@@ -1,5 +1,11 @@
 # Biomedical article QA and LLM adaptation
 
+## CV claim closure — verified 4 October 2026
+
+The original Sherlock two-stage QLoRA pipeline now has reproducible code and a completed controlled GPU run: attention-only validation perplexity **10.5692**, attention + MLP **10.1895**, followed by response-only SFT and 106-question evaluation. [Verified results and limitations](cv-closure/README.md) · [Claim register](cv-closure/CLAIM_REGISTER.md). QA remains weak; all six exact matches are abstentions.
+
+## Earlier expansion work
+
 This branch preserves the original course artifacts and adds the new personal research work through 3 October 2026.
 
 - [Current status](research-workbench/CURRENT_STATUS_2026-10-03.md)

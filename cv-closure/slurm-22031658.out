@@ -1,0 +1,47 @@
+------------------------------------
+Sat 03 Oct 2026 22:23:32 IDT
+SLURM_JOBID:		22031658
+SLURM_JOB_NODELIST:	ise-pheno-09
+SLURM_SCRATCH_DIR:	
+Allocated Resouces:	cpu - 2 / mem - 16384 MB / gpu - 1
+SLURM_GPU_INDEX:	0
+Running as guykalat from yshahar account with normal QOS
+------------------------------------
+Token indices sequence length is longer than the specified maximum sequence length for this model (158714 > 131072). Running this sequence through the model will result in indexing errors
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:11<00:11, 11.10s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  8.02s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  8.48s/it]
+/home/guykalat/.conda/envs/hw1_llm/lib/python3.11/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+{"stage": "attention", "step": 25, "train_loss": 2.229359447956085, "validation": {"loss": 2.4113248387972512, "perplexity": 11.148721624226141, "target_tokens": 12264}, "seconds": 81.7924913330935}
+{"stage": "attention", "step": 50, "train_loss": 2.420275032520294, "validation": {"loss": 2.384616290529569, "perplexity": 10.854896739039704, "target_tokens": 12264}, "seconds": 157.91069093393162}
+{"stage": "attention", "step": 75, "train_loss": 2.3762753009796143, "validation": {"loss": 2.371619239449501, "perplexity": 10.714727955217791, "target_tokens": 12264}, "seconds": 234.10912658413872}
+{"stage": "attention", "step": 100, "train_loss": 2.5286083817481995, "validation": {"loss": 2.368460680047671, "perplexity": 10.680938241996886, "target_tokens": 12264}, "seconds": 310.28367313882336}
+{"stage": "attention", "step": 125, "train_loss": 2.6452783346176147, "validation": {"loss": 2.362460588415464, "perplexity": 10.61704351263239, "target_tokens": 12264}, "seconds": 386.47227164311334}
+{"stage": "attention", "step": 150, "train_loss": 2.408210515975952, "validation": {"loss": 2.3594133655230203, "perplexity": 10.584740257196525, "target_tokens": 12264}, "seconds": 462.6432619388215}
+{"stage": "attention", "step": 175, "train_loss": 2.4361302256584167, "validation": {"loss": 2.358149528503418, "perplexity": 10.571371320474675, "target_tokens": 12264}, "seconds": 538.8254937380552}
+{"stage": "attention", "step": 200, "train_loss": 2.576176345348358, "validation": {"loss": 2.3579410165548325, "perplexity": 10.569167293032436, "target_tokens": 12264}, "seconds": 615.0257744402625}
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.41s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.92s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.99s/it]
+{"stage": "attention_mlp", "step": 25, "train_loss": 2.20205020904541, "validation": {"loss": 2.3801879286766052, "perplexity": 10.806933605838669, "target_tokens": 12264}, "seconds": 89.47613982018083}
+{"stage": "attention_mlp", "step": 50, "train_loss": 2.3914711475372314, "validation": {"loss": 2.3591187447309494, "perplexity": 10.58162223197817, "target_tokens": 12264}, "seconds": 172.83447227207944}
+{"stage": "attention_mlp", "step": 75, "train_loss": 2.3352057337760925, "validation": {"loss": 2.3428697685400643, "perplexity": 10.41107109745575, "target_tokens": 12264}, "seconds": 256.17835319181904}
+{"stage": "attention_mlp", "step": 100, "train_loss": 2.4993380904197693, "validation": {"loss": 2.3377479314804077, "perplexity": 10.357883612766352, "target_tokens": 12264}, "seconds": 339.5738881691359}
+{"stage": "attention_mlp", "step": 125, "train_loss": 2.6105709075927734, "validation": {"loss": 2.328476404150327, "perplexity": 10.262294027244906, "target_tokens": 12264}, "seconds": 422.94423768110573}
+{"stage": "attention_mlp", "step": 150, "train_loss": 2.360162913799286, "validation": {"loss": 2.323631967107455, "perplexity": 10.212699216377162, "target_tokens": 12264}, "seconds": 506.31289130309597}
+{"stage": "attention_mlp", "step": 175, "train_loss": 2.402839481830597, "validation": {"loss": 2.3216684808333716, "perplexity": 10.192666395165213, "target_tokens": 12264}, "seconds": 589.7900109342299}
+{"stage": "attention_mlp", "step": 200, "train_loss": 2.5218034982681274, "validation": {"loss": 2.3213620334863663, "perplexity": 10.18954335813715, "target_tokens": 12264}, "seconds": 673.163974957075}
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.35s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.89s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.96s/it]
+{"stage": "sft", "step": 25, "train_loss": 3.703894555568695, "validation": {"loss": 2.493528928425152, "perplexity": 12.103914690571465, "target_tokens": 2959}, "seconds": 69.44245780725032}
+{"stage": "sft", "step": 50, "train_loss": 2.4037678241729736, "validation": {"loss": 2.444772912566426, "perplexity": 11.527931453207989, "target_tokens": 2959}, "seconds": 130.6174216219224}
+{"stage": "sft", "step": 75, "train_loss": 1.6820721384137869, "validation": {"loss": 2.402111859696918, "perplexity": 11.046480381300558, "target_tokens": 2959}, "seconds": 191.91061561601236}
+{"stage": "sft", "step": 100, "train_loss": 1.4581490028649569, "validation": {"loss": 2.3808005598095794, "perplexity": 10.813556298244231, "target_tokens": 2959}, "seconds": 252.85068330308422}
+{"stage": "sft", "step": 125, "train_loss": 1.9969256222248077, "validation": {"loss": 2.37398978148503, "perplexity": 10.740157797581514, "target_tokens": 2959}, "seconds": 314.00053045805544}
+{"stage": "sft", "step": 150, "train_loss": 1.9153214991092682, "validation": {"loss": 2.4169557833878543, "perplexity": 11.21167653942245, "target_tokens": 2959}, "seconds": 375.3158194422722}
+{"stage": "sft", "step": 175, "train_loss": 1.3629503846168518, "validation": {"loss": 2.4043803914477175, "perplexity": 11.07156811818501, "target_tokens": 2959}, "seconds": 436.57218659017235}
+{"stage": "sft", "step": 200, "train_loss": 1.9231263101100922, "validation": {"loss": 2.4031381975602417, "perplexity": 11.057823622375533, "target_tokens": 2959}, "seconds": 497.4414567728527}
+{"stage": "sft", "step": 225, "train_loss": 1.4400530382990837, "validation": {"loss": 2.4066492602231557, "perplexity": 11.096716571865954, "target_tokens": 2959}, "seconds": 558.7381925368682}
+{"stage": "sft", "step": 250, "train_loss": 1.1994145391508937, "validation": {"loss": 2.465936026716295, "perplexity": 11.774498240423519, "target_tokens": 2959}, "seconds": 619.9474922199734}
+{"stage": "sft", "step": 275, "train_loss": 1.3502687029540539, "validation": {"loss": 2.4913271954005753, "perplexity": 12.077294417990974, "target_tokens": 2959}, "seconds": 680.9269448369741}
+{"stage": "sft", "step": 300, "train_loss": 1.0277250409126282, "validation": {"loss": 2.495146534882562, "perplexity": 12.123509905535183, "target_tokens": 2959}, "seconds": 742.1647397340275}
+{"stage": "sft", "step": 325, "train_loss": 0.6374304057826521, "validation": {"loss": 2.4921479574687533, "perplexity": 12.087211072185584, "target_tokens": 2959}, "seconds": 803.3304677400738}
+{"stage": "sft", "step": 344, "train_loss": 1.5026682317256927, "validation": {"loss": 2.4912580652712246, "perplexity": 12.076459541923528, "target_tokens": 2959}, "seconds": 852.0036096768454}

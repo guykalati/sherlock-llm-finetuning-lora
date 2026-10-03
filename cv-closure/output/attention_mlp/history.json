@@ -1,0 +1,89 @@
+{
+  "initial": {
+    "loss": 2.506971796353658,
+    "perplexity": 12.26772458773858,
+    "target_tokens": 12264
+  },
+  "history": [
+    {
+      "step": 25,
+      "train_loss": 2.20205020904541,
+      "validation": {
+        "loss": 2.3801879286766052,
+        "perplexity": 10.806933605838669,
+        "target_tokens": 12264
+      },
+      "seconds": 89.47613982018083
+    },
+    {
+      "step": 50,
+      "train_loss": 2.3914711475372314,
+      "validation": {
+        "loss": 2.3591187447309494,
+        "perplexity": 10.58162223197817,
+        "target_tokens": 12264
+      },
+      "seconds": 172.83447227207944
+    },
+    {
+      "step": 75,
+      "train_loss": 2.3352057337760925,
+      "validation": {
+        "loss": 2.3428697685400643,
+        "perplexity": 10.41107109745575,
+        "target_tokens": 12264
+      },
+      "seconds": 256.17835319181904
+    },
+    {
+      "step": 100,
+      "train_loss": 2.4993380904197693,
+      "validation": {
+        "loss": 2.3377479314804077,
+        "perplexity": 10.357883612766352,
+        "target_tokens": 12264
+      },
+      "seconds": 339.5738881691359
+    },
+    {
+      "step": 125,
+      "train_loss": 2.6105709075927734,
+      "validation": {
+        "loss": 2.328476404150327,
+        "perplexity": 10.262294027244906,
+        "target_tokens": 12264
+      },
+      "seconds": 422.94423768110573
+    },
+    {
+      "step": 150,
+      "train_loss": 2.360162913799286,
+      "validation": {
+        "loss": 2.323631967107455,
+        "perplexity": 10.212699216377162,
+        "target_tokens": 12264
+      },
+      "seconds": 506.31289130309597
+    },
+    {
+      "step": 175,
+      "train_loss": 2.402839481830597,
+      "validation": {
+        "loss": 2.3216684808333716,
+        "perplexity": 10.192666395165213,
+        "target_tokens": 12264
+      },
+      "seconds": 589.7900109342299
+    },
+    {
+      "step": 200,
+      "train_loss": 2.5218034982681274,
+      "validation": {
+        "loss": 2.3213620334863663,
+        "perplexity": 10.18954335813715,
+        "target_tokens": 12264
+      },
+      "seconds": 673.163974957075
+    }
+  ]
+}

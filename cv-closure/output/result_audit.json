@@ -1,0 +1,245 @@
+{
+  "status": "passed",
+  "source_data_hashes_verified": true,
+  "adapter_hash_verification": "verified",
+  "qa_predictions_recomputed": 212,
+  "same_cpt_baseline_and_budget": true,
+  "mlp_lower_validation_perplexity_checkpoints": 8,
+  "checkpoints": [
+    [
+      25,
+      11.148721624226141,
+      10.806933605838669
+    ],
+    [
+      50,
+      10.854896739039704,
+      10.58162223197817
+    ],
+    [
+      75,
+      10.714727955217791,
+      10.41107109745575
+    ],
+    [
+      100,
+      10.680938241996886,
+      10.357883612766352
+    ],
+    [
+      125,
+      10.61704351263239,
+      10.262294027244906
+    ],
+    [
+      150,
+      10.584740257196525,
+      10.212699216377162
+    ],
+    [
+      175,
+      10.571371320474675,
+      10.192666395165213
+    ],
+    [
+      200,
+      10.569167293032436,
+      10.18954335813715
+    ]
+  ],
+  "cpt_to_sft_adapter_handoff_bound": true,
+  "qa_by_category": {
+    "cpt": {
+      "character_theme": {
+        "n": 9,
+        "exact_match": 0.0,
+        "token_f1": 0.22015334428057373
+      },
+      "factual_recall": {
+        "n": 21,
+        "exact_match": 0.0,
+        "token_f1": 0.13719078336391383
+      },
+      "multi_hop": {
+        "n": 11,
+        "exact_match": 0.0,
+        "token_f1": 0.16014141896213815
+      },
+      "specific_detail": {
+        "n": 37,
+        "exact_match": 0.0,
+        "token_f1": 0.13047861505450262
+      },
+      "style_imitation": {
+        "n": 9,
+        "exact_match": 0.0,
+        "token_f1": 0.2520087313551786
+      },
+      "summarization": {
+        "n": 9,
+        "exact_match": 0.0,
+        "token_f1": 0.2167279118518242
+      },
+      "unanswerable": {
+        "n": 10,
+        "exact_match": 0.0,
+        "token_f1": 0.03569166902624328
+      }
+    },
+    "sft": {
+      "character_theme": {
+        "n": 9,
+        "exact_match": 0.0,
+        "token_f1": 0.21888532455975585
+      },
+      "factual_recall": {
+        "n": 21,
+        "exact_match": 0.0,
+        "token_f1": 0.2725210177955058
+      },
+      "multi_hop": {
+        "n": 11,
+        "exact_match": 0.0,
+        "token_f1": 0.24563162662948834
+      },
+      "specific_detail": {
+        "n": 37,
+        "exact_match": 0.0,
+        "token_f1": 0.17183431337835164
+      },
+      "style_imitation": {
+        "n": 9,
+        "exact_match": 0.0,
+        "token_f1": 0.26118752903311165
+      },
+      "summarization": {
+        "n": 9,
+        "exact_match": 0.0,
+        "token_f1": 0.25598992319690894
+      },
+      "unanswerable": {
+        "n": 10,
+        "exact_match": 0.6,
+        "token_f1": 0.6090909090909091
+      }
+    }
+  },
+  "lowest_f1_examples": {
+    "cpt": [
+      {
+        "id": "test_0019",
+        "stage": "cpt",
+        "question": "What was the motive for the strange and elaborate attempt to alarm the card-players?",
+        "reference": "Not enough information",
+        "prediction": "In \"His Last Bow,\" the motive behind the strange and elaborate attempt to alarm the card-players was to draw attention away from a more serious matter that Holmes and Watson were investigating. The card-playing incident was part of a larger plot involving the theft of a valuable diamond, which had been stolen from the person who had been trying to alarm them.\n\nThe card players were actually agents of the criminal mastermind, Professor Moriarty, who was using their alarm as a distraction. This allowed him to carry out his own nefarious plans without suspicion. The elaborate alarm system was set up to make it appear that someone was trying to steal the diamonds",
+        "category": "unanswerable",
+        "accuracy": 0.0,
+        "f1": 0.0,
+        "seconds": 14.928212489001453
+      },
+      {
+        "id": "test_0032",
+        "stage": "cpt",
+        "question": "What was the initial payment offered for reaching the Church of St. Monica in twenty minutes?",
+        "reference": "Half a sovereign",
+        "prediction": "In \"The Adventure of the Priory School,\" the initial payment offered to reach the Church of St. Monica in twenty minutes was \u00a320. This was a significant sum at the time, as it was equivalent to about \u00a32,000 in today's currency, which underscores the importance and urgency of the mission given to Sherlock Holmes and Dr. Watson.",
+        "category": "specific_detail",
+        "accuracy": 0.0,
+        "f1": 0.0,
+        "seconds": 8.769646778702736
+      },
+      {
+        "id": "test_0042",
+        "stage": "cpt",
+        "question": "What was the name of the scientist who wrote the letter to Holmes?",
+        "reference": "H. Lowenstein",
+        "prediction": "The letter in question was written by Dr. Joseph Mortimer Graham, a scientist and author who was also a friend of Sherlock Holmes. This letter appears in \"The Adventure of the Priory School\" from The Case-Book of Sherlock Holmes. Graham was known for his contributions to the field of forensic science and often corresponded with Holmes about various cases and scientific matters.",
+        "category": "specific_detail",
+        "accuracy": 0.0,
+        "f1": 0.0,
+        "seconds": 8.793694288935512
+      },
+      {
+        "id": "test_0067",
+        "stage": "cpt",
+        "question": "What was the initial amount of money the woman requested from Holmes?",
+        "reference": "A hundred pounds",
+        "prediction": "In \"The Memoirs of Sherlock Holmes,\" it is mentioned that the woman, Mrs. Warren, asked for \u00a32000 to be paid to her husband, Mr. Warren, who had been imprisoned for embezzlement. This sum was intended as a ransom to secure her husband's release and return to her. However, it's important to note that this information comes from the original source material rather than the later collected works, so it may not be directly referenced in the \"Memoirs\" but is part of the broader narrative of Holmes's work.",
+        "category": "specific_detail",
+        "accuracy": 0.0,
+        "f1": 0.0,
+        "seconds": 13.327392703853548
+      },
+      {
+        "id": "test_0075",
+        "stage": "cpt",
+        "question": "What was the name of the laboratory where the narrator kept the nitrite of amyl?",
+        "reference": "Not enough information",
+        "prediction": "The laboratory where the narrator, Dr. Watson, kept the nitrite of amyl is described as being in Baker Street, 221B. This location is significant because it is the address of Sherlock Holmes's residence and practice during the time when these events take place in \"The Memoirs of Sherlock Holmes.\"",
+        "category": "unanswerable",
+        "accuracy": 0.0,
+        "f1": 0.0,
+        "seconds": 7.530979303177446
+      }
+    ],
+    "sft": [
+      {
+        "id": "test_0001",
+        "stage": "sft",
+        "question": "What was the occupation of the man who delivered the letter to Sherlock Holmes?",
+        "reference": "The man who delivered the letter to Sherlock Holmes was a retired sergeant of Marines.",
+        "prediction": "Butcher",
+        "category": "factual_recall",
+        "accuracy": 0.0,
+        "f1": 0.0,
+        "seconds": 0.37818576395511627
+      },
+      {
+        "id": "test_0026",
+        "stage": "sft",
+        "question": "When was it banned in the Soviet Union?",
+        "reference": "In 1929.",
+        "prediction": "1934",
+        "category": "factual_recall",
+        "accuracy": 0.0,
+        "f1": 0.0,
+        "seconds": 0.6121609243564308
+      },
+      {
+        "id": "test_0029",
+        "stage": "sft",
+        "question": "For what reason did the Soviet Union Ban the stoy?",
+        "reference": "They alleged it contained occultism.",
+        "prediction": "The story contains passages critical of the Soviet regime",
+        "category": "factual_recall",
+        "accuracy": 0.0,
+        "f1": 0.0,
+        "seconds": 1.1917810551822186
+      },
+      {
+        "id": "test_0032",
+        "stage": "sft",
+        "question": "What was the initial payment offered for reaching the Church of St. Monica in twenty minutes?",
+        "reference": "Half a sovereign",
+        "prediction": "Five shillings",
+        "category": "specific_detail",
+        "accuracy": 0.0,
+        "f1": 0.0,
+        "seconds": 0.6110180900432169
+      },
+      {
+        "id": "test_0042",
+        "stage": "sft",
+        "question": "What was the name of the scientist who wrote the letter to Holmes?",
+        "reference": "H. Lowenstein",
+        "prediction": "Not enough information",
+        "category": "specific_detail",
+        "accuracy": 0.0,
+        "f1": 0.0,
+        "seconds": 0.49514530319720507
+      }
+    ]
+  },
+  "result_sha256": "c3326d39a17fdc26bf541c1da335ec86a93c15001d729948e3d8c05579159011",
+  "limits": "Recomputes scores against synthetic/course references; does not certify reference truth or causal generalization beyond this fixed seed."
+}
