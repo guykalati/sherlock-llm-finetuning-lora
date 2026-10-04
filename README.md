@@ -33,3 +33,7 @@ Historical reports record earlier stopping points. Read the current status befor
 ## Latest continuation
 
 [Saved-output diagnosis](research-workbench/QWEN_SCOPE_SAVED_RESULT_2026-10-03.md): fence-only replay validates 21/32 outputs, but agreement on both labels is only 10/21 against a draft reference. Scope filtering remains unreliable; no articles are admitted.
+
+## Project page and interview guide
+
+See the [project landing page](showcase/index.html) and [technical interview guide](showcase/guide.html). Download the HTML files and open them in a browser; GitHub displays their source.
